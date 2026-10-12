@@ -1,0 +1,20 @@
+{
+  "id": "poac-referral-letter-template",
+  "title": "POAC Referral Letter Template",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "General",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": [
+    "clinical guidance",
+    "patient safety",
+    "referral"
+  ],
+  "keywords": [
+    "referral",
+    "template",
+    "clinical guidance",
+    "pdf"
+  ],
+  "file": "pdfs/POAC Referral Letter Template.pdf"
+}

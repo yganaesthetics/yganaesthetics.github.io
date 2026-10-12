@@ -1,0 +1,22 @@
+{
+  "id": "covid-19-intubation-outside-room-checklist-hdu-itu-0",
+  "title": "COVID-19 Intubation Outside Room Checklist HDU ITU_0",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "General",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": [
+    "clinical guidance",
+    "covid",
+    "airway management"
+  ],
+  "keywords": [
+    "covid",
+    "intubation",
+    "HDU",
+    "ITU",
+    "airway management",
+    "pdf"
+  ],
+  "file": "pdfs/COVID-19 Intubation Outside Room Checklist HDU ITU_0.pdf"
+}

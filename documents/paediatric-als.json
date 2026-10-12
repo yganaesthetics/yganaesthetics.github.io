@@ -1,0 +1,20 @@
+{
+  "id": "paediatric-als",
+  "title": "Paediatric_ALS",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "Emergencies",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": [
+    "clinical guidance",
+    "resuscitation",
+    "paediatrics"
+  ],
+  "keywords": [
+    "paediatric",
+    "ALS",
+    "resuscitation",
+    "pdf"
+  ],
+  "file": "pdfs/Paediatric_ALS.pdf"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "babypac-100-ventilator-setup-summary",
+  "title": "BabyPAC 100 Ventilator Setup Summary",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "Critical Care",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": [
+    "clinical guidance",
+    "ventilation",
+    "critical care"
+  ],
+  "keywords": [
+    "ventilator",
+    "ventilation",
+    "clinical guidance",
+    "pdf"
+  ],
+  "file": "pdfs/BabyPAC 100 Ventilator Setup Summary.pdf"
+}

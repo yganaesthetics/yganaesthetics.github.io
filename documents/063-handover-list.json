@@ -1,0 +1,19 @@
+{
+  "id": "063-handover-list",
+  "title": "063 Handover list",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "General",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": [
+    "clinical guidance",
+    "patient safety"
+  ],
+  "keywords": [
+    "handover",
+    "clinical guidance",
+    "patient safety",
+    "pdf"
+  ],
+  "file": "pdfs/063 Handover list.pdf"
+}

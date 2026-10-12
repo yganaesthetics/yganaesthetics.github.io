@@ -1,0 +1,20 @@
+{
+  "id": "theatre-ppe-covid",
+  "title": "Theatre PPE Covid",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "General",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": [
+    "clinical guidance",
+    "covid",
+    "infection control"
+  ],
+  "keywords": [
+    "PPE",
+    "covid",
+    "infection control",
+    "pdf"
+  ],
+  "file": "pdfs/Theatre PPE Covid.pdf"
+}

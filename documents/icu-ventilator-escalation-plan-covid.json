@@ -1,0 +1,21 @@
+{
+  "id": "icu-ventilator-escalation-plan-covid",
+  "title": "ICU Ventilator Escalation plan COVID",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "Critical Care",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": [
+    "clinical guidance",
+    "covid",
+    "critical care"
+  ],
+  "keywords": [
+    "ICU",
+    "ventilator",
+    "covid",
+    "critical care",
+    "pdf"
+  ],
+  "file": "pdfs/ICU Ventilator Escalation plan COVID.pdf"
+}

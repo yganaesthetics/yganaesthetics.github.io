@@ -1,0 +1,20 @@
+{
+  "id": "swab-testing-for-flu-v1-0",
+  "title": "Swab testing for Flu v1 0",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "General",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": [
+    "clinical guidance",
+    "infection control",
+    "patient safety"
+  ],
+  "keywords": [
+    "swab testing",
+    "flu",
+    "infection control",
+    "pdf"
+  ],
+  "file": "pdfs/Swab testing for Flu v1 0.pdf"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "anaphylaxis-referral-form",
+  "title": "Anaphylaxis Referral Form",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "General",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": [
+    "clinical guidance",
+    "allergy",
+    "patient safety"
+  ],
+  "keywords": [
+    "anaphylaxis",
+    "referral",
+    "clinical guidance",
+    "patient safety",
+    "pdf"
+  ],
+  "file": "pdfs/Anaphylaxis Referral Form.pdf"
+}
