@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ysbyty Gwynedd Knowledge Library</title>
+    <meta
+      name="description"
+      content="A searchable library with category filters, metadata, and upload workflow."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">YG</div>
+          <div>
+            <p class="eyebrow">Archive</p>
+            <h1>Ysbyty Gwynedd Anaesthetics Knowledge Library</h1>
+          </div>
+        </div>
+        <nav class="top-links" aria-label="Main navigation">
+          <a href="#library">Browse</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#submit">Submit</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <span class="chip">Search our department guidelines.</span>
+            <h2>Ysbyty Gwynedd Anaesthetic Department</h2>
+            <p>
+              An archive for files with instant search, metadata
+              filtering, and a repository-based upload flow.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-btn" href="#library">Browse library</a>
+              <a class="secondary-btn" href="#submit">Submit a PDF</a>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-header">
+              <span>Library snapshot</span>
+            </div>
+            <div class="stats" aria-live="polite">
+              <div>
+                <strong id="totalCount">0</strong>
+                <span>Total files</span>
+              </div>
+              <div>
+                <strong id="filteredCount">0</strong>
+                <span>Visible</span>
+              </div>
+              <div>
+                <strong id="categoryCount">0</strong>
+                <span>Categories</span>
+              </div>
+              <div>
+                <strong id="tagCount">0</strong>
+                <span>Tags</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="filters-panel" aria-label="Document filters">
+          <div class="search-box">
+            <label for="searchInput">Search the library</label>
+            <input
+              id="searchInput"
+              type="search"
+              placeholder="Search title, description, tags, category..."
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="filter-row">
+            <div>
+              <label for="categorySelect">Category</label>
+              <select id="categorySelect">
+                <option value="all">All categories</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="tagSelect">Subject tag</label>
+              <select id="tagSelect">
+                <option value="all">All tags</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="sortSelect">Sort by</label>
+              <select id="sortSelect">
+                <option value="relevance">Relevance</option>
+                <option value="title">Title A–Z</option>
+                <option value="date-desc">Newest first</option>
+                <option value="date-asc">Oldest first</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="toolbar-row">
+            <div>
+              <p class="mini-label">Popular categories</p>
+              <div id="categoryFilters" class="chip-row"></div>
+            </div>
+            <button id="clearFilters" class="ghost-btn" type="button">Clear filters</button>
+          </div>
+        </section>
+
+        <section id="library" class="library-section" aria-labelledby="library-title">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Library</p>
+              <h3 id="library-title">Available documents</h3>
+            </div>
+            <p id="resultSummary" class="result-summary">0 documents</p>
+          </div>
+
+          <div id="pdfGrid" class="pdf-grid" aria-live="polite"></div>
+        </section>
+
+        <section id="workflow" class="guide-section">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Workflow</p>
+              <h3>Simple upload process</h3>
+            </div>
+          </div>
+
+          <div class="guide-grid">
+            <article class="guide-card">
+              <span>01</span>
+              <h4>Upload to the repo</h4>
+              <p>Place the PDF or JPGs inside <strong>pdfs/</strong> and add its metadata under <strong>documents/</strong>.</p>
+            </article>
+            <article class="guide-card">
+              <span>02</span>
+              <h4>Validate automatically</h4>
+              <p>The GitHub Action checks that the file exists and the metadata is valid before publishing.</p>
+            </article>
+            <article class="guide-card">
+              <span>03</span>
+              <h4>Publish to the site</h4>
+              <p>Once merged, the catalog refreshes and the JPG/PDF becomes searchable and filterable.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="submit" class="submit-panel">
+          <div class="submit-copy">
+            <p class="eyebrow">Submit</p>
+            <h3>Add a new JPG or PDF to the library</h3>
+            <p>
+              Use the repository workflow: drop the file into <strong>pdfs/</strong>, create a metadata JSON in
+              <strong>documents/</strong>, and commit it to main.
+            </p>
+          </div>
+          <div class="submit-actions">
+            <a class="primary-btn" href="https://github.com/yganaesthetics/pdf-library" target="_blank" rel="noreferrer">Open repo</a>
+            <a class="secondary-btn" href="documents/template.json" target="_blank" rel="noreferrer">View template</a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <template id="pdfCardTemplate">
+      <article class="pdf-card">
+        <div class="pdf-top">
+          <div class="pdf-icon">File</div>
+          <span class="document-category"></span>
+        </div>
+
+        <div class="meta-line">
+          <span class="meta-date"></span>
+          <span class="meta-author"></span>
+        </div>
+
+        <h4 class="pdf-title"></h4>
+        <p class="pdf-description"></p>
+
+        <div class="tag-list"></div>
+
+        <div class="card-actions">
+          <a class="pdf-link" href="#" target="_blank" rel="noreferrer">Open JPG/PDF</a>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>

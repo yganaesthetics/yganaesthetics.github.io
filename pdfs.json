@@ -1,0 +1,2092 @@
+[
+  {
+    "id": "063-handover-list",
+    "title": "063 Handover list",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "patient safety"
+    ],
+    "keywords": [
+      "handover",
+      "clinical guidance",
+      "patient safety",
+      "pdf"
+    ],
+    "file": "pdfs/063 Handover list.pdf"
+  },
+  {
+    "id": "adultcriticalcare-covid-19-october2020",
+    "title": "AdultCriticalCare-COVID-19-October2020",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "critical care"
+    ],
+    "keywords": [
+      "covid",
+      "critical care",
+      "adult",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/AdultCriticalCare-COVID-19-October2020.pdf"
+  },
+  {
+    "id": "als-cardiac-arrest-algorithm-rc-uk-2015",
+    "title": "ALS Cardiac Arrest Algorithm - RC UK 2015",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation"
+    ],
+    "keywords": [
+      "ALS",
+      "cardiac arrest",
+      "resuscitation",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/ALS Cardiac Arrest Algorithm - RC UK 2015.pdf"
+  },
+  {
+    "id": "als-cardiac-arrest-algorithm-rc-uk",
+    "title": "ALS Cardiac Arrest Algorithm - RC UK",
+    "description": "Advanced Life Support cardiac arrest algorithm published by the Resuscitation Council UK — quick reference for resuscitation teams.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "Resuscitation Council UK",
+    "tags": [
+      "cardiac arrest",
+      "ALS",
+      "algorithm",
+      "resuscitation"
+    ],
+    "keywords": [
+      "ALS",
+      "cardiac arrest",
+      "algorithm",
+      "RC UK",
+      "resuscitation",
+      "advanced life support"
+    ],
+    "file": "pdfs/ALS Cardiac Arrest Algorithm - RC UK 2015.pdf"
+  },
+  {
+    "id": "anaphylaxis-referral-form",
+    "title": "Anaphylaxis Referral Form",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "allergy",
+      "patient safety"
+    ],
+    "keywords": [
+      "anaphylaxis",
+      "referral",
+      "clinical guidance",
+      "patient safety",
+      "pdf"
+    ],
+    "file": "pdfs/Anaphylaxis Referral Form.pdf"
+  },
+  {
+    "id": "aprv-guide",
+    "title": "APRV Guide",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "ventilation",
+      "critical care"
+    ],
+    "keywords": [
+      "APRV",
+      "ventilation",
+      "critical care",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/APRV Guide.pdf"
+  },
+  {
+    "id": "babypac-100-ventilator-setup-summary",
+    "title": "BabyPAC 100 Ventilator Setup Summary",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "ventilation",
+      "critical care"
+    ],
+    "keywords": [
+      "ventilator",
+      "ventilation",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/BabyPAC 100 Ventilator Setup Summary.pdf"
+  },
+  {
+    "id": "bcuhb-request-for-supply-of-off-label-use-of-tocilizumab-for-a-named-patient-26112020-v3",
+    "title": "BCUHB Request for supply of off label use of TOCILIZUMAB for a named patient 26112020 v3",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "medication",
+      "patient safety"
+    ],
+    "keywords": [
+      "BCUHB",
+      "tocilizumab",
+      "medication",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/BCUHB Request for supply of off label use of TOCILIZUMAB for a named patient 26112020 v3.pdf"
+  },
+  {
+    "id": "bcuhb-request-for-tocilizumab-nov-2020",
+    "title": "BCUHB Request for TOCILIZUMAB Nov 2020",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "medication",
+      "patient safety"
+    ],
+    "keywords": [
+      "BCUHB",
+      "tocilizumab",
+      "medication",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/BCUHB Request for TOCILIZUMAB Nov 2020.pdf"
+  },
+  {
+    "id": "central-venous-catheter-insertion-sop",
+    "title": "Central Venous Catheter Insertion SOP",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "critical care",
+      "vascular access"
+    ],
+    "keywords": [
+      "central venous catheter",
+      "vascular access",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/Central Venous Catheter Insertion SOP.pdf"
+  },
+  {
+    "id": "checklist-for-anaesthetic-equipment-aagbi-2012",
+    "title": "Checklist for anaesthetic equipment - AAGBI 2012",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "anaesthesia",
+      "patient safety"
+    ],
+    "keywords": [
+      "anaesthetic equipment",
+      "AAGBI",
+      "anaesthesia",
+      "patient safety",
+      "pdf"
+    ],
+    "file": "pdfs/Checklist for anaesthetic equipment - AAGBI  2012.pdf"
+  },
+  {
+    "id": "clinical-guideline-for-the-use-of-rectus-sheath-catheters-for-the-management-of-pain-following-abdominal-surgery",
+    "title": "Clinical Guideline for the Use of Rectus Sheath Catheters for the Management of Pain Following Abdominal Surgery",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "anaesthesia",
+      "pain management"
+    ],
+    "keywords": [
+      "rectus sheath",
+      "pain management",
+      "anaesthesia",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/Clinical Guideline For The Use ofRectus Sheath Catheters For The Management of Pain Following AbdominalSurgery.pdf"
+  },
+  {
+    "id": "covid-19-admission-criteria-to-critical-care-0",
+    "title": "COVID-19 Admission Criteria to Critical Care_0",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "critical care"
+    ],
+    "keywords": [
+      "covid",
+      "critical care",
+      "admission criteria",
+      "pdf"
+    ],
+    "file": "pdfs/COVID-19 Admission Criteria to Critical Care_0.pdf"
+  },
+  {
+    "id": "covid-19-cohort-ward-pathway-0",
+    "title": "COVID 19 Cohort Ward Pathway_0",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "critical care"
+    ],
+    "keywords": [
+      "covid",
+      "ward pathway",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/COVID 19 Cohort Ward Pathway_0.pdf"
+  },
+  {
+    "id": "covid-19-evidence-update-2-9th-april-2020",
+    "title": "COVID 19 evidence Update 2 9th April 2020",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "evidence"
+    ],
+    "keywords": [
+      "covid",
+      "evidence",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/COVID 19 evidence Update 2  9th April 2020.pdf"
+  },
+  {
+    "id": "covid-19-in-room-rsi-checklist",
+    "title": "COVID-19 In Room RSI Checklist",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "airway management"
+    ],
+    "keywords": [
+      "covid",
+      "RSI",
+      "airway management",
+      "checklist",
+      "PDF"
+    ],
+    "file": "pdfs/COVID-19 In-Room RSI Checklist.pdf"
+  },
+  {
+    "id": "covid-19-intubation-outside-room-checklist-ed-0",
+    "title": "COVID-19 Intubation Outside Room Checklist ED_0",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "airway management"
+    ],
+    "keywords": [
+      "covid",
+      "intubation",
+      "ED",
+      "airway management",
+      "pdf"
+    ],
+    "file": "pdfs/COVID-19 Intubation Outside Room Checklist ED_0.pdf"
+  },
+  {
+    "id": "covid-19-intubation-outside-room-checklist-hdu-itu-0",
+    "title": "COVID-19 Intubation Outside Room Checklist HDU ITU_0",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "airway management"
+    ],
+    "keywords": [
+      "covid",
+      "intubation",
+      "HDU",
+      "ITU",
+      "airway management",
+      "pdf"
+    ],
+    "file": "pdfs/COVID-19 Intubation Outside Room Checklist HDU ITU_0.pdf"
+  },
+  {
+    "id": "covid-19-intubation-sop-from-ed-isolation-room-mk-cd-ws-1-3",
+    "title": "COVID 19 Intubation SOP from ED Isolation Room MK CD WS 1 3",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "airway management"
+    ],
+    "keywords": [
+      "covid",
+      "intubation",
+      "ED",
+      "airway management",
+      "pdf"
+    ],
+    "file": "pdfs/COVID 19 Intubation SOP from ED Isolation Room MK CD WS 1 3.pdf"
+  },
+  {
+    "id": "covid-19-intubation-sop-hdu-mk-nb-2-0",
+    "title": "COVID 19 Intubation SOP HDU MK NB 2 0",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "airway management"
+    ],
+    "keywords": [
+      "covid",
+      "intubation",
+      "airway management",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/COVID 19 Intubation SOP HDU MK NB 2 0.pdf"
+  },
+  {
+    "id": "covid-daily-checklist-yg-v6-0-2021-01",
+    "title": "COVID Daily Checklist YG (v6.0) (2021-01)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "patient safety"
+    ],
+    "keywords": [
+      "covid",
+      "checklist",
+      "patient safety",
+      "PDF"
+    ],
+    "file": "pdfs/COVID daily checklist YG V6 0 2021 01.pdf"
+  },
+  {
+    "id": "covid-ppe-for-labour-ward-and-obstetric-theatre-v6-9th-april-2020",
+    "title": "COVID PPE for Labour Ward and Obstetric Theatre v6 9th April 2020",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "obstetrics"
+    ],
+    "keywords": [
+      "covid",
+      "PPE",
+      "obstetrics",
+      "theatre",
+      "pdf"
+    ],
+    "file": "pdfs/COVID PPE for Labour Ward and Obstetric Theatre v6 9th April 2020.pdf"
+  },
+  {
+    "id": "criteria-for-nurse-led-discharge-on-tudno-ward-short-stay-surgical-patients",
+    "title": "Criteria for Nurse Led Discharge on Tudno Ward - Short Stay Surgical Patients",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "patient safety",
+      "surgery"
+    ],
+    "keywords": [
+      "discharge",
+      "surgery",
+      "patient safety",
+      "pdf"
+    ],
+    "file": "pdfs/Criteria for Nurse Led Discharge on Tudno Ward - Short Stay Surgical Patients.pdf"
+  },
+  {
+    "id": "how-to-use-theatre-drager-ventilator-for-icu-patients-v4",
+    "title": "How to use theatre Drager Ventilator for ICU patients v4",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "ventilation",
+      "critical care"
+    ],
+    "keywords": [
+      "ventilator",
+      "ICU",
+      "ventilation",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/How to use theatre Drager Ventilator for ICU patients v4.pdf"
+  },
+  {
+    "id": "icu-ventilator-escalation-plan-covid",
+    "title": "ICU Ventilator Escalation plan COVID",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "critical care"
+    ],
+    "keywords": [
+      "ICU",
+      "ventilator",
+      "covid",
+      "critical care",
+      "pdf"
+    ],
+    "file": "pdfs/ICU Ventilator Escalation plan COVID.pdf"
+  },
+  {
+    "id": "management-of-rib-fractures-physiotherapy-patient-information-leaflet",
+    "title": "Management of Rib Fractures Physiotherapy Patient Information Leaflet",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "physiotherapy",
+      "patient safety"
+    ],
+    "keywords": [
+      "rib fractures",
+      "physiotherapy",
+      "patient information",
+      "pdf"
+    ],
+    "file": "pdfs/Management of Rib Fractures Physiotherapy Patient Information Leaflet.pdf"
+  },
+  {
+    "id": "nls-algorithm-rc-uk-2015",
+    "title": "NLS Algorithm - RC UK 2015",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "paediatrics"
+    ],
+    "keywords": [
+      "NLS",
+      "resuscitation",
+      "paediatrics",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/NLS Algorithm - RC UK 2015.pdf"
+  },
+  {
+    "id": "oa-wcd-for-anaesthesia-in-pre-eclampsia-2018",
+    "title": "Anaesthesia in Pre-Eclampsia (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "anaesthesia",
+      "pre-eclampsia",
+      "PDF"
+    ],
+    "file": "pdfs/OA WCD for Anaesthesia in Pre-eclampsia (2018).pdf"
+  },
+  {
+    "id": "oa-wcd-for-anaesthetic-referral-and-assessment-of-the-morbidly-obese-parturient-2018",
+    "title": "Anaesthetic Referral and Assessment of the Morbidly Obese Parturient (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "anaesthesia",
+      "morbid obesity",
+      "pdf"
+    ],
+    "file": "pdfs/OA WCD for Anaesthetic Referral and Assessment of the Morbidly Obese Parturient (2018).pdf"
+  },
+  {
+    "id": "oa-wcd-for-antacid-prophylaxis-for-labour-and-delivery-2018",
+    "title": "Antacid Prophylaxis for Labour and Delivery (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "anaesthesia",
+      "labour",
+      "pdf"
+    ],
+    "file": "pdfs/OA WCD for Antacid Prophylaxis for Labour and Delivery (2018).pdf"
+  },
+  {
+    "id": "oa-wcd-for-antenatal-referral-to-the-anaesthetist-2018",
+    "title": "Antenatal Referral to the Anaesthetist (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "antenatal referral",
+      "anaesthesia",
+      "pdf"
+    ],
+    "file": "pdfs/OA WCD for Antenatal Referral to the Anaesthetist (2018).pdf"
+  },
+  {
+    "id": "oa-wcd-for-establishing-epidural-anaesthesia-for-labour-analgesia-2018",
+    "title": "Establishing Epidural Anaesthesia for Labour Analgesia (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "epidural",
+      "labour analgesia",
+      "pdf"
+    ],
+    "file": "pdfs/OA WCD for Establishing Epidural Anaesthesia for Labour Analgesia (2018).pdf"
+  },
+  {
+    "id": "oa-wcd-for-general-anaesthesia-for-caesarean-section-2020",
+    "title": "General Anaesthesia for Caesarean Section (2020)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "caesarean section",
+      "anaesthesia",
+      "pdf"
+    ],
+    "file": "pdfs/OA WCD for General Anaesthesia for Caesarean Section (2020).pdf"
+  },
+  {
+    "id": "oa-wcd-for-intraoperative-administration-of-obstetric-drugs-2018",
+    "title": "Intraoperative Administration of Obstetric Drugs (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "anaesthesia",
+      "medication",
+      "pdf"
+    ],
+    "file": "pdfs/OA WCD for Intraoperative Administration of Obstetric Drugs (2018).pdf"
+  },
+  {
+    "id": "oa-wcd-for-management-of-eclampsia-2018",
+    "title": "Management of Eclampsia (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "eclampsia",
+      "anaesthesia",
+      "pdf"
+    ],
+    "file": "pdfs/OA WCD for Management of Eclampsia (2018).pdf"
+  },
+  {
+    "id": "oa-wcd-for-management-of-pre-eclampsia-2018",
+    "title": "Management of Pre-eclampsia (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "pre-eclampsia",
+      "anaesthesia",
+      "pdf"
+    ],
+    "file": "pdfs/OA WCD for Management of Pre-eclampsia (2018).pdf"
+  },
+  {
+    "id": "oa-wcd-for-management-of-the-diabetic-parturient-for-elective-caesarean-section-2018",
+    "title": "Management of the Diabetic Parturient for Elective Caesarean Section (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "diabetic parturient",
+      "anaesthesia",
+      "pdf"
+    ],
+    "file": "pdfs/OA WCD for Management of the Diabetic Parturient for Elective Caesarean Section (2018).pdf"
+  },
+  {
+    "id": "oa-wcd-for-management-of-total-spinal-anaesthesia-2020",
+    "title": "Management of Total Spinal Anaesthesia (2020)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "spinal anaesthesia",
+      "clinical guidance",
+      "PDF"
+    ],
+    "file": "pdfs/OA WCD for Management of Total Spinal Anaesthesia (2020).pdf"
+  },
+  {
+    "id": "oa-wcd-for-spinal-anaesthesia-for-caesarean-section-2018",
+    "title": "Spinal Anaesthesia for Caesarean Section (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "spinal anaesthesia",
+      "caesarean section",
+      "pdf"
+    ],
+    "file": "pdfs/OA WCD for Spinal Anaesthesia for Caesarean Section (2018).pdf"
+  },
+  {
+    "id": "oa-wcd-for-spinal-and-epidural-anaesthesia-in-parturients-on-anticoagulants-2018",
+    "title": "Spinal and Epidural Anaesthesia in Parturients on Anticoagulants (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "anticoagulants",
+      "spinal epidural",
+      "pdf"
+    ],
+    "file": "pdfs/OA WCD for Spinal and Epidural Anaesthesia in Parturients on Anticoagulants (2018).pdf"
+  },
+  {
+    "id": "oa-wcd-for-use-of-fentanyl-pca-for-labour-analgesia-2018-0",
+    "title": "Use of Fentanyl PCA for Labour Analgesia (2018) (v0)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "labour analgesia",
+      "analgesia",
+      "PDF"
+    ],
+    "file": "pdfs/OA WCD for use of Fentanyl PCA for Labour Analgesia (2018)_0.pdf"
+  },
+  {
+    "id": "oa-wcd-for-use-of-the-obstetric-hou-and-referral-of-obstetric-patients-for-intensive-care-2018",
+    "title": "Use of the Obstetric HOU and referral of Obstetric Patients for Intensive Care (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "critical care"
+    ],
+    "keywords": [
+      "obstetrics",
+      "intensive care",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/OA WCD for Use of the Obstetric HOU and referral of Obstetric Patients for Intensive Care (2018).pdf"
+  },
+  {
+    "id": "oa-wcd-management-of-anaesthesia-labour-analgesia-in-parturients-with-covid-19",
+    "title": "Management of Anaesthesia and Labour Analgesia in Parturients with Covid-19",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "anaesthesia",
+      "labour analgesia",
+      "covid",
+      "pdf"
+    ],
+    "file": "pdfs/OA WCD Management of Anaesthesia& Labour Analgesia in Parturients with Covid-19.pdf"
+  },
+  {
+    "id": "oa-written-control-document-for-cpr-in-pregnancy-2018",
+    "title": "CPR in Pregnancy (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "resuscitation"
+    ],
+    "keywords": [
+      "obstetrics",
+      "CPR",
+      "pregnancy",
+      "resuscitation",
+      "pdf"
+    ],
+    "file": "pdfs/OA Written Control Document for CPR in Pregnancy (2018).pdf"
+  },
+  {
+    "id": "oa-written-control-document-for-epidural-blood-patching-2018",
+    "title": "Epidural Blood Patching (2018)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "epidural",
+      "blood patching",
+      "pdf"
+    ],
+    "file": "pdfs/OA Written Control Document for Epidural Blood Patching (2018).pdf"
+  },
+  {
+    "id": "oa-written-control-document-for-management-of-accidental-dural-puncture-2018-0",
+    "title": "Management of Accidental Dural Puncture (2018) (v0)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "obstetrics",
+      "dural puncture",
+      "anaesthesia",
+      "PDF"
+    ],
+    "file": "pdfs/OA Written Control Document for Management of Accidental Dural Puncture (2018)_0.pdf"
+  },
+  {
+    "id": "odsop-25-management-of-the-death-of-a-patient-in-theatre",
+    "title": "ODSOP 25 Management of the Death of a Patient in Theatre",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "patient safety",
+      "surgery"
+    ],
+    "keywords": [
+      "theatre",
+      "death",
+      "patient safety",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/ODSOP 25 Management of the Death of a Patient in Theatre.pdf"
+  },
+  {
+    "id": "organisation-of-obstetric-theatre-for-covid-patient-ts-draft-v3",
+    "title": "Organisation of Obstetric Theatre for COVID patient (TS Draft V3)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "covid"
+    ],
+    "keywords": [
+      "obstetrics",
+      "covid",
+      "theatre",
+      "pdf"
+    ],
+    "file": "pdfs/Organisation of Obstetric Theatre for COVID patient (TS Draft V3).pdf"
+  },
+  {
+    "id": "paediatric-als",
+    "title": "Paediatric_ALS",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "paediatrics"
+    ],
+    "keywords": [
+      "paediatric",
+      "ALS",
+      "resuscitation",
+      "pdf"
+    ],
+    "file": "pdfs/Paediatric_ALS.pdf"
+  },
+  {
+    "id": "poac-referral-letter-template",
+    "title": "POAC Referral Letter Template",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "patient safety",
+      "referral"
+    ],
+    "keywords": [
+      "referral",
+      "template",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/POAC Referral Letter Template.pdf"
+  },
+  {
+    "id": "pre-induction-checklist-for-obstetric-ga-in-covid-19-2020",
+    "title": "Pre-induction Checklist for Obstetric GA in Covid-19 2020",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "covid"
+    ],
+    "keywords": [
+      "obstetrics",
+      "GA",
+      "covid",
+      "checklist",
+      "pdf"
+    ],
+    "file": "pdfs/Pre-induction Checklist for Obstetric GA in Covid-19 2020.pdf"
+  },
+  {
+    "id": "process-for-cleaning-of-visors-v1-0",
+    "title": "Process for cleaning of visors v1 0",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "infection control",
+      "patient safety"
+    ],
+    "keywords": [
+      "cleaning",
+      "visors",
+      "infection control",
+      "pdf"
+    ],
+    "file": "pdfs/Process for cleaning of visors v1 0.pdf"
+  },
+  {
+    "id": "proning-guide-ventilation-in-critical-care",
+    "title": "Proning Guide Ventilation in Critical Care",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "ventilation",
+      "critical care"
+    ],
+    "keywords": [
+      "proning",
+      "ventilation",
+      "critical care",
+      "pdf"
+    ],
+    "file": "pdfs/Proning Guide Ventilation in Critical Care.pdf"
+  },
+  {
+    "id": "qrh-2-1-cardiac-arrest-v1",
+    "title": "Cardiac Arrest (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "patient safety",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "cardiac arrest",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_2-1_Cardiac arrest_v1.pdf"
+  },
+  {
+    "id": "qrh-2-2-hypoxia-desaturation-cyanosis-v1",
+    "title": "Hypoxia Desaturation Cyanosis (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "patient safety",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "hypoxia",
+      "cyanosis",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_2-2_Hypoxia-desaturation-cyanosis_v1.pdf"
+  },
+  {
+    "id": "qrh-2-3-increased-airway-pressure-v1",
+    "title": "Increased Airway Pressure (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "airway management",
+      "patient safety",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "airway pressure",
+      "airway management",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_2-3_Increased_airway_pressure_v1.pdf"
+  },
+  {
+    "id": "qrh-2-4-hypotension-v1",
+    "title": "Hypotension (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "patient safety",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "hypotension",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_2-4_Hypotension_v1.pdf"
+  },
+  {
+    "id": "qrh-2-5-hypertension-v1",
+    "title": "Hypertension (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "patient safety",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "hypertension",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_2-5_Hypertension_v1.pdf"
+  },
+  {
+    "id": "qrh-2-6-bradycardia-v1",
+    "title": "Bradycardia (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "patient safety",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "bradycardia",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_2-6_Bradycardia_v1.pdf"
+  },
+  {
+    "id": "qrh-2-7-tachycardia-v1",
+    "title": "Tachycardia (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "patient safety",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "tachycardia",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_2-7_Tachycardia_v1.pdf"
+  },
+  {
+    "id": "qrh-2-8-perioperative-hyperthermia-v1",
+    "title": "Perioperative Hyperthermia (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "anaesthesia",
+      "patient safety",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "perioperative hyperthermia",
+      "anaesthesia",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_2-8_Perioperative_hyperthermia_v1.pdf"
+  },
+  {
+    "id": "qrh-3-1-anaphylaxis-v1",
+    "title": "Anaphylaxis (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "allergy",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "anaphylaxis",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-1_Anaphylaxis_v1.pdf"
+  },
+  {
+    "id": "qrh-3-10-local-anaesthetic-toxicity-v1",
+    "title": "Local Anaesthetic Toxicity (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "anaesthesia",
+      "resuscitation",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "local anaesthetic toxicity",
+      "anaesthesia",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-10_Local_anaesthetic_toxicity_v1.pdf"
+  },
+  {
+    "id": "qrh-3-11-high-central-neuraxial-block-v1",
+    "title": "High Central Neuraxial Block (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "anaesthesia",
+      "resuscitation",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "high central neuraxial block",
+      "anaesthesia",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-11_High_central_neuraxial_block_v1.pdf"
+  },
+  {
+    "id": "qrh-3-12-cardiac-ischaemia-v1",
+    "title": "Cardiac Ischaemia (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "cardiology",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "cardiac ischaemia",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-12_Cardiac_ischaemia_v1.pdf"
+  },
+  {
+    "id": "qrh-3-13-neuroprotection-cardiac-arrest-v1",
+    "title": "Neuroprotection Cardiac Arrest (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "patient safety",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "neuroprotection",
+      "cardiac arrest",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-13_Neuroprotection_cardiac_arrest_v1.pdf"
+  },
+  {
+    "id": "qrh-3-14-sepsis-v1",
+    "title": "Sepsis (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "critical care",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "sepsis",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-14_Sepsis_v1.pdf"
+  },
+  {
+    "id": "qrh-3-2-massive-blood-loss-v1-1",
+    "title": "Massive Blood Loss (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "patient safety",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "massive blood loss",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-2_Massive_blood_loss_v1 (1).pdf"
+  },
+  {
+    "id": "qrh-3-3-cant-intubate-cant-oxygenate-cico",
+    "title": "Cant Intubate Cant Oxygenate (CICO)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "airway management",
+      "resuscitation",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "CICO",
+      "airway management",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-3_Cant_intubate_cant_oxygenate_CICO.pdf"
+  },
+  {
+    "id": "qrh-3-4-bronchospasm-v1",
+    "title": "Bronchospasm (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "airway management",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "bronchospasm",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-4_Bronchospasm_v1.pdf"
+  },
+  {
+    "id": "qrh-3-5-circulatory-embolus-v1",
+    "title": "Circulatory Embolus (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "cardiology",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "circulatory embolus",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-5_Circulatory_embolus_v1.pdf"
+  },
+  {
+    "id": "qrh-3-6-laryngospasm-and-stridor-v1",
+    "title": "Laryngospasm and Stridor (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "airway management",
+      "resuscitation",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "laryngospasm",
+      "stridor",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-6_Laryngospasm_and_stridor_v1.pdf"
+  },
+  {
+    "id": "qrh-3-7-patient-fire-v1",
+    "title": "Patient Fire (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "patient safety",
+      "resuscitation",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "patient fire",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-7_Patient_fire_v1.pdf"
+  },
+  {
+    "id": "qrh-3-8-malignant-hyperthermia-crisis-v1",
+    "title": "Malignant Hyperthermia Crisis (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "anaesthesia",
+      "resuscitation",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "malignant hyperthermia crisis",
+      "anaesthesia",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-8_Malignant_hyperthermia_crisis_v1.pdf"
+  },
+  {
+    "id": "qrh-3-9-cardiac-tamponade-v1",
+    "title": "Cardiac Tamponade (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "resuscitation",
+      "cardiology",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "cardiac tamponade",
+      "resuscitation",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_3-9_Cardiac_tamponade_v1.pdf"
+  },
+  {
+    "id": "qrh-4-1-mains-oxygen-failure-v1",
+    "title": "Mains Oxygen Failure (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "critical care",
+      "patient safety",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "oxygen failure",
+      "critical care",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_4-1_Mains_oxygen_failure_v1.pdf"
+  },
+  {
+    "id": "qrh-4-2-mains-electricity-failure-v1",
+    "title": "Mains Electricity Failure (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "critical care",
+      "patient safety",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "electricity failure",
+      "critical care",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_4-2_Mains_electricity_failure_v1.pdf"
+  },
+  {
+    "id": "qrh-4-3-emergency-evacuation-v1",
+    "title": "Emergency Evacuation (v1)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "patient safety",
+      "critical care",
+      "QRH"
+    ],
+    "keywords": [
+      "QRH",
+      "emergency evacuation",
+      "critical care",
+      "PDF"
+    ],
+    "file": "pdfs/QRH_4-3_Emergency_evacuation_v1.pdf"
+  },
+  {
+    "id": "rectus-sheath-catheter-quick-user-guide-july-2018",
+    "title": "Rectus sheath catheter quick user guide July 2018",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "anaesthesia",
+      "pain management"
+    ],
+    "keywords": [
+      "rectus sheath",
+      "catheter",
+      "anaesthesia",
+      "pdf"
+    ],
+    "file": "pdfs/Rectus sheath catheter quick user guide July 2018.pdf"
+  },
+  {
+    "id": "rectus-sheath-catheter-quick-user-guide",
+    "title": "Rectus sheath catheter quick user guide",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "anaesthesia",
+      "pain management"
+    ],
+    "keywords": [
+      "rectus sheath",
+      "catheter",
+      "anaesthesia",
+      "pdf"
+    ],
+    "file": "pdfs/Rectus sheath catheter quick user guide.pdf"
+  },
+  {
+    "id": "regional-transport-guideline-update-2018-final-cdeg",
+    "title": "Regional Transport Guideline - update 2018 FINAL CDEG",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "transfer",
+      "patient safety"
+    ],
+    "keywords": [
+      "transport",
+      "transfer",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/Regional Transport Guideline - update 2018 FINAL CDEG.pdf"
+  },
+  {
+    "id": "rotem-familiarisation-for-new-starters",
+    "title": "ROTEM Familiarisation for New Starters",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "haemostasis",
+      "training"
+    ],
+    "keywords": [
+      "ROTEM",
+      "haemostasis",
+      "training",
+      "pdf"
+    ],
+    "file": "pdfs/ROTEM Familiarisation for New Starters.pdf"
+  },
+  {
+    "id": "route-out-of-c19-to-lifts-and-beyond",
+    "title": "Route out of C19 to lifts and beyond",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "patient safety"
+    ],
+    "keywords": [
+      "covid",
+      "escape route",
+      "patient safety",
+      "pdf"
+    ],
+    "file": "pdfs/Route out of C19 to lifts and beyond.pdf"
+  },
+  {
+    "id": "suggested-itu-initial-management-of-suspected-covid-6-0-2021-01",
+    "title": "Suggested ITU Initial Management of Suspected COVID 6 0 2021 01",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "critical care"
+    ],
+    "keywords": [
+      "COVID",
+      "ITU",
+      "critical care",
+      "pdf"
+    ],
+    "file": "pdfs/Suggested ITU Initial Management of Suspected COVID 6 0 2021 01.pdf"
+  },
+  {
+    "id": "summary-of-clinical-audit-work-anaesthetics-west-april-2018-0",
+    "title": "Summary of Clinical Audit Work Anaesthetics (West) April 2018 (v0)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "anaesthesia",
+      "quality improvement"
+    ],
+    "keywords": [
+      "audit",
+      "anaesthesia",
+      "quality improvement",
+      "PDF"
+    ],
+    "file": "pdfs/Summary of Clinical Audit work Anaesthetics (West) April 2018_0.pdf"
+  },
+  {
+    "id": "swab-testing-for-flu-v1-0",
+    "title": "Swab testing for Flu v1 0",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "infection control",
+      "patient safety"
+    ],
+    "keywords": [
+      "swab testing",
+      "flu",
+      "infection control",
+      "pdf"
+    ],
+    "file": "pdfs/Swab testing for Flu v1 0.pdf"
+  },
+  {
+    "id": "theatre-ppe-covid",
+    "title": "Theatre PPE Covid",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "infection control"
+    ],
+    "keywords": [
+      "PPE",
+      "covid",
+      "infection control",
+      "pdf"
+    ],
+    "file": "pdfs/Theatre PPE Covid.pdf"
+  },
+  {
+    "id": "tim-trawma-cymru-manual-2019",
+    "title": "Tim Trawma Cymru Manual 2019",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "transfer",
+      "patient safety"
+    ],
+    "keywords": [
+      "manual",
+      "transfer",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/Tim Trawma Cymru Manual 2019.pdf"
+  },
+  {
+    "id": "transfer-to-obstetric-theatre-for-covid-v5",
+    "title": "Transfer to Obstetric Theatre for COVID v5",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "covid"
+    ],
+    "keywords": [
+      "obstetrics",
+      "covid",
+      "theatre",
+      "transfer",
+      "pdf"
+    ],
+    "file": "pdfs/Transfer to Obstetric Theatre for COVID v5.pdf"
+  },
+  {
+    "id": "what-to-do-when-you-are-not-feeling-ok-v2-0",
+    "title": "What to do when you are not feeling OK v2.0",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "staff wellbeing",
+      "patient safety"
+    ],
+    "keywords": [
+      "wellbeing",
+      "staff support",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/What to do when you are not feeling OK v2.0.pdf"
+  },
+  {
+    "id": "yg-313-management-of-preoperative-anaemia-v1-6-sc",
+    "title": "YG 313 Management of Preoperative Anaemia V1.6 SC",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "anaesthesia",
+      "patient safety"
+    ],
+    "keywords": [
+      "preoperative anaemia",
+      "anaesthesia",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/YG 313 Management of Preoperative Anaemia V1.6 SC.pdf"
+  },
+  {
+    "id": "yg-adult-emergency-laparotomy-analgesia-guideline",
+    "title": "YG Adult Emergency Laparotomy Analgesia Guideline",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "anaesthesia",
+      "pain management"
+    ],
+    "keywords": [
+      "laparotomy",
+      "analgesia",
+      "anaesthesia",
+      "pdf"
+    ],
+    "file": "pdfs/YG Adult Emergency Laparotomy Analgesia Guideline.pdf"
+  },
+  {
+    "id": "yg-anaesthetics-major-incident-action-cards-2019-v1-3-aug-mk",
+    "title": "YG Anaesthetics Major Incident Action Cards 2019 v1.3 Aug MK",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "patient safety",
+      "incident response"
+    ],
+    "keywords": [
+      "major incident",
+      "incident response",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/YG Anaesthetics Major Incident Action Cards 2019 v1.3 Aug MK.pdf"
+  },
+  {
+    "id": "yg-cg-1104-epidural-analgesia-in-adult-acute-pain-management",
+    "title": "YG CG 1104 Epidural Analgesia in Adult Acute Pain Management",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "anaesthesia",
+      "pain management"
+    ],
+    "keywords": [
+      "epidural",
+      "pain management",
+      "anaesthesia",
+      "pdf"
+    ],
+    "file": "pdfs/YG CG 1104 Epidural Analgesia in Adult Acute Pain Management.pdf"
+  },
+  {
+    "id": "yg-cg-401-quick-reference-doac-guide",
+    "title": "YG CG 401 Quick reference DOAC guide",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "medication",
+      "patient safety"
+    ],
+    "keywords": [
+      "DOAC",
+      "medication",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/YG CG 401 Quick reference DOAC guide.pdf"
+  },
+  {
+    "id": "yg-cg-408-ysbyty-gwynedd-optimisation-of-anaemia-following-major-bowel-surgery",
+    "title": "YG CG 408 Ysbyty Gwynedd Optimisation of Anaemia Following Major Bowel Surgery",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "surgery",
+      "patient safety"
+    ],
+    "keywords": [
+      "anaemia",
+      "bowel surgery",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/YG CG 408 Ysbyty Gwynedd Optimisation of Anaemia Following Major Bowel Surgery.pdf"
+  },
+  {
+    "id": "yg-cg-413-eras-anaesthesia-for-major-gynae-surgery",
+    "title": "YG CG 413 ERAS Anaesthesia For Major Gynae Surgery",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "anaesthesia",
+      "surgery"
+    ],
+    "keywords": [
+      "ERAS",
+      "gynae surgery",
+      "anaesthesia",
+      "pdf"
+    ],
+    "file": "pdfs/YG CG 413 ERAS Anaesthesia For Major Gynae Surgery.pdf"
+  },
+  {
+    "id": "yg-cg-718-eras-anaesthesia-and-analgesia-for-obstetric-surgery",
+    "title": "YG CG 718 ERAS Anaesthesia & Analgesia For Obstetric Surgery",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "anaesthesia"
+    ],
+    "keywords": [
+      "ERAS",
+      "obstetric surgery",
+      "anaesthesia",
+      "pdf"
+    ],
+    "file": "pdfs/YG CG 718 ERAS Anaesthesia & Analgesia For Obstetric Surgery.pdf"
+  },
+  {
+    "id": "yg-cg-722-checklist-for-protocol-for-the-management-of-simultaneous-obstetric-theatre-cases-2020",
+    "title": "YG CG 722 Checklist For Protocol for the Management of Simultaneous Obstetric Theatre Cases (2020)",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "obstetrics",
+      "theatre"
+    ],
+    "keywords": [
+      "obstetrics",
+      "theatre",
+      "checklist",
+      "pdf"
+    ],
+    "file": "pdfs/YG CG 722 Checklist For   Protocol for the Management of Simultaneous Obstetric Theatre Cases (2020).pdf"
+  },
+  {
+    "id": "yg-emrts-transfer-covid-1-0-mk-8-apr-2020",
+    "title": "YG EMRTS Transfer COVID 1.0 MK 8 Apr 2020",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "covid",
+      "transfer"
+    ],
+    "keywords": [
+      "covid",
+      "transfer",
+      "clinical guidance",
+      "PDF"
+    ],
+    "file": "pdfs/YG EMRTS transfer COVID 1 0 MK 8 Apr 2020.pdf"
+  },
+  {
+    "id": "yg-management-of-massive-haemorrhage-in-adults-feb-2020-v3-1",
+    "title": "YG - Management of Massive Haemorrhage in Adults Feb 2020 V3.1",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "haemorrhage",
+      "patient safety"
+    ],
+    "keywords": [
+      "massive haemorrhage",
+      "adult",
+      "clinical guidance",
+      "pdf"
+    ],
+    "file": "pdfs/YG - Management of Massive Haemorrhage in Adults Feb 2020 V3.1.pdf"
+  },
+  {
+    "id": "ygelp-2019",
+    "title": "YGELP 2019",
+    "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+    "category": "Clinical Guidance",
+    "date": "2026-10-12",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "clinical guidance",
+      "patient safety",
+      "training"
+    ],
+    "keywords": [
+      "YGELP",
+      "clinical guidance",
+      "training",
+      "pdf"
+    ],
+    "file": "pdfs/YGELP 2019.pdf"
+  }
+]
