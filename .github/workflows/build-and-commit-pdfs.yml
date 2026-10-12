@@ -1,0 +1,41 @@
+name: Build and commit pdfs.json
+
+on:
+  push:
+    paths:
+      - 'documents/**'
+      - 'scripts/**'
+  pull_request:
+    paths:
+      - 'documents/**'
+      - 'scripts/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Run build script
+        run: node scripts/build-library.mjs
+
+      - name: Commit and push pdfs.json if changed
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'ci: update pdfs.json'
+          add: 'pdfs.json'
+          author_name: github-actions
+          author_email: github-actions@github.com
+          push: true
