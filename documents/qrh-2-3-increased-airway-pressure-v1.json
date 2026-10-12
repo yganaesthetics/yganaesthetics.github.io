@@ -1,0 +1,11 @@
+{
+  "id": "qrh-2-3-increased-airway-pressure-v1",
+  "title": "Increased Airway Pressure (v1)",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "Clinical Guidance",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": ["clinical guidance", "airway management", "patient safety", "QRH"],
+  "keywords": ["QRH", "airway pressure", "airway management", "PDF"],
+  "file": "pdfs/QRH_2-3_Increased_airway_pressure_v1.pdf"
+}

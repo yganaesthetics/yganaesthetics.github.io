@@ -1,0 +1,11 @@
+{
+  "id": "qrh-4-3-emergency-evacuation-v1",
+  "title": "Emergency Evacuation (v1)",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "Clinical Guidance",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": ["clinical guidance", "patient safety", "critical care", "QRH"],
+  "keywords": ["QRH", "emergency evacuation", "critical care", "PDF"],
+  "file": "pdfs/QRH_4-3_Emergency_evacuation_v1.pdf"
+}

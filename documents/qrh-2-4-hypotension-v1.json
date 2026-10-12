@@ -1,0 +1,11 @@
+{
+  "id": "qrh-2-4-hypotension-v1",
+  "title": "Hypotension (v1)",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "Clinical Guidance",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": ["clinical guidance", "resuscitation", "patient safety", "QRH"],
+  "keywords": ["QRH", "hypotension", "resuscitation", "PDF"],
+  "file": "pdfs/QRH_2-4_Hypotension_v1.pdf"
+}

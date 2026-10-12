@@ -1,0 +1,11 @@
+{
+  "id": "qrh-2-8-perioperative-hyperthermia-v1",
+  "title": "Perioperative Hyperthermia (v1)",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "Clinical Guidance",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": ["clinical guidance", "anaesthesia", "patient safety", "QRH"],
+  "keywords": ["QRH", "perioperative hyperthermia", "anaesthesia", "PDF"],
+  "file": "pdfs/QRH_2-8_Perioperative_hyperthermia_v1.pdf"
+}

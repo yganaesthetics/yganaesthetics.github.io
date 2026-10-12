@@ -1,0 +1,11 @@
+{
+  "id": "qrh-3-7-patient-fire-v1",
+  "title": "Patient Fire (v1)",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "Clinical Guidance",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": ["clinical guidance", "patient safety", "resuscitation", "QRH"],
+  "keywords": ["QRH", "patient fire", "resuscitation", "PDF"],
+  "file": "pdfs/QRH_3-7_Patient_fire_v1.pdf"
+}

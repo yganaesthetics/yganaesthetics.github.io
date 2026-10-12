@@ -1,0 +1,11 @@
+{
+  "id": "qrh-4-2-mains-electricity-failure-v1",
+  "title": "Mains Electricity Failure (v1)",
+  "description": "Clinical guidance PDF from the YG Anaesthetics library.",
+  "category": "Clinical Guidance",
+  "date": "2026-10-12",
+  "author": "YG Anaesthetics",
+  "tags": ["clinical guidance", "critical care", "patient safety", "QRH"],
+  "keywords": ["QRH", "electricity failure", "critical care", "PDF"],
+  "file": "pdfs/QRH_4-2_Mains_electricity_failure_v1.pdf"
+}
