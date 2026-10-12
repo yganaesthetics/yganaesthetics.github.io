@@ -1,0 +1,65 @@
+name: Validate PDF Library
+
+on:
+  push:
+    paths:
+      - 'documents/**'
+      - 'pdfs/**'
+      - 'pdfs.json'
+      - 'scripts/**'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Validate metadata files and PDFs
+        run: |
+          node scripts/build-library.mjs
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path('.')
+          docs = root / 'documents'
+          catalog = root / 'pdfs.json'
+
+          if not catalog.exists():
+              raise SystemExit('Missing pdfs.json')
+
+          try:
+              data = json.loads(catalog.read_text())
+          except json.JSONDecodeError as exc:
+              raise SystemExit(f'Invalid JSON in pdfs.json: {exc}')
+
+          required_fields = ['id', 'title', 'description', 'category', 'date', 'author', 'tags', 'file']
+          for item in data:
+              missing = [field for field in required_fields if field not in item]
+              if missing:
+                  raise SystemExit(f'Metadata missing required fields: {missing} for {item.get("title", "unknown")}')
+
+              if item.get('file'):
+                  file_path = root / item['file']
+                  if not file_path.exists():
+                      raise SystemExit(f'Referenced PDF does not exist: {item["file"]}')
+
+          if docs.exists():
+              for file in sorted(docs.glob('*.json')):
+                  if file.name == 'template.json':
+                      continue
+                  raw = json.loads(file.read_text())
+                  if not raw.get('title'):
+                      raise SystemExit(f'Metadata file missing title: {file}')
+
+          print(f'Validated {len(data)} catalog entries successfully.')
+          PY
