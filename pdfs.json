@@ -495,6 +495,22 @@
     "file": "pdfs/ICU Ventilator Escalation plan COVID.pdf"
   },
   {
+    "id": "major-obs-haemorrhage-protocol-2020-bcuhb-west-gewr-v1",
+    "title": "Major Obs Haemorrhage Protocol 2020 BCUHB West GEWR V1",
+    "description": "Clinical guidance file from the YG Anaesthetics library.",
+    "category": "General",
+    "date": "2026-10-13",
+    "author": "YG Anaesthetics",
+    "tags": [
+      "general"
+    ],
+    "keywords": [
+      "major obs haemorrhage protocol 2020 bcuhb west gewr v1",
+      "pdf"
+    ],
+    "file": "pdfs/Major Obs  Haemorrhage Protocol 2020 BCUHB - West GEWR V1.pdf"
+  },
+  {
     "id": "management-of-rib-fractures-physiotherapy-patient-information-leaflet",
     "title": "Management of Rib Fractures Physiotherapy Patient Information Leaflet",
     "description": "Clinical guidance PDF from the YG Anaesthetics library.",
