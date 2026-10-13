@@ -20,6 +20,22 @@ const titleFromFilename = (filename) => {
   return basename.replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim() || basename;
 };
 
+const compact = (value) => String(value).toLowerCase().replace(/[^a-z0-9]+/g, '');
+const ignoredKeywords = new Set(['pdf', 'jpg', 'guide', 'guideline', 'checklist', 'document', 'form', 'version']);
+
+const termMatches = (text, term) => {
+  const value = compact(text);
+  const normalizedTerm = compact(term);
+  const singularTerm = normalizedTerm.endsWith('ies')
+    ? `${normalizedTerm.slice(0, -3)}y`
+    : normalizedTerm.endsWith('s')
+      ? normalizedTerm.slice(0, -1)
+      : normalizedTerm;
+  return normalizedTerm.length >= 3 && (value.includes(normalizedTerm) || value.includes(singularTerm));
+};
+
+const uniqueValues = (items) => [...new Set(items.filter(Boolean))];
+
 const files = fs.existsSync(pdfsDir)
   ? fs.readdirSync(pdfsDir)
       .filter((file) => /\.(pdf|jpg)$/i.test(file))
@@ -42,6 +58,52 @@ const existingMetadata = fs
 
 const existingPaths = new Set(existingMetadata.map((item) => item.file).filter(Boolean));
 const usedIds = new Set(existingMetadata.map((item) => item.id).filter(Boolean));
+const catalog = fs.existsSync(path.join(root, 'pdfs.json'))
+  ? JSON.parse(fs.readFileSync(path.join(root, 'pdfs.json'), 'utf8'))
+  : [];
+const catalogCategories = uniqueValues(catalog.map((item) => item.category));
+const catalogTags = uniqueValues(catalog.flatMap((item) => item.tags || []));
+
+const inferClassification = (filename) => {
+  const directCategories = catalogCategories.filter((category) => termMatches(filename, category));
+  const directTags = catalogTags.filter((tag) => termMatches(filename, tag));
+  const inheritedCategories = new Map();
+  const keywordMatches = [];
+
+  for (const item of catalog) {
+    const matchedKeywords = (item.keywords || []).filter(
+      (keyword) => !ignoredKeywords.has(compact(keyword)) && termMatches(filename, keyword)
+    );
+    if (!matchedKeywords.length) continue;
+
+    const score = Math.max(...matchedKeywords.map((keyword) => compact(keyword).length));
+    keywordMatches.push({ item, score });
+    if (item.category) {
+      inheritedCategories.set(item.category, (inheritedCategories.get(item.category) || 0) + score);
+    }
+  }
+
+  const strongestMatch = Math.max(0, ...keywordMatches.map(({ score }) => score));
+  const inheritedTags = new Set(directTags);
+  for (const { item, score } of keywordMatches) {
+    if (score === strongestMatch) {
+      for (const tag of item.tags || []) inheritedTags.add(tag);
+    }
+  }
+
+  const rankedCategories = [...inheritedCategories.entries()]
+    .sort(([, firstScore], [, secondScore]) => secondScore - firstScore)
+    .map(([category]) => category);
+  const category = directCategories[0] || rankedCategories[0] || 'General';
+  const tags = uniqueValues([
+    catalogTags.includes('clinical guidance') ? 'clinical guidance' : null,
+    ...directTags,
+    ...inheritedTags
+  ]);
+
+  return { category, tags: tags.length ? tags : ['general'] };
+};
+
 let created = 0;
 
 for (const filename of files) {
@@ -51,6 +113,7 @@ for (const filename of files) {
   const extension = path.extname(filename).slice(1).toLowerCase();
   const title = titleFromFilename(filename);
   const keywords = [title.toLowerCase(), extension];
+  const classification = inferClassification(filename);
   let id = slugify(title) || `document-${created + 1}`;
   if (usedIds.has(id)) id = `${id}-${extension}`;
   while (usedIds.has(id)) id = `${id}-copy`;
@@ -59,10 +122,10 @@ for (const filename of files) {
     id,
     title,
     description: 'Clinical guidance file from the YG Anaesthetics library.',
-    category: 'General',
+    category: classification.category,
     date: metadataDate,
     author: 'YG Anaesthetics',
-    tags: ['general'],
+    tags: classification.tags,
     keywords,
     file
   };
