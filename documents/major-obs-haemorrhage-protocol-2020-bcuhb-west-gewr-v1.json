@@ -1,15 +1,15 @@
 {
   "id": "major-obs-haemorrhage-protocol-2020-bcuhb-west-gewr-v1",
-  "title": "Major Obs Haemorrhage Protocol 2020 BCUHB West GEWR V1",
+  "title": "Major Obs Haemorrhage Protocol 2020 BCUHB West GEWR v1",
   "description": "Clinical guidance file from the YG Anaesthetics library.",
-  "category": "General",
+  "category": "Obstetrics",
   "date": "2026-10-13",
   "author": "YG Anaesthetics",
   "tags": [
-    "general"
+    "general", "obstetrics", "haemorrhage"
   ],
   "keywords": [
-    "major obs haemorrhage protocol 2020 bcuhb west gewr v1",
+    "major obs haemorrhage protocol 2020",
     "pdf"
   ],
   "file": "pdfs/Major Obs  Haemorrhage Protocol 2020 BCUHB - West GEWR V1.pdf"
