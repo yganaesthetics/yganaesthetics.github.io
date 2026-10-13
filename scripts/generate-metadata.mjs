@@ -121,7 +121,7 @@ for (const filename of files) {
   const metadata = {
     id,
     title,
-    description: `${classification.category} reference for ${title}.`,
+    description: `This document provides guidance on ${title}.`,
     category: classification.category,
     date: metadataDate,
     author: 'YG Anaesthetics',

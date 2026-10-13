@@ -2,7 +2,7 @@
   {
     "id": "063-handover-list",
     "title": "063 Handover list",
-    "description": "Handover list for use by the on-call anaesthtic team.",
+    "description": "A handover list for use by the on-call anaesthetic team.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -21,7 +21,7 @@
   {
     "id": "adultcriticalcare-covid-19-october2020",
     "title": "AdultCriticalCare-COVID-19-October2020",
-    "description": "Adult Critical Care reference for COVID-19 October2020.",
+    "description": "This Adult Critical Care document provides guidance on COVID-19 (October 2020).",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -42,7 +42,7 @@
   {
     "id": "als-cardiac-arrest-algorithm-rc-uk-2015",
     "title": "ALS Cardiac Arrest Algorithm - RC UK 2015",
-    "description": "Emergencies reference for Cardiac Arrest - RC UK 2015.",
+    "description": "This emergency algorithm covers cardiac arrest (RC UK, 2015).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -62,7 +62,7 @@
   {
     "id": "anaphylaxis-referral-form",
     "title": "Anaphylaxis Referral Form",
-    "description": "Anaphylaxis Investigation Referral Form.",
+    "description": "This form supports referral for anaphylaxis investigation.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -83,7 +83,7 @@
   {
     "id": "aprv-guide",
     "title": "APRV Guide",
-    "description": "Critical Care reference for APRV.",
+    "description": "This critical care guide covers APRV.",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -104,7 +104,7 @@
   {
     "id": "babypac-100-ventilator-setup-summary",
     "title": "BabyPAC 100 Ventilator Setup Summary",
-    "description": "BabyPAC 100 Ventilator Setup.",
+    "description": "This guide covers BabyPAC 100 ventilator setup.",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -124,7 +124,7 @@
   {
     "id": "bcuhb-request-for-supply-of-off-label-use-of-tocilizumab-for-a-named-patient-26112020-v3",
     "title": "BCUHB Request for supply of off label use of TOCILIZUMAB for a named patient 26112020 v3",
-    "description": "General reference for BCUHB Request for supply of off label use of TOCILIZUMAB for a named patient 26112020 v3.",
+    "description": "This document provides guidance on BCUHB Request for supply of off label use of TOCILIZUMAB for a named patient 26112020 v3.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -145,7 +145,7 @@
   {
     "id": "bcuhb-request-for-tocilizumab-nov-2020",
     "title": "BCUHB Request for TOCILIZUMAB Nov 2020",
-    "description": "General reference for BCUHB Request for TOCILIZUMAB Nov 2020.",
+    "description": "This document provides guidance on BCUHB Request for TOCILIZUMAB Nov 2020.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -166,7 +166,7 @@
   {
     "id": "central-venous-catheter-insertion-sop",
     "title": "Central Venous Catheter Insertion SOP",
-    "description": "Critical Care reference for Central Venous Catheter Insertion SOP.",
+    "description": "This document provides guidance on Central Venous Catheter Insertion SOP.",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -186,7 +186,7 @@
   {
     "id": "checklist-for-anaesthetic-equipment-aagbi-2012",
     "title": "Checklist for anaesthetic equipment - AAGBI 2012",
-    "description": "General reference for Checklist for anaesthetic equipment - AAGBI 2012.",
+    "description": "This document provides guidance on Checklist for anaesthetic equipment - AAGBI 2012.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -207,7 +207,7 @@
   {
     "id": "clinical-guideline-for-the-use-of-rectus-sheath-catheters-for-the-management-of-pain-following-abdominal-surgery",
     "title": "Clinical Guideline for the Use of Rectus Sheath Catheters for the Management of Pain Following Abdominal Surgery",
-    "description": "General reference for Clinical Guideline for the Use of Rectus Sheath Catheters for the Management of Pain Following Abdominal Surgery.",
+    "description": "This document provides guidance on Clinical Guideline for the Use of Rectus Sheath Catheters for the Management of Pain Following Abdominal Surgery.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -228,7 +228,7 @@
   {
     "id": "covid-19-admission-criteria-to-critical-care-0",
     "title": "COVID-19 Admission Criteria to Critical Care_0",
-    "description": "Critical Care reference for COVID-19 Admission Criteria to Critical Care_0.",
+    "description": "This document provides guidance on COVID-19 Admission Criteria to Critical Care_0.",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -248,7 +248,7 @@
   {
     "id": "covid-19-cohort-ward-pathway-0",
     "title": "COVID 19 Cohort Ward Pathway_0",
-    "description": "Critical Care reference for COVID 19 Cohort Ward Pathway_0.",
+    "description": "This document provides guidance on COVID 19 Cohort Ward Pathway_0.",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -268,7 +268,7 @@
   {
     "id": "covid-19-evidence-update-2-9th-april-2020",
     "title": "COVID 19 evidence Update 2 9th April 2020",
-    "description": "General reference for COVID 19 evidence Update 2 9th April 2020.",
+    "description": "This document provides guidance on COVID 19 evidence Update 2 9th April 2020.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -288,7 +288,7 @@
   {
     "id": "covid-19-in-room-rsi-checklist",
     "title": "COVID-19 In Room RSI Checklist",
-    "description": "General reference for COVID-19 In Room RSI Checklist.",
+    "description": "This document provides guidance on COVID-19 In Room RSI Checklist.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -309,7 +309,7 @@
   {
     "id": "covid-19-intubation-outside-room-checklist-ed-0",
     "title": "COVID-19 Intubation Outside Room Checklist ED_0",
-    "description": "General reference for COVID-19 Intubation Outside Room Checklist ED_0.",
+    "description": "This document provides guidance on COVID-19 Intubation Outside Room Checklist ED_0.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -330,7 +330,7 @@
   {
     "id": "covid-19-intubation-outside-room-checklist-hdu-itu-0",
     "title": "COVID-19 Intubation Outside Room Checklist HDU ITU_0",
-    "description": "General reference for COVID-19 Intubation Outside Room Checklist HDU ITU_0.",
+    "description": "This document provides guidance on COVID-19 Intubation Outside Room Checklist HDU ITU_0.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -352,7 +352,7 @@
   {
     "id": "covid-19-intubation-sop-from-ed-isolation-room-mk-cd-ws-1-3",
     "title": "COVID 19 Intubation SOP from ED Isolation Room MK CD WS 1 3",
-    "description": "General reference for COVID 19 Intubation SOP from ED Isolation Room MK CD WS 1 3.",
+    "description": "This document provides guidance on COVID 19 Intubation SOP from ED Isolation Room MK CD WS 1 3.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -373,7 +373,7 @@
   {
     "id": "covid-19-intubation-sop-hdu-mk-nb-2-0",
     "title": "COVID 19 Intubation SOP HDU MK NB 2 0",
-    "description": "General reference for COVID 19 Intubation SOP HDU MK NB 2 0.",
+    "description": "This document provides guidance on COVID 19 Intubation SOP HDU MK NB 2 0.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -394,7 +394,7 @@
   {
     "id": "covid-daily-checklist-yg-v6-0-2021-01",
     "title": "COVID Daily Checklist YG (v6.0) (2021-01)",
-    "description": "General reference for COVID Daily Checklist YG (v6.0) (2021-01).",
+    "description": "This document provides guidance on COVID Daily Checklist YG (v6.0) (2021-01).",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -414,7 +414,7 @@
   {
     "id": "covid-ppe-for-labour-ward-and-obstetric-theatre-v6-9th-april-2020",
     "title": "COVID PPE for Labour Ward and Obstetric Theatre v6 9th April 2020",
-    "description": "Obstetrics reference for COVID PPE for Labour Ward and Obstetric Theatre v6 9th April 2020.",
+    "description": "This document provides guidance on COVID PPE for Labour Ward and Obstetric Theatre v6 9th April 2020.",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -435,7 +435,7 @@
   {
     "id": "criteria-for-nurse-led-discharge-on-tudno-ward-short-stay-surgical-patients",
     "title": "Criteria for Nurse Led Discharge on Tudno Ward - Short Stay Surgical Patients",
-    "description": "General reference for Criteria for Nurse Led Discharge on Tudno Ward - Short Stay Surgical Patients.",
+    "description": "This document provides guidance on Criteria for Nurse Led Discharge on Tudno Ward - Short Stay Surgical Patients.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -455,7 +455,7 @@
   {
     "id": "how-to-use-theatre-drager-ventilator-for-icu-patients-v4",
     "title": "How to use theatre Drager Ventilator for ICU patients v4",
-    "description": "Critical Care reference for How to use theatre Drager Ventilator for ICU patients v4.",
+    "description": "This document provides guidance on How to use theatre Drager Ventilator for ICU patients v4.",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -476,7 +476,7 @@
   {
     "id": "icu-ventilator-escalation-plan-covid",
     "title": "ICU Ventilator Escalation plan COVID",
-    "description": "Critical Care reference for ICU Ventilator Escalation plan COVID.",
+    "description": "This document provides guidance on ICU Ventilator Escalation plan COVID.",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -497,7 +497,7 @@
   {
     "id": "major-obs-haemorrhage-protocol-2020-bcuhb-west-gewr-v1",
     "title": "Major Obs Haemorrhage Protocol 2020 BCUHB West GEWR v1",
-    "description": "Obstetrics reference for Major Obs Haemorrhage Protocol 2020 BCUHB West GEWR v1.",
+    "description": "This document provides guidance on Major Obs Haemorrhage Protocol 2020 BCUHB West GEWR v1.",
     "category": "Obstetrics",
     "date": "2026-10-13",
     "author": "YG Anaesthetics",
@@ -515,7 +515,7 @@
   {
     "id": "management-of-rib-fractures-physiotherapy-patient-information-leaflet",
     "title": "Management of Rib Fractures Physiotherapy Patient Information Leaflet",
-    "description": "General reference for Management of Rib Fractures Physiotherapy Patient Information Leaflet.",
+    "description": "This document provides guidance on Management of Rib Fractures Physiotherapy Patient Information Leaflet.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -535,7 +535,7 @@
   {
     "id": "nls-algorithm-rc-uk-2015",
     "title": "NLS Algorithm - RC UK 2015",
-    "description": "Emergencies reference for NLS Algorithm - RC UK 2015.",
+    "description": "This document provides guidance on NLS Algorithm - RC UK 2015.",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -556,7 +556,7 @@
   {
     "id": "oa-wcd-for-anaesthesia-in-pre-eclampsia-2018",
     "title": "Anaesthesia in Pre-Eclampsia (2018)",
-    "description": "Obstetrics reference for Anaesthesia in Pre-Eclampsia (2018).",
+    "description": "This document provides guidance on Anaesthesia in Pre-Eclampsia (2018).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -576,7 +576,7 @@
   {
     "id": "oa-wcd-for-anaesthetic-referral-and-assessment-of-the-morbidly-obese-parturient-2018",
     "title": "Anaesthetic Referral and Assessment of the Morbidly Obese Parturient (2018)",
-    "description": "Obstetrics reference for Anaesthetic Referral and Assessment of the Morbidly Obese Parturient (2018).",
+    "description": "This document provides guidance on Anaesthetic Referral and Assessment of the Morbidly Obese Parturient (2018).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -596,7 +596,7 @@
   {
     "id": "oa-wcd-for-antacid-prophylaxis-for-labour-and-delivery-2018",
     "title": "Antacid Prophylaxis for Labour and Delivery (2018)",
-    "description": "Obstetrics reference for Antacid Prophylaxis for Labour and Delivery (2018).",
+    "description": "This document provides guidance on Antacid Prophylaxis for Labour and Delivery (2018).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -616,7 +616,7 @@
   {
     "id": "oa-wcd-for-antenatal-referral-to-the-anaesthetist-2018",
     "title": "Antenatal Referral to the Anaesthetist (2018)",
-    "description": "Obstetrics reference for Antenatal Referral to the Anaesthetist (2018).",
+    "description": "This document provides guidance on Antenatal Referral to the Anaesthetist (2018).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -636,7 +636,7 @@
   {
     "id": "oa-wcd-for-establishing-epidural-anaesthesia-for-labour-analgesia-2018",
     "title": "Establishing Epidural Anaesthesia for Labour Analgesia (2018)",
-    "description": "Obstetrics reference for Establishing Epidural Anaesthesia for Labour Analgesia (2018).",
+    "description": "This document provides guidance on Establishing Epidural Anaesthesia for Labour Analgesia (2018).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -656,7 +656,7 @@
   {
     "id": "oa-wcd-for-general-anaesthesia-for-caesarean-section-2020",
     "title": "General Anaesthesia for Caesarean Section (2020)",
-    "description": "Obstetrics reference for General Anaesthesia for Caesarean Section (2020).",
+    "description": "This document provides guidance on General Anaesthesia for Caesarean Section (2020).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -676,7 +676,7 @@
   {
     "id": "oa-wcd-for-intraoperative-administration-of-obstetric-drugs-2018",
     "title": "Intraoperative Administration of Obstetric Drugs (2018)",
-    "description": "Obstetrics reference for Intraoperative Administration of Obstetric Drugs (2018).",
+    "description": "This document provides guidance on Intraoperative Administration of Obstetric Drugs (2018).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -696,7 +696,7 @@
   {
     "id": "oa-wcd-for-management-of-eclampsia-2018",
     "title": "Management of Eclampsia (2018)",
-    "description": "Obstetrics reference for Management of Eclampsia (2018).",
+    "description": "This document provides guidance on Management of Eclampsia (2018).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -716,7 +716,7 @@
   {
     "id": "oa-wcd-for-management-of-pre-eclampsia-2018",
     "title": "Management of Pre-eclampsia (2018)",
-    "description": "Obstetrics reference for Management of Pre-eclampsia (2018).",
+    "description": "This document provides guidance on Management of Pre-eclampsia (2018).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -736,7 +736,7 @@
   {
     "id": "oa-wcd-for-management-of-the-diabetic-parturient-for-elective-caesarean-section-2018",
     "title": "Management of the Diabetic Parturient for Elective Caesarean Section (2018)",
-    "description": "Obstetrics reference for Management of the Diabetic Parturient for Elective Caesarean Section (2018).",
+    "description": "This document provides guidance on Management of the Diabetic Parturient for Elective Caesarean Section (2018).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -756,7 +756,7 @@
   {
     "id": "oa-wcd-for-management-of-total-spinal-anaesthesia-2020",
     "title": "Management of Total Spinal Anaesthesia (2020)",
-    "description": "Obstetrics reference for Management of Total Spinal Anaesthesia (2020).",
+    "description": "This document provides guidance on Management of Total Spinal Anaesthesia (2020).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -776,7 +776,7 @@
   {
     "id": "oa-wcd-for-spinal-anaesthesia-for-caesarean-section-2018",
     "title": "Spinal Anaesthesia for Caesarean Section (2018)",
-    "description": "Obstetrics reference for Spinal Anaesthesia for Caesarean Section (2018).",
+    "description": "This document provides guidance on Spinal Anaesthesia for Caesarean Section (2018).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -796,7 +796,7 @@
   {
     "id": "oa-wcd-for-spinal-and-epidural-anaesthesia-in-parturients-on-anticoagulants-2018",
     "title": "Spinal and Epidural Anaesthesia in Parturients on Anticoagulants (2018)",
-    "description": "Obstetrics reference for Spinal and Epidural Anaesthesia in Parturients on Anticoagulants (2018).",
+    "description": "This document provides guidance on Spinal and Epidural Anaesthesia in Parturients on Anticoagulants (2018).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -816,7 +816,7 @@
   {
     "id": "oa-wcd-for-use-of-fentanyl-pca-for-labour-analgesia-2018-0",
     "title": "Use of Fentanyl PCA for Labour Analgesia (2018) (v0)",
-    "description": "Obstetrics reference for Use of Fentanyl PCA for Labour Analgesia (2018) (v0).",
+    "description": "This document provides guidance on Use of Fentanyl PCA for Labour Analgesia (2018) (v0).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -836,7 +836,7 @@
   {
     "id": "oa-wcd-for-use-of-the-obstetric-hou-and-referral-of-obstetric-patients-for-intensive-care-2018",
     "title": "Use of the Obstetric HOU and referral of Obstetric Patients for Intensive Care (2018)",
-    "description": "Critical Care reference for Use of the Obstetric HOU and referral of Obstetric Patients for Intensive Care (2018).",
+    "description": "This document provides guidance on Use of the Obstetric HOU and referral of Obstetric Patients for Intensive Care (2018).",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -856,7 +856,7 @@
   {
     "id": "oa-wcd-management-of-anaesthesia-labour-analgesia-in-parturients-with-covid-19",
     "title": "Management of Anaesthesia and Labour Analgesia in Parturients with Covid-19",
-    "description": "Obstetrics reference for Management of Anaesthesia and Labour Analgesia in Parturients with Covid-19.",
+    "description": "This document provides guidance on Management of Anaesthesia and Labour Analgesia in Parturients with Covid-19.",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -877,7 +877,7 @@
   {
     "id": "oa-written-control-document-for-cpr-in-pregnancy-2018",
     "title": "CPR in Pregnancy (2018)",
-    "description": "Obstetrics reference for CPR in Pregnancy (2018).",
+    "description": "This document provides guidance on CPR in Pregnancy (2018).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -898,7 +898,7 @@
   {
     "id": "oa-written-control-document-for-epidural-blood-patching-2018",
     "title": "Epidural Blood Patching (2018)",
-    "description": "Obstetrics reference for Epidural Blood Patching (2018).",
+    "description": "This document provides guidance on Epidural Blood Patching (2018).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -918,7 +918,7 @@
   {
     "id": "oa-written-control-document-for-management-of-accidental-dural-puncture-2018-0",
     "title": "Management of Accidental Dural Puncture (2018) (v0)",
-    "description": "Obstetrics reference for Management of Accidental Dural Puncture (2018) (v0).",
+    "description": "This document provides guidance on Management of Accidental Dural Puncture (2018) (v0).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -938,7 +938,7 @@
   {
     "id": "odsop-25-management-of-the-death-of-a-patient-in-theatre",
     "title": "ODSOP 25 Management of the Death of a Patient in Theatre",
-    "description": "General reference for ODSOP 25 Management of the Death of a Patient in Theatre.",
+    "description": "This document provides guidance on ODSOP 25 Management of the Death of a Patient in Theatre.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -959,7 +959,7 @@
   {
     "id": "organisation-of-obstetric-theatre-for-covid-patient-ts-draft-v3",
     "title": "Organisation of Obstetric Theatre for COVID patient (TS Draft V3)",
-    "description": "Obstetrics reference for Organisation of Obstetric Theatre for COVID patient (TS Draft V3).",
+    "description": "This document provides guidance on Organisation of Obstetric Theatre for COVID patient (TS Draft V3).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -979,7 +979,7 @@
   {
     "id": "paediatric-als",
     "title": "Paediatric_ALS",
-    "description": "Emergencies reference for Paediatric_ALS.",
+    "description": "This document provides guidance on Paediatric_ALS.",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -999,7 +999,7 @@
   {
     "id": "poac-referral-letter-template",
     "title": "POAC Referral Letter Template",
-    "description": "General reference for POAC Referral Letter Template.",
+    "description": "This document provides guidance on POAC Referral Letter Template.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1019,7 +1019,7 @@
   {
     "id": "pre-induction-checklist-for-obstetric-ga-in-covid-19-2020",
     "title": "Pre-induction Checklist for Obstetric GA in Covid-19 2020",
-    "description": "Obstetrics reference for Pre-induction Checklist for Obstetric GA in Covid-19 2020.",
+    "description": "This document provides guidance on Pre-induction Checklist for Obstetric GA in Covid-19 2020.",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1040,7 +1040,7 @@
   {
     "id": "process-for-cleaning-of-visors-v1-0",
     "title": "Process for cleaning of visors v1 0",
-    "description": "General reference for Process for cleaning of visors v1 0.",
+    "description": "This document provides guidance on Process for cleaning of visors v1 0.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1060,7 +1060,7 @@
   {
     "id": "proning-guide-ventilation-in-critical-care",
     "title": "Proning Guide Ventilation in Critical Care",
-    "description": "Critical Care reference for Proning Guide Ventilation in Critical Care.",
+    "description": "This document provides guidance on Proning Guide Ventilation in Critical Care.",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1080,7 +1080,7 @@
   {
     "id": "qrh-2-1-cardiac-arrest-v1",
     "title": "Cardiac Arrest (v1)",
-    "description": "Emergencies reference for Cardiac Arrest (v1).",
+    "description": "This document provides guidance on Cardiac Arrest (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1101,7 +1101,7 @@
   {
     "id": "qrh-2-2-hypoxia-desaturation-cyanosis-v1",
     "title": "Hypoxia Desaturation Cyanosis (v1)",
-    "description": "Emergencies reference for Hypoxia Desaturation Cyanosis (v1).",
+    "description": "This document provides guidance on Hypoxia Desaturation Cyanosis (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1123,7 +1123,7 @@
   {
     "id": "qrh-2-3-increased-airway-pressure-v1",
     "title": "Increased Airway Pressure (v1)",
-    "description": "Emergencies reference for Increased Airway Pressure (v1).",
+    "description": "This document provides guidance on Increased Airway Pressure (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1144,7 +1144,7 @@
   {
     "id": "qrh-2-4-hypotension-v1",
     "title": "Hypotension (v1)",
-    "description": "Emergencies reference for Hypotension (v1).",
+    "description": "This document provides guidance on Hypotension (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1165,7 +1165,7 @@
   {
     "id": "qrh-2-5-hypertension-v1",
     "title": "Hypertension (v1)",
-    "description": "Emergencies reference for Hypertension (v1).",
+    "description": "This document provides guidance on Hypertension (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1186,7 +1186,7 @@
   {
     "id": "qrh-2-6-bradycardia-v1",
     "title": "Bradycardia (v1)",
-    "description": "Emergencies reference for Bradycardia (v1).",
+    "description": "This document provides guidance on Bradycardia (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1207,7 +1207,7 @@
   {
     "id": "qrh-2-7-tachycardia-v1",
     "title": "Tachycardia (v1)",
-    "description": "Emergencies reference for Tachycardia (v1).",
+    "description": "This document provides guidance on Tachycardia (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1228,7 +1228,7 @@
   {
     "id": "qrh-2-8-perioperative-hyperthermia-v1",
     "title": "Perioperative Hyperthermia (v1)",
-    "description": "Emergencies reference for Perioperative Hyperthermia (v1).",
+    "description": "This document provides guidance on Perioperative Hyperthermia (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1249,7 +1249,7 @@
   {
     "id": "qrh-3-1-anaphylaxis-v1",
     "title": "Anaphylaxis (v1)",
-    "description": "Emergencies reference for Anaphylaxis (v1).",
+    "description": "This document provides guidance on Anaphylaxis (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1270,7 +1270,7 @@
   {
     "id": "qrh-3-10-local-anaesthetic-toxicity-v1",
     "title": "Local Anaesthetic Toxicity (v1)",
-    "description": "Emergencies reference for Local Anaesthetic Toxicity (v1).",
+    "description": "This document provides guidance on Local Anaesthetic Toxicity (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1291,7 +1291,7 @@
   {
     "id": "qrh-3-11-high-central-neuraxial-block-v1",
     "title": "High Central Neuraxial Block (v1)",
-    "description": "Emergencies reference for High Central Neuraxial Block (v1).",
+    "description": "This document provides guidance on High Central Neuraxial Block (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1312,7 +1312,7 @@
   {
     "id": "qrh-3-12-cardiac-ischaemia-v1",
     "title": "Cardiac Ischaemia (v1)",
-    "description": "Emergencies reference for Cardiac Ischaemia (v1).",
+    "description": "This document provides guidance on Cardiac Ischaemia (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1333,7 +1333,7 @@
   {
     "id": "qrh-3-13-neuroprotection-cardiac-arrest-v1",
     "title": "Neuroprotection Cardiac Arrest (v1)",
-    "description": "Emergencies reference for Neuroprotection Cardiac Arrest (v1).",
+    "description": "This document provides guidance on Neuroprotection Cardiac Arrest (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1354,7 +1354,7 @@
   {
     "id": "qrh-3-14-sepsis-v1",
     "title": "Sepsis (v1)",
-    "description": "Critical Care reference for Sepsis (v1).",
+    "description": "This document provides guidance on Sepsis (v1).",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1375,7 +1375,7 @@
   {
     "id": "qrh-3-2-massive-blood-loss-v1-1",
     "title": "Massive Blood Loss (v1)",
-    "description": "Emergencies reference for Massive Blood Loss (v1).",
+    "description": "This document provides guidance on Massive Blood Loss (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1396,7 +1396,7 @@
   {
     "id": "qrh-3-3-cant-intubate-cant-oxygenate-cico",
     "title": "Cant Intubate Cant Oxygenate (CICO)",
-    "description": "Emergencies reference for Cant Intubate Cant Oxygenate (CICO).",
+    "description": "This document provides guidance on Cant Intubate Cant Oxygenate (CICO).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1417,7 +1417,7 @@
   {
     "id": "qrh-3-4-bronchospasm-v1",
     "title": "Bronchospasm (v1)",
-    "description": "Emergencies reference for Bronchospasm (v1).",
+    "description": "This document provides guidance on Bronchospasm (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1438,7 +1438,7 @@
   {
     "id": "qrh-3-5-circulatory-embolus-v1",
     "title": "Circulatory Embolus (v1)",
-    "description": "Emergencies reference for Circulatory Embolus (v1).",
+    "description": "This document provides guidance on Circulatory Embolus (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1459,7 +1459,7 @@
   {
     "id": "qrh-3-6-laryngospasm-and-stridor-v1",
     "title": "Laryngospasm and Stridor (v1)",
-    "description": "Emergencies reference for Laryngospasm and Stridor (v1).",
+    "description": "This document provides guidance on Laryngospasm and Stridor (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1480,7 +1480,7 @@
   {
     "id": "qrh-3-7-patient-fire-v1",
     "title": "Patient Fire (v1)",
-    "description": "Emergencies reference for Patient Fire (v1).",
+    "description": "This document provides guidance on Patient Fire (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1501,7 +1501,7 @@
   {
     "id": "qrh-3-8-malignant-hyperthermia-crisis-v1",
     "title": "Malignant Hyperthermia Crisis (v1)",
-    "description": "Emergencies reference for Malignant Hyperthermia Crisis (v1).",
+    "description": "This document provides guidance on Malignant Hyperthermia Crisis (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1522,7 +1522,7 @@
   {
     "id": "qrh-3-9-cardiac-tamponade-v1",
     "title": "Cardiac Tamponade (v1)",
-    "description": "Emergencies reference for Cardiac Tamponade (v1).",
+    "description": "This document provides guidance on Cardiac Tamponade (v1).",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1543,7 +1543,7 @@
   {
     "id": "qrh-4-1-mains-oxygen-failure-v1",
     "title": "Mains Oxygen Failure (v1)",
-    "description": "Critical Care reference for Mains Oxygen Failure (v1).",
+    "description": "This document provides guidance on Mains Oxygen Failure (v1).",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1564,7 +1564,7 @@
   {
     "id": "qrh-4-2-mains-electricity-failure-v1",
     "title": "Mains Electricity Failure (v1)",
-    "description": "Critical Care reference for Mains Electricity Failure (v1).",
+    "description": "This document provides guidance on Mains Electricity Failure (v1).",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1585,7 +1585,7 @@
   {
     "id": "qrh-4-3-emergency-evacuation-v1",
     "title": "Emergency Evacuation (v1)",
-    "description": "Critical Care reference for Emergency Evacuation (v1).",
+    "description": "This document provides guidance on Emergency Evacuation (v1).",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1606,7 +1606,7 @@
   {
     "id": "rectus-sheath-catheter-quick-user-guide-july-2018",
     "title": "Rectus sheath catheter quick user guide July 2018",
-    "description": "General reference for Rectus sheath catheter quick user guide July 2018.",
+    "description": "This document provides guidance on Rectus sheath catheter quick user guide July 2018.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1626,7 +1626,7 @@
   {
     "id": "rectus-sheath-catheter-quick-user-guide",
     "title": "Rectus sheath catheter quick user guide",
-    "description": "General reference for Rectus sheath catheter quick user guide.",
+    "description": "This document provides guidance on Rectus sheath catheter quick user guide.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1646,7 +1646,7 @@
   {
     "id": "regional-transport-guideline-update-2018-final-cdeg",
     "title": "Regional Transport Guideline - update 2018 FINAL CDEG",
-    "description": "General reference for Regional Transport Guideline - update 2018 FINAL CDEG.",
+    "description": "This document provides guidance on Regional Transport Guideline - update 2018 FINAL CDEG.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1666,7 +1666,7 @@
   {
     "id": "rotem-familiarisation-for-new-starters",
     "title": "ROTEM Familiarisation for New Starters",
-    "description": "General reference for ROTEM Familiarisation for New Starters.",
+    "description": "This document provides guidance on ROTEM Familiarisation for New Starters.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1686,7 +1686,7 @@
   {
     "id": "route-out-of-c19-to-lifts-and-beyond",
     "title": "Route out of C19 to lifts and beyond",
-    "description": "General reference for Route out of C19 to lifts and beyond.",
+    "description": "This document provides guidance on Route out of C19 to lifts and beyond.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1706,7 +1706,7 @@
   {
     "id": "suggested-itu-initial-management-of-suspected-covid-6-0-2021-01",
     "title": "Suggested ITU Initial Management of Suspected COVID 6 0 2021 01",
-    "description": "Critical Care reference for Suggested ITU Initial Management of Suspected COVID 6 0 2021 01.",
+    "description": "This document provides guidance on Suggested ITU Initial Management of Suspected COVID 6 0 2021 01.",
     "category": "Critical Care",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1726,7 +1726,7 @@
   {
     "id": "summary-of-clinical-audit-work-anaesthetics-west-april-2018-0",
     "title": "Summary of Clinical Audit Work Anaesthetics (West) April 2018 (v0)",
-    "description": "General reference for Summary of Clinical Audit Work Anaesthetics (West) April 2018 (v0).",
+    "description": "This document provides guidance on Summary of Clinical Audit Work Anaesthetics (West) April 2018 (v0).",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1746,7 +1746,7 @@
   {
     "id": "swab-testing-for-flu-v1-0",
     "title": "Swab testing for Flu v1 0",
-    "description": "General reference for Swab testing for Flu v1 0.",
+    "description": "This document provides guidance on Swab testing for Flu v1 0.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1766,7 +1766,7 @@
   {
     "id": "theatre-ppe-covid",
     "title": "Theatre PPE Covid",
-    "description": "General reference for Theatre PPE Covid.",
+    "description": "This document provides guidance on Theatre PPE Covid.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1786,7 +1786,7 @@
   {
     "id": "tim-trawma-cymru-manual-2019",
     "title": "Tim Trawma Cymru Manual 2019",
-    "description": "General reference for Tim Trawma Cymru Manual 2019.",
+    "description": "This document provides guidance on Tim Trawma Cymru Manual 2019.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1806,7 +1806,7 @@
   {
     "id": "transfer-to-obstetric-theatre-for-covid-v5",
     "title": "Transfer to Obstetric Theatre for COVID v5",
-    "description": "Obstetrics reference for Transfer to Obstetric Theatre for COVID v5.",
+    "description": "This document provides guidance on Transfer to Obstetric Theatre for COVID v5.",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1827,7 +1827,7 @@
   {
     "id": "what-to-do-when-you-are-not-feeling-ok-v2-0",
     "title": "What to do when you are not feeling OK v2.0",
-    "description": "General reference for What to do when you are not feeling OK v2.0.",
+    "description": "This document provides guidance on What to do when you are not feeling OK v2.0.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1847,7 +1847,7 @@
   {
     "id": "yg-313-management-of-preoperative-anaemia-v1-6-sc",
     "title": "YG 313 Management of Preoperative Anaemia V1.6 SC",
-    "description": "General reference for YG 313 Management of Preoperative Anaemia V1.6 SC.",
+    "description": "This document provides guidance on YG 313 Management of Preoperative Anaemia V1.6 SC.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1867,7 +1867,7 @@
   {
     "id": "yg-adult-emergency-laparotomy-analgesia-guideline",
     "title": "YG Adult Emergency Laparotomy Analgesia Guideline",
-    "description": "Emergencies reference for YG Adult Emergency Laparotomy Analgesia Guideline.",
+    "description": "This document provides guidance on YG Adult Emergency Laparotomy Analgesia Guideline.",
     "category": "Emergencies",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1887,7 +1887,7 @@
   {
     "id": "yg-anaesthetics-major-incident-action-cards-2019-v1-3-aug-mk",
     "title": "YG Anaesthetics Major Incident Action Cards 2019 v1.3 Aug MK",
-    "description": "General reference for YG Anaesthetics Major Incident Action Cards 2019 v1.3 Aug MK.",
+    "description": "This document provides guidance on YG Anaesthetics Major Incident Action Cards 2019 v1.3 Aug MK.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1907,7 +1907,7 @@
   {
     "id": "yg-cg-1104-epidural-analgesia-in-adult-acute-pain-management",
     "title": "YG CG 1104 Epidural Analgesia in Adult Acute Pain Management",
-    "description": "General reference for YG CG 1104 Epidural Analgesia in Adult Acute Pain Management.",
+    "description": "This document provides guidance on YG CG 1104 Epidural Analgesia in Adult Acute Pain Management.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1927,7 +1927,7 @@
   {
     "id": "yg-cg-401-quick-reference-doac-guide",
     "title": "YG CG 401 Quick reference DOAC guide",
-    "description": "General reference for YG CG 401 Quick reference DOAC guide.",
+    "description": "This document provides guidance on YG CG 401 Quick reference DOAC guide.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1947,7 +1947,7 @@
   {
     "id": "yg-cg-408-ysbyty-gwynedd-optimisation-of-anaemia-following-major-bowel-surgery",
     "title": "YG CG 408 Ysbyty Gwynedd Optimisation of Anaemia Following Major Bowel Surgery",
-    "description": "General reference for YG CG 408 Ysbyty Gwynedd Optimisation of Anaemia Following Major Bowel Surgery.",
+    "description": "This document provides guidance on YG CG 408 Ysbyty Gwynedd Optimisation of Anaemia Following Major Bowel Surgery.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1967,7 +1967,7 @@
   {
     "id": "yg-cg-413-eras-anaesthesia-for-major-gynae-surgery",
     "title": "YG CG 413 ERAS Anaesthesia For Major Gynae Surgery",
-    "description": "General reference for YG CG 413 ERAS Anaesthesia For Major Gynae Surgery.",
+    "description": "This document provides guidance on YG CG 413 ERAS Anaesthesia For Major Gynae Surgery.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -1987,7 +1987,7 @@
   {
     "id": "yg-cg-718-eras-anaesthesia-and-analgesia-for-obstetric-surgery",
     "title": "YG CG 718 ERAS Anaesthesia & Analgesia For Obstetric Surgery",
-    "description": "Obstetrics reference for YG CG 718 ERAS Anaesthesia & Analgesia For Obstetric Surgery.",
+    "description": "This document provides guidance on YG CG 718 ERAS Anaesthesia & Analgesia For Obstetric Surgery.",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -2007,7 +2007,7 @@
   {
     "id": "yg-cg-722-checklist-for-protocol-for-the-management-of-simultaneous-obstetric-theatre-cases-2020",
     "title": "YG CG 722 Checklist For Protocol for the Management of Simultaneous Obstetric Theatre Cases (2020)",
-    "description": "Obstetrics reference for YG CG 722 Checklist For Protocol for the Management of Simultaneous Obstetric Theatre Cases (2020).",
+    "description": "This document provides guidance on YG CG 722 Checklist For Protocol for the Management of Simultaneous Obstetric Theatre Cases (2020).",
     "category": "Obstetrics",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -2027,7 +2027,7 @@
   {
     "id": "yg-emrts-transfer-covid-1-0-mk-8-apr-2020",
     "title": "YG EMRTS Transfer COVID 1.0 MK 8 Apr 2020",
-    "description": "General reference for YG EMRTS Transfer COVID 1.0 MK 8 Apr 2020.",
+    "description": "This document provides guidance on YG EMRTS Transfer COVID 1.0 MK 8 Apr 2020.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -2047,7 +2047,7 @@
   {
     "id": "yg-management-of-massive-haemorrhage-in-adults-feb-2020-v3-1",
     "title": "YG - Management of Massive Haemorrhage in Adults Feb 2020 V3.1",
-    "description": "General reference for YG - Management of Massive Haemorrhage in Adults Feb 2020 V3.1.",
+    "description": "This document provides guidance on YG - Management of Massive Haemorrhage in Adults Feb 2020 V3.1.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
@@ -2067,7 +2067,7 @@
   {
     "id": "ygelp-2019",
     "title": "YGELP 2019",
-    "description": "General reference for YGELP 2019.",
+    "description": "This document provides guidance on YGELP 2019.",
     "category": "General",
     "date": "2026-10-12",
     "author": "YG Anaesthetics",
