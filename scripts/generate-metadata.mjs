@@ -2,6 +2,8 @@
 
 import fs from 'fs';
 import path from 'path';
+import os from 'os';
+import { spawnSync } from 'child_process';
 
 const root = process.cwd();
 const pdfsDir = path.join(root, 'pdfs');
@@ -36,6 +38,32 @@ const termMatches = (text, term) => {
 
 const uniqueValues = (items) => [...new Set(items.filter(Boolean))];
 
+const runCommand = (command, args) => {
+  const result = spawnSync(command, args, { encoding: 'utf8' });
+  return result.status === 0 ? result.stdout.trim() : '';
+};
+
+const extractPdfText = (filePath) => {
+  const text = runCommand('pdftotext', ['-f', '1', '-l', '3', '-layout', filePath, '-']);
+  if (text) return text;
+
+  const temporaryDirectory = fs.mkdtempSync(path.join(os.tmpdir(), 'yg-pdf-'));
+  const imagePrefix = path.join(temporaryDirectory, 'page');
+  runCommand('pdftoppm', ['-f', '1', '-l', '3', '-png', '-r', '150', filePath, imagePrefix]);
+  const pages = fs.existsSync(temporaryDirectory)
+    ? fs.readdirSync(temporaryDirectory).filter((file) => file.endsWith('.png')).sort()
+    : [];
+  const ocrText = pages.map((page) => runCommand('tesseract', [path.join(temporaryDirectory, page), 'stdout'])).join('\n');
+  fs.rmSync(temporaryDirectory, { recursive: true, force: true });
+  return ocrText.trim();
+};
+
+const extractAssetText = (filePath, extension) => {
+  if (extension === 'pdf') return extractPdfText(filePath);
+  if (extension === 'jpg') return runCommand('tesseract', [filePath, 'stdout']);
+  return '';
+};
+
 const files = fs.existsSync(pdfsDir)
   ? fs.readdirSync(pdfsDir)
       .filter((file) => /\.(pdf|jpg)$/i.test(file))
@@ -64,15 +92,15 @@ const catalog = fs.existsSync(path.join(root, 'pdfs.json'))
 const catalogCategories = uniqueValues(catalog.map((item) => item.category));
 const catalogTags = uniqueValues(catalog.flatMap((item) => item.tags || []));
 
-const inferClassification = (filename) => {
-  const directCategories = catalogCategories.filter((category) => termMatches(filename, category));
-  const directTags = catalogTags.filter((tag) => termMatches(filename, tag));
+const inferClassification = (sourceText) => {
+  const directCategories = catalogCategories.filter((category) => termMatches(sourceText, category));
+  const directTags = catalogTags.filter((tag) => termMatches(sourceText, tag));
   const inheritedCategories = new Map();
   const keywordMatches = [];
 
   for (const item of catalog) {
     const matchedKeywords = (item.keywords || []).filter(
-      (keyword) => !ignoredKeywords.has(compact(keyword)) && termMatches(filename, keyword)
+      (keyword) => !ignoredKeywords.has(compact(keyword)) && termMatches(sourceText, keyword)
     );
     if (!matchedKeywords.length) continue;
 
@@ -104,6 +132,13 @@ const inferClassification = (filename) => {
   return { category, tags: tags.length ? tags : ['general'] };
 };
 
+const matchingKeywords = (sourceText) =>
+  uniqueValues(
+    catalog
+      .flatMap((item) => item.keywords || [])
+      .filter((keyword) => !ignoredKeywords.has(compact(keyword)) && termMatches(sourceText, keyword))
+  ).slice(0, 8);
+
 let created = 0;
 
 for (const filename of files) {
@@ -112,8 +147,10 @@ for (const filename of files) {
 
   const extension = path.extname(filename).slice(1).toLowerCase();
   const title = titleFromFilename(filename);
-  const keywords = [title.toLowerCase(), extension];
-  const classification = inferClassification(filename);
+  const content = extractAssetText(path.join(pdfsDir, filename), extension);
+  const sourceText = `${filename}\n${title}\n${content}`;
+  const keywords = uniqueValues([title.toLowerCase(), extension, ...matchingKeywords(sourceText)]);
+  const classification = inferClassification(sourceText);
   let id = slugify(title) || `document-${created + 1}`;
   if (usedIds.has(id)) id = `${id}-${extension}`;
   while (usedIds.has(id)) id = `${id}-copy`;
