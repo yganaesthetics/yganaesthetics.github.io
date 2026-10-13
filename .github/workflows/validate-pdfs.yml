@@ -22,8 +22,9 @@ jobs:
         with:
           node-version: 24
 
-      - name: Validate metadata files and PDFs
+      - name: Validate metadata files and assets
         run: |
+          node scripts/generate-metadata.mjs
           node scripts/build-library.mjs
 
           python - <<'PY'
@@ -51,7 +52,7 @@ jobs:
               if item.get('file'):
                   file_path = root / item['file']
                   if not file_path.exists():
-                      raise SystemExit(f'Referenced PDF does not exist: {item["file"]}')
+                      raise SystemExit(f'Referenced asset does not exist: {item["file"]}')
 
           if docs.exists():
               for file in sorted(docs.glob('*.json')):

@@ -4,10 +4,12 @@ on:
   push:
     paths:
       - 'documents/**'
+      - 'pdfs/**'
       - 'scripts/**'
   pull_request:
     paths:
       - 'documents/**'
+      - 'pdfs/**'
       - 'scripts/**'
 
 permissions:
@@ -15,6 +17,7 @@ permissions:
 
 jobs:
   build:
+    if: github.event_name == 'pull_request' || github.event.head_commit.author.email != 'github-actions@github.com'
     runs-on: ubuntu-latest
 
     steps:
@@ -29,13 +32,15 @@ jobs:
           node-version: '24'
 
       - name: Run build script
-        run: node scripts/build-library.mjs
+        run: |
+          node scripts/generate-metadata.mjs
+          node scripts/build-library.mjs
 
       - name: Commit and push pdfs.json if changed
         uses: EndBug/add-and-commit@v9
         with:
           message: 'ci: update pdfs.json'
-          add: 'pdfs.json'
+          add: 'documents pdfs.json'
           author_name: github-actions
           author_email: github-actions@github.com
           push: true

@@ -24,10 +24,9 @@ A GitHub Pages site for organizing and searching PDF documents with category fil
 ## Upload workflow
 
 1. Put the PDF inside `pdfs/`.
-2. Create or update a JSON file inside `documents/` using `templates/pdf-entry-template.json` as the template.
-3. Commit to the repository.
-4. The validation workflow checks for valid metadata and confirms the referenced PDF exists.
-5. Once merged, the site loads the updated `pdfs.json` and reflects the new document.
+2. Commit the file to the repository. The workflow automatically creates a metadata JSON file in `documents/` when one does not already exist. PDF and JPG files are supported.
+3. The validation workflow checks for valid metadata and confirms the referenced file exists.
+4. Once merged, the site loads the updated `pdfs.json` and reflects the new document.
 
 ## Template structure
 
