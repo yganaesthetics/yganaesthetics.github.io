@@ -5,7 +5,17 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "anaesthesia", "resuscitation", "QRH"],
-  "keywords": ["QRH", "local anaesthetic toxicity", "anaesthesia", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "anaesthesia",
+    "resuscitation",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "local anaesthetic toxicity",
+    "anaesthesia",
+    "PDF"
+  ],
   "file": "pdfs/QRH_3-10_Local_anaesthetic_toxicity_v1.pdf"
 }

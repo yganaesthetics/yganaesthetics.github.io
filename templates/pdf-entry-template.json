@@ -2,6 +2,8 @@
   "title": "Document Title",
   "description": "A short summary of the document and why it matters.",
   "reviewDate": null,
+  "approvalDate": null,
+  "dates": {},
   "tags": ["tag-one", "tag-two", "tag-three"],
   "file": "pdfs/your-document.pdf"
 }

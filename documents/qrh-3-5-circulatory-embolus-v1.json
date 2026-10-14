@@ -5,7 +5,17 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "resuscitation", "cardiology", "QRH"],
-  "keywords": ["QRH", "circulatory embolus", "resuscitation", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "resuscitation",
+    "cardiology",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "circulatory embolus",
+    "resuscitation",
+    "PDF"
+  ],
   "file": "pdfs/QRH_3-5_Circulatory_embolus_v1.pdf"
 }

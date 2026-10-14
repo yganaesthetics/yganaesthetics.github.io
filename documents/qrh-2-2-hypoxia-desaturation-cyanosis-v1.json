@@ -5,7 +5,18 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "resuscitation", "patient safety", "QRH"],
-  "keywords": ["QRH", "hypoxia", "cyanosis", "resuscitation", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "resuscitation",
+    "patient safety",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "hypoxia",
+    "cyanosis",
+    "resuscitation",
+    "PDF"
+  ],
   "file": "pdfs/QRH_2-2_Hypoxia-desaturation-cyanosis_v1.pdf"
 }

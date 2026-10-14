@@ -5,7 +5,16 @@
   "category": "General",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "anaesthesia", "quality improvement"],
-  "keywords": ["audit", "anaesthesia", "quality improvement", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "anaesthesia",
+    "quality improvement"
+  ],
+  "keywords": [
+    "audit",
+    "anaesthesia",
+    "quality improvement",
+    "PDF"
+  ],
   "file": "pdfs/Summary of Clinical Audit work Anaesthetics (West) April 2018_0.pdf"
 }

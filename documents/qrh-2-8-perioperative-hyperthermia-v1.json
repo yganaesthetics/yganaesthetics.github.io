@@ -5,7 +5,17 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "anaesthesia", "patient safety", "QRH"],
-  "keywords": ["QRH", "perioperative hyperthermia", "anaesthesia", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "anaesthesia",
+    "patient safety",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "perioperative hyperthermia",
+    "anaesthesia",
+    "PDF"
+  ],
   "file": "pdfs/QRH_2-8_Perioperative_hyperthermia_v1.pdf"
 }

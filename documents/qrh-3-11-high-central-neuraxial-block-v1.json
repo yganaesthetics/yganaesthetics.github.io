@@ -5,7 +5,17 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "anaesthesia", "resuscitation", "QRH"],
-  "keywords": ["QRH", "high central neuraxial block", "anaesthesia", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "anaesthesia",
+    "resuscitation",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "high central neuraxial block",
+    "anaesthesia",
+    "PDF"
+  ],
   "file": "pdfs/QRH_3-11_High_central_neuraxial_block_v1.pdf"
 }

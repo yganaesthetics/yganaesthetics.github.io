@@ -5,7 +5,17 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "resuscitation", "patient safety", "QRH"],
-  "keywords": ["QRH", "cardiac arrest", "resuscitation", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "resuscitation",
+    "patient safety",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "cardiac arrest",
+    "resuscitation",
+    "PDF"
+  ],
   "file": "pdfs/QRH_2-1_Cardiac arrest_v1.pdf"
 }

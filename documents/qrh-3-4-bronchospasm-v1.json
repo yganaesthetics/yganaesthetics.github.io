@@ -5,7 +5,17 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "resuscitation", "airway management", "QRH"],
-  "keywords": ["QRH", "bronchospasm", "resuscitation", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "resuscitation",
+    "airway management",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "bronchospasm",
+    "resuscitation",
+    "PDF"
+  ],
   "file": "pdfs/QRH_3-4_Bronchospasm_v1.pdf"
 }

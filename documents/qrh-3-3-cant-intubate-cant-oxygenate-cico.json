@@ -5,7 +5,17 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "airway management", "resuscitation", "QRH"],
-  "keywords": ["QRH", "CICO", "airway management", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "airway management",
+    "resuscitation",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "CICO",
+    "airway management",
+    "PDF"
+  ],
   "file": "pdfs/QRH_3-3_Cant_intubate_cant_oxygenate_CICO.pdf"
 }

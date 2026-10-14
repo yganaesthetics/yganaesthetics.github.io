@@ -5,7 +5,17 @@
   "category": "Critical Care",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "critical care", "patient safety", "QRH"],
-  "keywords": ["QRH", "oxygen failure", "critical care", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "critical care",
+    "patient safety",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "oxygen failure",
+    "critical care",
+    "PDF"
+  ],
   "file": "pdfs/QRH_4-1_Mains_oxygen_failure_v1.pdf"
 }

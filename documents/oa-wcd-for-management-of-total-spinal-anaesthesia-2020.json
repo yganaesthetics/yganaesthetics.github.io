@@ -5,7 +5,16 @@
   "category": "Obstetrics",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "obstetrics", "anaesthesia"],
-  "keywords": ["obstetrics", "spinal anaesthesia", "clinical guidance", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "obstetrics",
+    "anaesthesia"
+  ],
+  "keywords": [
+    "obstetrics",
+    "spinal anaesthesia",
+    "clinical guidance",
+    "PDF"
+  ],
   "file": "pdfs/OA WCD for Management of Total Spinal Anaesthesia (2020).pdf"
 }

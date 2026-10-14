@@ -5,7 +5,16 @@
   "category": "General",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "covid", "transfer"],
-  "keywords": ["covid", "transfer", "clinical guidance", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "covid",
+    "transfer"
+  ],
+  "keywords": [
+    "covid",
+    "transfer",
+    "clinical guidance",
+    "PDF"
+  ],
   "file": "pdfs/YG EMRTS transfer COVID 1 0 MK 8 Apr 2020.pdf"
 }

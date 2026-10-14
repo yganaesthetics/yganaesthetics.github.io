@@ -5,7 +5,17 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "anaesthesia", "resuscitation", "QRH"],
-  "keywords": ["QRH", "malignant hyperthermia crisis", "anaesthesia", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "anaesthesia",
+    "resuscitation",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "malignant hyperthermia crisis",
+    "anaesthesia",
+    "PDF"
+  ],
   "file": "pdfs/QRH_3-8_Malignant_hyperthermia_crisis_v1.pdf"
 }

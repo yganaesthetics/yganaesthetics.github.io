@@ -5,7 +5,17 @@
   "category": "Critical Care",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "patient safety", "critical care", "QRH"],
-  "keywords": ["QRH", "emergency evacuation", "critical care", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "patient safety",
+    "critical care",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "emergency evacuation",
+    "critical care",
+    "PDF"
+  ],
   "file": "pdfs/QRH_4-3_Emergency_evacuation_v1.pdf"
 }

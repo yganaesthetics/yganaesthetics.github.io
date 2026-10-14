@@ -5,7 +5,17 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "airway management", "patient safety", "QRH"],
-  "keywords": ["QRH", "airway pressure", "airway management", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "airway management",
+    "patient safety",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "airway pressure",
+    "airway management",
+    "PDF"
+  ],
   "file": "pdfs/QRH_2-3_Increased_airway_pressure_v1.pdf"
 }

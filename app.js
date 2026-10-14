@@ -31,6 +31,14 @@ const toDateValue = (value) => {
   return date.getTime();
 };
 
+const compareDateField = (first, second, field, direction) => {
+  const firstValue = toDateValue(first[field]);
+  const secondValue = toDateValue(second[field]);
+  if (!firstValue && secondValue) return 1;
+  if (firstValue && !secondValue) return -1;
+  return direction * (firstValue - secondValue);
+};
+
 const scoreDocument = (doc, query) => {
   const normalized = normalize(query);
   if (!normalized) return 1;
@@ -86,6 +94,8 @@ const renderCards = (items) => {
     const tags = clone.querySelector('.tag-list');
     const link = clone.querySelector('.pdf-link');
     const metaDate = clone.querySelector('.meta-date');
+    const metaReviewDate = clone.querySelector('.meta-review-date');
+    const metaApprovalDate = clone.querySelector('.meta-approval-date');
     const metaAuthor = clone.querySelector('.meta-author');
 
     title.textContent = item.title || 'Untitled PDF';
@@ -94,6 +104,8 @@ const renderCards = (items) => {
     tags.innerHTML = renderTags(item.tags || []);
 
     metaDate.textContent = item.date || 'No date';
+    metaReviewDate.textContent = `Review: ${item.reviewDate || 'Not recorded'}`;
+    metaApprovalDate.textContent = `Approval: ${item.approvalDate || 'Not recorded'}`;
     metaAuthor.textContent = item.author || 'Unknown author';
 
     if (item.file && item.file.trim()) {
@@ -134,6 +146,22 @@ const getFilteredDocuments = () => {
 
     if (sort === 'date-asc') {
       return toDateValue(a.date) - toDateValue(b.date);
+    }
+
+    if (sort === 'review-desc') {
+      return compareDateField(a, b, 'reviewDate', -1);
+    }
+
+    if (sort === 'review-asc') {
+      return compareDateField(a, b, 'reviewDate', 1);
+    }
+
+    if (sort === 'approval-desc') {
+      return compareDateField(a, b, 'approvalDate', -1);
+    }
+
+    if (sort === 'approval-asc') {
+      return compareDateField(a, b, 'approvalDate', 1);
     }
 
     return scoreDocument(b, query) - scoreDocument(a, query);

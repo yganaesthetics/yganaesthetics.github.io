@@ -5,7 +5,17 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "resuscitation", "patient safety", "QRH"],
-  "keywords": ["QRH", "neuroprotection", "cardiac arrest", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "resuscitation",
+    "patient safety",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "neuroprotection",
+    "cardiac arrest",
+    "PDF"
+  ],
   "file": "pdfs/QRH_3-13_Neuroprotection_cardiac_arrest_v1.pdf"
 }

@@ -5,7 +5,16 @@
   "category": "Obstetrics",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "obstetrics", "anaesthesia"],
-  "keywords": ["obstetrics", "labour analgesia", "analgesia", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "obstetrics",
+    "anaesthesia"
+  ],
+  "keywords": [
+    "obstetrics",
+    "labour analgesia",
+    "analgesia",
+    "PDF"
+  ],
   "file": "pdfs/OA WCD for use of Fentanyl PCA for Labour Analgesia (2018)_0.pdf"
 }

@@ -5,7 +5,17 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "resuscitation", "patient safety", "QRH"],
-  "keywords": ["QRH", "massive blood loss", "resuscitation", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "resuscitation",
+    "patient safety",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "massive blood loss",
+    "resuscitation",
+    "PDF"
+  ],
   "file": "pdfs/QRH_3-2_Massive_blood_loss_v1 (1).pdf"
 }

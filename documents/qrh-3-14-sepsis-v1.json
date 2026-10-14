@@ -5,7 +5,17 @@
   "category": "Critical Care",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "resuscitation", "critical care", "QRH"],
-  "keywords": ["QRH", "sepsis", "resuscitation", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "resuscitation",
+    "critical care",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "sepsis",
+    "resuscitation",
+    "PDF"
+  ],
   "file": "pdfs/QRH_3-14_Sepsis_v1.pdf"
 }

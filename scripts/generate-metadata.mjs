@@ -11,6 +11,7 @@ const documentsDir = path.join(root, 'documents');
 const metadataDate = process.env.METADATA_DATE || new Date().toISOString().slice(0, 10);
 const inputDir = process.argv[2] ? path.resolve(root, process.argv[2]) : pdfsDir;
 const moveProcessedFiles = inputDir !== pdfsDir;
+const refreshDates = process.env.REFRESH_DATES === '1';
 
 const slugify = (value) =>
   value
@@ -70,29 +71,59 @@ const termMatches = (text, term) => {
 
 const uniqueValues = (items) => [...new Set(items.filter(Boolean))];
 
-const reviewDateFromText = (text) => {
-  const match = text.match(
-    /(?:review\s+date|date\s+for\s+review|date\s+of\s+next\s+review|next\s+review(?:\s+date)?)[^\dA-Za-z]{0,24}(\d{1,2}[./-]\d{1,2}(?:[./-]\d{2,4})?|\d{4}[./-]\d{1,2}|(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+\d{4})/i
-  );
-  if (!match) return null;
+const dateValuePattern = '(?:\\d{1,2}[./-]\\d{1,2}(?:[./-]\\d{2,4})?|\\d{4}[./-]\\d{1,2}(?:[./-]\\d{1,2})?|(?:\\d{1,2}\\s+)?(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\\s+\\d{4})';
 
-  const value = match[1];
+const parseDateValue = (value) => {
   const monthNames = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
-  const namedMonth = value.match(/^([A-Za-z]+)\s+(\d{4})$/);
-  if (namedMonth) return `${namedMonth[2]}-${String(monthNames.indexOf(namedMonth[1].slice(0, 3).toLowerCase()) + 1).padStart(2, '0')}`;
-
-  const parts = value.split(/[./-]/).map(Number);
-  if (parts.length === 2) {
-    const year = parts[1] < 100 ? parts[1] + 2000 : parts[1];
-    return `${year}-${String(parts[0]).padStart(2, '0')}`;
+  const namedMonth = value.match(/^(?:(\d{1,2})\s+)?([A-Za-z]+)\s+(\d{4})$/);
+  if (namedMonth) {
+    const month = monthNames.indexOf(namedMonth[2].slice(0, 3).toLowerCase()) + 1;
+    return month ? `${namedMonth[3]}-${String(month).padStart(2, '0')}${namedMonth[1] ? `-${String(namedMonth[1]).padStart(2, '0')}` : ''}` : null;
   }
 
-  const [year, month, day] = parts[0] > 31 ? parts : [parts[2], parts[1], parts[0]];
+  const parts = value.split(/[./-]/).map(Number);
+  if (parts.length === 2 && parts[0] >= 1000) return `${parts[0]}-${String(parts[1]).padStart(2, '0')}`;
+  if (parts.length === 2) return null;
+
+  const [year, month, day] = parts[0] >= 1000 ? parts : [parts[2], parts[1], parts[0]];
   const fullYear = year < 100 ? year + 2000 : year;
   const date = new Date(Date.UTC(fullYear, month - 1, day));
   return date.getUTCFullYear() === fullYear && date.getUTCMonth() === month - 1 && date.getUTCDate() === day
     ? date.toISOString().slice(0, 10)
     : null;
+};
+
+const extractedDatesFromText = (text) => {
+  const labels = [
+    ['reviewDate', 'review\\s+date|date\\s+for\\s+review|date\\s+of\\s+next\\s+review|next\\s+review(?:\\s+date)?'],
+    ['approvalDate', 'approval\\s+date|date\\s+of\\s+approval|approved(?:\\s+on)?'],
+    ['issueDate', 'issue\\s+date|date\\s+of\\s+issue'],
+    ['effectiveDate', 'effective\\s+date|date\\s+effective'],
+    ['expiryDate', 'expiry\\s+date|expiration\\s+date|date\\s+of\\s+expiry'],
+    ['versionDate', 'version\\s+date|date\\s+of\\s+version'],
+    ['updatedDate', 'last\\s+updated|updated\\s+date|date\\s+updated'],
+    ['ratifiedDate', 'ratified\\s+date|date\\s+ratified'],
+    ['publicationDate', 'publication\\s+date|date\\s+of\\s+publication']
+  ];
+  const dates = {};
+  for (const [key, label] of labels) {
+    const match = text.match(new RegExp(`(?:${label})[^\\dA-Za-z]{0,24}(${dateValuePattern})`, 'i'));
+    const value = match ? parseDateValue(match[1]) : null;
+    if (value) dates[key] = value;
+  }
+  return dates;
+};
+
+const mergeExtractedDates = (metadata, text) => {
+  const dates = extractedDatesFromText(text);
+  if (dates.reviewDate) metadata.reviewDate = dates.reviewDate;
+  if (dates.approvalDate) metadata.approvalDate = dates.approvalDate;
+  const otherDates = { ...(metadata.dates || {}) };
+  for (const [key, value] of Object.entries(dates)) {
+    if (key !== 'reviewDate' && key !== 'approvalDate') otherDates[key] = value;
+  }
+  if (Object.keys(otherDates).length) metadata.dates = otherDates;
+  return metadata;
 };
 
 const runCommand = (command, args) => {
@@ -142,6 +173,7 @@ const existingMetadata = fs
   });
 
 const existingPaths = new Set(existingMetadata.map((item) => item.file).filter(Boolean));
+const existingMetadataByPath = new Map(existingMetadata.map((item) => [item.file, item]));
 const usedIds = new Set(existingMetadata.map((item) => item.id).filter(Boolean));
 const catalog = fs.existsSync(path.join(root, 'pdfs.json'))
   ? JSON.parse(fs.readFileSync(path.join(root, 'pdfs.json'), 'utf8'))
@@ -236,7 +268,15 @@ for (const filename of files) {
     destinationName = `${basename} (Stephan)${extensionWithDot}`;
     file = `pdfs/${destinationName}`;
   }
-  if (existingPaths.has(file)) continue;
+  if (existingPaths.has(file)) {
+    if (refreshDates) {
+      const existing = existingMetadataByPath.get(file);
+      const extension = path.extname(destinationName).slice(1).toLowerCase();
+      mergeExtractedDates(existing, extractAssetText(sourcePath, extension));
+      fs.writeFileSync(path.join(documentsDir, `${existing.id}.json`), `${JSON.stringify(existing, null, 2)}\n`);
+    }
+    continue;
+  }
 
   const extension = path.extname(destinationName).slice(1).toLowerCase();
   const title = titleFromFilename(sourceFilename);
@@ -245,13 +285,12 @@ for (const filename of files) {
   const sourceText = `${sourceFilename}\n${title}\n${content}`;
   const keywords = uniqueValues([title.toLowerCase(), extension, prefixMetadata.code, ...matchingKeywords(sourceText)]);
   const classification = inferClassification(sourceText);
-  const reviewDate = reviewDateFromText(content);
   const category = categoryFromSourcePath(filename) || classification.category;
   let id = slugify(title) || `document-${created + 1}`;
   if (usedIds.has(id)) id = `${id}-${extension}`;
   while (usedIds.has(id)) id = `${id}-copy`;
 
-  const metadata = {
+  const metadata = mergeExtractedDates({
     id,
     title,
     description: `This document provides guidance on ${title}.`,
@@ -261,8 +300,9 @@ for (const filename of files) {
     tags: uniqueValues([...classification.tags.map(normalizeTag), ...prefixMetadata.tags]),
     keywords,
     file,
-    reviewDate
-  };
+    reviewDate: null,
+    approvalDate: null
+  }, content);
 
   fs.writeFileSync(path.join(documentsDir, `${id}.json`), `${JSON.stringify(metadata, null, 2)}\n`);
   if (moveProcessedFiles) fs.renameSync(sourcePath, path.join(pdfsDir, destinationName));

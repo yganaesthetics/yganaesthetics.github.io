@@ -5,7 +5,16 @@
   "category": "General",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "covid", "patient safety"],
-  "keywords": ["covid", "checklist", "patient safety", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "covid",
+    "patient safety"
+  ],
+  "keywords": [
+    "covid",
+    "checklist",
+    "patient safety",
+    "PDF"
+  ],
   "file": "pdfs/COVID daily checklist YG V6 0 2021 01.pdf"
 }

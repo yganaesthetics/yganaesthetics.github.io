@@ -5,7 +5,17 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "airway management", "resuscitation", "QRH"],
-  "keywords": ["QRH", "laryngospasm", "stridor", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "airway management",
+    "resuscitation",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "laryngospasm",
+    "stridor",
+    "PDF"
+  ],
   "file": "pdfs/QRH_3-6_Laryngospasm_and_stridor_v1.pdf"
 }

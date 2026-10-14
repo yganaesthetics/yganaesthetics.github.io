@@ -5,7 +5,17 @@
   "category": "General",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "covid", "airway management"],
-  "keywords": ["covid", "RSI", "airway management", "checklist", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "covid",
+    "airway management"
+  ],
+  "keywords": [
+    "covid",
+    "RSI",
+    "airway management",
+    "checklist",
+    "PDF"
+  ],
   "file": "pdfs/COVID-19 In-Room RSI Checklist.pdf"
 }

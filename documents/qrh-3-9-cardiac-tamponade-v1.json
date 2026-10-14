@@ -5,7 +5,17 @@
   "category": "Emergencies",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "resuscitation", "cardiology", "QRH"],
-  "keywords": ["QRH", "cardiac tamponade", "resuscitation", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "resuscitation",
+    "cardiology",
+    "QRH"
+  ],
+  "keywords": [
+    "QRH",
+    "cardiac tamponade",
+    "resuscitation",
+    "PDF"
+  ],
   "file": "pdfs/QRH_3-9_Cardiac_tamponade_v1.pdf"
 }

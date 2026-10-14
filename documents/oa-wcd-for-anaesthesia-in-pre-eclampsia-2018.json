@@ -5,7 +5,16 @@
   "category": "Obstetrics",
   "date": "2026-10-12",
   "author": "YG Anaesthetics",
-  "tags": ["clinical guidance", "obstetrics", "anaesthesia"],
-  "keywords": ["obstetrics", "anaesthesia", "pre-eclampsia", "PDF"],
+  "tags": [
+    "clinical guidance",
+    "obstetrics",
+    "anaesthesia"
+  ],
+  "keywords": [
+    "obstetrics",
+    "anaesthesia",
+    "pre-eclampsia",
+    "PDF"
+  ],
   "file": "pdfs/OA WCD for Anaesthesia in Pre-eclampsia (2018).pdf"
 }
