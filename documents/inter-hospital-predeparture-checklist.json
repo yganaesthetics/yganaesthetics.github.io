@@ -1,0 +1,32 @@
+{
+  "id": "inter-hospital-predeparture-checklist",
+  "title": "Inter Hospital Predeparture Checklist",
+  "description": "This document provides guidance on Inter Hospital Predeparture Checklist.",
+  "category": "Operational",
+  "date": "2026-10-14",
+  "author": "YG Anaesthetics",
+  "tags": [
+    "clinical guidance",
+    "anaesthesia",
+    "transfer",
+    "referral",
+    "vascular access",
+    "resuscitation",
+    "patient safety",
+    "QRH"
+  ],
+  "keywords": [
+    "inter hospital predeparture checklist",
+    "pdf",
+    "adult",
+    "ALS",
+    "RSI",
+    "ITU",
+    "ventilator",
+    "anaesthesia",
+    "intubation",
+    "flu"
+  ],
+  "file": "pdfs/Inter Hospital Predeparture Checklist.pdf",
+  "reviewDate": null
+}

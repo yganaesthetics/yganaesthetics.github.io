@@ -1,0 +1,25 @@
+{
+  "id": "awake-fibreoptic-intubation-recipe",
+  "title": "Awake Fibreoptic Intubation Recipe",
+  "description": "This document provides guidance on Awake Fibreoptic Intubation Recipe.",
+  "category": "General",
+  "date": "2026-10-14",
+  "author": "YG Anaesthetics",
+  "tags": [
+    "clinical guidance",
+    "covid",
+    "airway management",
+    "YG CG"
+  ],
+  "keywords": [
+    "awake fibreoptic intubation recipe",
+    "pdf",
+    "ALS",
+    "RSI",
+    "intubation",
+    "NLS",
+    "ERAS"
+  ],
+  "file": "pdfs/YG CG Awake Fibreoptic Intubation Recipe.pdf",
+  "reviewDate": "2021-11-30"
+}

@@ -9,6 +9,8 @@ const root = process.cwd();
 const pdfsDir = path.join(root, 'pdfs');
 const documentsDir = path.join(root, 'documents');
 const metadataDate = process.env.METADATA_DATE || new Date().toISOString().slice(0, 10);
+const inputDir = process.argv[2] ? path.resolve(root, process.argv[2]) : pdfsDir;
+const moveProcessedFiles = inputDir !== pdfsDir;
 
 const slugify = (value) =>
   value
@@ -19,7 +21,23 @@ const slugify = (value) =>
 
 const titleFromFilename = (filename) => {
   const basename = path.basename(filename, path.extname(filename));
-  return basename.replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim() || basename;
+  const withoutPrefix = basename
+    .replace(/^(YG\s+CG(?:\s+CC)?\s+\d+|YGAD\s+(?:CG|OPG)\s*\d+|YG\s+ICU\s+LocSSIP(?:\s+\d+)?|LocSSIP(?:\s+\d+)?|OA\s+WCD|YG\s+CG|BCUHB|YGELP)\b\s*/i, '')
+    .replace(/^for\s+/i, '');
+  return withoutPrefix.replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim() || basename;
+};
+
+const prefixTagsFromFilename = (filename) => {
+  const basename = path.basename(filename, path.extname(filename));
+  const prefixes = [
+    /^(YG\s+CG(?:\s+CC)?\s+\d+)/i,
+    /^(YGAD\s+CG\s*\d+)/i,
+    /^(YG\s+ICU\s+LocSSIP(?:\s+\d+)?|LocSSIP(?:\s+\d+)?|YGAD\s+OPG\s*\d+)/i,
+    /^(OA\s+WCD)/i,
+    /^(YG\s+CG|BCUHB|YGELP)/i
+  ];
+  const match = prefixes.map((prefix) => basename.match(prefix)).find(Boolean);
+  return match ? [match[1].replace(/\s+/g, ' ').trim()] : [];
 };
 
 const compact = (value) => String(value).toLowerCase().replace(/[^a-z0-9]+/g, '');
@@ -38,18 +56,43 @@ const termMatches = (text, term) => {
 
 const uniqueValues = (items) => [...new Set(items.filter(Boolean))];
 
+const reviewDateFromText = (text) => {
+  const match = text.match(
+    /(?:review\s+date|date\s+for\s+review|date\s+of\s+next\s+review|next\s+review(?:\s+date)?)[^\dA-Za-z]{0,24}(\d{1,2}[./-]\d{1,2}(?:[./-]\d{2,4})?|\d{4}[./-]\d{1,2}|(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+\d{4})/i
+  );
+  if (!match) return null;
+
+  const value = match[1];
+  const monthNames = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+  const namedMonth = value.match(/^([A-Za-z]+)\s+(\d{4})$/);
+  if (namedMonth) return `${namedMonth[2]}-${String(monthNames.indexOf(namedMonth[1].slice(0, 3).toLowerCase()) + 1).padStart(2, '0')}`;
+
+  const parts = value.split(/[./-]/).map(Number);
+  if (parts.length === 2) {
+    const year = parts[1] < 100 ? parts[1] + 2000 : parts[1];
+    return `${year}-${String(parts[0]).padStart(2, '0')}`;
+  }
+
+  const [year, month, day] = parts[0] > 31 ? parts : [parts[2], parts[1], parts[0]];
+  const fullYear = year < 100 ? year + 2000 : year;
+  const date = new Date(Date.UTC(fullYear, month - 1, day));
+  return date.getUTCFullYear() === fullYear && date.getUTCMonth() === month - 1 && date.getUTCDate() === day
+    ? date.toISOString().slice(0, 10)
+    : null;
+};
+
 const runCommand = (command, args) => {
   const result = spawnSync(command, args, { encoding: 'utf8' });
   return result.status === 0 ? result.stdout.trim() : '';
 };
 
 const extractPdfText = (filePath) => {
-  const text = runCommand('pdftotext', ['-f', '1', '-l', '3', '-layout', filePath, '-']);
+  const text = runCommand('pdftotext', ['-f', '1', '-l', '5', '-layout', filePath, '-']);
   if (text) return text;
 
   const temporaryDirectory = fs.mkdtempSync(path.join(os.tmpdir(), 'yg-pdf-'));
   const imagePrefix = path.join(temporaryDirectory, 'page');
-  runCommand('pdftoppm', ['-f', '1', '-l', '3', '-png', '-r', '150', filePath, imagePrefix]);
+  runCommand('pdftoppm', ['-f', '1', '-l', '5', '-png', '-r', '150', filePath, imagePrefix]);
   const pages = fs.existsSync(temporaryDirectory)
     ? fs.readdirSync(temporaryDirectory).filter((file) => file.endsWith('.png')).sort()
     : [];
@@ -64,8 +107,8 @@ const extractAssetText = (filePath, extension) => {
   return '';
 };
 
-const files = fs.existsSync(pdfsDir)
-  ? fs.readdirSync(pdfsDir)
+const files = fs.existsSync(inputDir)
+  ? fs.readdirSync(inputDir, { recursive: true })
       .filter((file) => /\.(pdf|jpg)$/i.test(file))
       .sort((a, b) => a.localeCompare(b))
   : [];
@@ -139,18 +182,57 @@ const matchingKeywords = (sourceText) =>
       .filter((keyword) => !ignoredKeywords.has(compact(keyword)) && termMatches(sourceText, keyword))
   ).slice(0, 8);
 
+const categoryFromSourcePath = (filename) => {
+  if (!moveProcessedFiles) return null;
+  const relativePath = path.relative(inputDir, path.join(inputDir, filename));
+  const directory = (relativePath.split(path.sep)[0] || path.basename(inputDir)).toLowerCase();
+  const inputCategory = path.basename(inputDir).toLowerCase();
+  return {
+    general: 'General',
+    operational: 'Operational',
+    obstetrics: 'Obstetrics'
+  }[directory] || {
+    general: 'General',
+    operational: 'Operational',
+    obstetrics: 'Obstetrics'
+  }[inputCategory] || 'Critical Care';
+};
+
+const filesEqual = (firstPath, secondPath) => {
+  const first = fs.readFileSync(firstPath);
+  const second = fs.readFileSync(secondPath);
+  return first.length === second.length && first.equals(second);
+};
+
 let created = 0;
 
 for (const filename of files) {
-  const file = `pdfs/${filename}`;
+  const sourcePath = path.join(inputDir, filename);
+  const sourceFilename = path.basename(filename);
+  let destinationName = sourceFilename;
+  let file = `pdfs/${destinationName}`;
+  const originalDestinationPath = path.join(pdfsDir, destinationName);
+  if (moveProcessedFiles && fs.existsSync(originalDestinationPath)) {
+    if (filesEqual(sourcePath, originalDestinationPath)) {
+      fs.rmSync(sourcePath);
+      continue;
+    }
+    const extensionWithDot = path.extname(destinationName);
+    const basename = path.basename(destinationName, extensionWithDot);
+    destinationName = `${basename} (Stephan)${extensionWithDot}`;
+    file = `pdfs/${destinationName}`;
+  }
   if (existingPaths.has(file)) continue;
 
-  const extension = path.extname(filename).slice(1).toLowerCase();
-  const title = titleFromFilename(filename);
-  const content = extractAssetText(path.join(pdfsDir, filename), extension);
-  const sourceText = `${filename}\n${title}\n${content}`;
+  const extension = path.extname(destinationName).slice(1).toLowerCase();
+  const title = titleFromFilename(sourceFilename);
+  const prefixTags = prefixTagsFromFilename(sourceFilename);
+  const content = extractAssetText(sourcePath, extension);
+  const sourceText = `${sourceFilename}\n${title}\n${content}`;
   const keywords = uniqueValues([title.toLowerCase(), extension, ...matchingKeywords(sourceText)]);
   const classification = inferClassification(sourceText);
+  const reviewDate = reviewDateFromText(content);
+  const category = categoryFromSourcePath(filename) || classification.category;
   let id = slugify(title) || `document-${created + 1}`;
   if (usedIds.has(id)) id = `${id}-${extension}`;
   while (usedIds.has(id)) id = `${id}-copy`;
@@ -159,15 +241,17 @@ for (const filename of files) {
     id,
     title,
     description: `This document provides guidance on ${title}.`,
-    category: classification.category,
+    category,
     date: metadataDate,
     author: 'YG Anaesthetics',
-    tags: classification.tags,
+    tags: uniqueValues([...classification.tags, ...prefixTags]),
     keywords,
-    file
+    file,
+    reviewDate
   };
 
   fs.writeFileSync(path.join(documentsDir, `${id}.json`), `${JSON.stringify(metadata, null, 2)}\n`);
+  if (moveProcessedFiles) fs.renameSync(sourcePath, path.join(pdfsDir, destinationName));
   existingPaths.add(file);
   usedIds.add(id);
   created += 1;
