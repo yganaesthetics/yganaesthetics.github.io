@@ -31,6 +31,11 @@ const toDateValue = (value) => {
   return date.getTime();
 };
 
+const formatMetadataDate = (value) => {
+  const match = String(value || '').match(/^(\d{4})-(\d{2})(?:-\d{2})?$/);
+  return match ? `${match[2]}/${match[1]}` : value || 'NA';
+};
+
 const compareDateField = (first, second, field, direction) => {
   const firstValue = toDateValue(first[field]);
   const secondValue = toDateValue(second[field]);
@@ -93,7 +98,6 @@ const renderCards = (items) => {
     const category = clone.querySelector('.document-category');
     const tags = clone.querySelector('.tag-list');
     const link = clone.querySelector('.pdf-link');
-    const metaDate = clone.querySelector('.meta-date');
     const metaReviewDate = clone.querySelector('.meta-review-date');
     const metaApprovalDate = clone.querySelector('.meta-approval-date');
     const metaAuthor = clone.querySelector('.meta-author');
@@ -103,9 +107,8 @@ const renderCards = (items) => {
     category.textContent = item.category || 'General';
     tags.innerHTML = renderTags(item.tags || []);
 
-    metaDate.textContent = item.date || 'No date';
-    metaReviewDate.textContent = `Review: ${item.reviewDate || 'Not recorded'}`;
-    metaApprovalDate.textContent = `Approval: ${item.approvalDate || 'Not recorded'}`;
+    metaReviewDate.textContent = `Review: ${formatMetadataDate(item.reviewDate)}`;
+    metaApprovalDate.textContent = `Approval: ${formatMetadataDate(item.approvalDate)}`;
     metaAuthor.textContent = item.author || 'Unknown author';
 
     if (item.file && item.file.trim()) {
