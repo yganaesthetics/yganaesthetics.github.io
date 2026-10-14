@@ -1296,40 +1296,6 @@
     "reviewDate": null
   },
   {
-    "id": "epidural-analgesia-in-adult-acute-pain-management",
-    "title": "Epidural Analgesia in Adult Acute Pain Management",
-    "description": "This document provides guidance on Epidural Analgesia in Adult Acute Pain Management.",
-    "category": "General",
-    "date": "2026-10-14",
-    "author": "YG Anaesthetics",
-    "tags": [
-      "clinical guidance",
-      "critical care",
-      "pain management",
-      "evidence",
-      "obstetrics",
-      "surgery",
-      "training",
-      "anaesthesia",
-      "YG CG"
-    ],
-    "keywords": [
-      "epidural analgesia in adult acute pain management",
-      "pdf",
-      "handover",
-      "critical care",
-      "adult",
-      "ALS",
-      "pain management",
-      "evidence",
-      "RSI",
-      "PPE",
-      "YG CG 1104"
-    ],
-    "file": "pdfs/YG CG 1104 Epidural Analgesia in Adult Acute Pain Management (Stephan).pdf",
-    "reviewDate": null
-  },
-  {
     "id": "epidural-blood-patching-2024",
     "title": "Epidural Blood Patching (2024)",
     "description": "This document provides guidance on Epidural Blood Patching (2024).",
@@ -1425,36 +1391,6 @@
       "YG CG 412"
     ],
     "file": "pdfs/YG CG 412  ERAS Anaesthesia For In-Patient Hip  Knee Arthroplasties.pdf",
-    "reviewDate": null
-  },
-  {
-    "id": "eras-anaesthesia-for-major-gynae-surgery",
-    "title": "ERAS Anaesthesia For Major Gynae Surgery",
-    "description": "This document provides guidance on ERAS Anaesthesia For Major Gynae Surgery.",
-    "category": "General",
-    "date": "2026-10-14",
-    "author": "YG Anaesthetics",
-    "tags": [
-      "clinical guidance",
-      "anaesthesia",
-      "surgery",
-      "pain management",
-      "YG CG"
-    ],
-    "keywords": [
-      "eras anaesthesia for major gynae surgery",
-      "pdf",
-      "ALS",
-      "anaesthesia",
-      "rectus sheath",
-      "ITU",
-      "surgery",
-      "NLS",
-      "hypotension",
-      "bradycardia",
-      "YG CG 413"
-    ],
-    "file": "pdfs/YG CG 413 ERAS Anaesthesia For Major Gynae Surgery (Stephan).pdf",
     "reviewDate": null
   },
   {
@@ -3125,40 +3061,6 @@
     ],
     "file": "pdfs/Opioid Stewardship Best Practice Guidelines V1.0 July 2024.pdf",
     "reviewDate": "2026-07"
-  },
-  {
-    "id": "ordering-of-blood-products-in-theatres-pdf",
-    "title": "Ordering of Blood Products in Theatres",
-    "description": "This document provides guidance on Ordering of Blood Products in Theatres.",
-    "category": "Operational",
-    "date": "2026-10-14",
-    "author": "YG Anaesthetics",
-    "tags": [
-      "clinical guidance",
-      "patient safety",
-      "theatre",
-      "obstetrics",
-      "surgery",
-      "haemorrhage",
-      "LocSSIP",
-      "resuscitation",
-      "QRH"
-    ],
-    "keywords": [
-      "ordering of blood products in theatres",
-      "pdf",
-      "handover",
-      "patient safety",
-      "ALS",
-      "RSI",
-      "PPE",
-      "obstetrics",
-      "theatre",
-      "NLS",
-      "LocSSIP 79"
-    ],
-    "file": "pdfs/LocSSIP 79 Ordering of Blood Products in Theatres (Stephan).pdf",
-    "reviewDate": "2026-09"
   },
   {
     "id": "ordering-of-blood-products-in-theatres",
@@ -5125,40 +5027,6 @@
     "file": "pdfs/Theatre PPE Covid.pdf"
   },
   {
-    "id": "tim-trawma-cymru-manual-2019-pdf",
-    "title": "Tim Trawma Cymru Manual 2019",
-    "description": "This document provides guidance on Tim Trawma Cymru Manual 2019.",
-    "category": "General",
-    "date": "2026-10-14",
-    "author": "YG Anaesthetics",
-    "tags": [
-      "clinical guidance",
-      "critical care",
-      "evidence",
-      "haemorrhage",
-      "transfer",
-      "training",
-      "covid",
-      "ventilation",
-      "patient safety",
-      "QRH"
-    ],
-    "keywords": [
-      "tim trawma cymru manual 2019",
-      "pdf",
-      "handover",
-      "critical care",
-      "ALS",
-      "BCUHB",
-      "evidence",
-      "RSI",
-      "ITU",
-      "PPE"
-    ],
-    "file": "pdfs/Tim Trawma Cymru Manual 2019 (Stephan).pdf",
-    "reviewDate": "2021-03"
-  },
-  {
     "id": "tim-trawma-cymru-manual-2019",
     "title": "Tim Trawma Cymru Manual 2019",
     "description": "This document provides guidance on Tim Trawma Cymru Manual 2019.",
@@ -6302,39 +6170,5 @@
       "pdf"
     ],
     "file": "pdfs/YGELP 2019.pdf"
-  },
-  {
-    "id": "ysbyty-gwynedd-optimisation-of-anaemia-following-major-bowel-surgery",
-    "title": "Ysbyty Gwynedd Optimisation of Anaemia Following Major Bowel Surgery",
-    "description": "This document provides guidance on Ysbyty Gwynedd Optimisation of Anaemia Following Major Bowel Surgery.",
-    "category": "General",
-    "date": "2026-10-14",
-    "author": "YG Anaesthetics",
-    "tags": [
-      "clinical guidance",
-      "medication",
-      "anaesthesia",
-      "evidence",
-      "surgery",
-      "transfer",
-      "physiotherapy",
-      "patient safety",
-      "YG CG"
-    ],
-    "keywords": [
-      "ysbyty gwynedd optimisation of anaemia following major bowel surgery",
-      "pdf",
-      "adult",
-      "ALS",
-      "anaphylaxis",
-      "BCUHB",
-      "medication",
-      "anaesthesia",
-      "evidence",
-      "RSI",
-      "YG CG 408"
-    ],
-    "file": "pdfs/YG CG 408 Ysbyty Gwynedd Optimisation of Anaemia Following Major Bowel Surgery (Stephan).pdf",
-    "reviewDate": "2025-10-01"
   }
 ]
