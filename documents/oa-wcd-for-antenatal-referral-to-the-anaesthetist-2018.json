@@ -16,5 +16,9 @@
     "anaesthesia",
     "pdf"
   ],
-  "file": "pdfs/OA WCD for Antenatal Referral to the Anaesthetist (2018).pdf"
+  "file": "pdfs/OA WCD for Antenatal Referral to the Anaesthetist (2018).pdf",
+  "reviewDate": "2021-10-01",
+  "dates": {
+    "activationDate": "2018-10-02"
+  }
 }

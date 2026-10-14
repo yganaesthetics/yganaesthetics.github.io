@@ -17,5 +17,8 @@
     "pdf"
   ],
   "file": "pdfs/YG CG 1104 Epidural Analgesia in Adult Acute Pain Management.pdf",
-  "approvalDate": "2019-05"
+  "approvalDate": "2019-05",
+  "dates": {
+    "activationDate": "2019-05"
+  }
 }

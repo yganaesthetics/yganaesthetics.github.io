@@ -49,7 +49,10 @@
     ],
     "file": "pdfs/YGAD CG1106 Acute pain management in opioid tolerant patients.pdf",
     "reviewDate": "2027-11",
-    "approvalDate": "2019-05"
+    "approvalDate": "2019-05",
+    "dates": {
+      "activationDate": "2019-05"
+    }
   },
   {
     "id": "adult-emergency-laparotomy-analgesia-guideline",
@@ -328,7 +331,10 @@
       "HDU"
     ],
     "file": "pdfs/OA WCD for Anaesthesia in Pre-eclampsia (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "anaesthesia-sedation-guideline",
@@ -398,7 +404,10 @@
       "obstetrics"
     ],
     "file": "pdfs/OA WCD for Anaesthetic Referral and Assessment of the Morbidly Obese Parturient (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "analgesia-recipe-for-day-case-arthroplasties",
@@ -522,7 +531,10 @@
       "theatre"
     ],
     "file": "pdfs/OA WCD for Antacid Prophylaxis for Labour and Delivery (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "antenatal-referral-to-the-anaesthetist-2024",
@@ -554,7 +566,10 @@
       "intubation"
     ],
     "file": "pdfs/OA WCD for Antenatal Referral to the Anaesthetist (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "aprv-guide",
@@ -821,7 +836,8 @@
       "clinical guidance",
       "pdf"
     ],
-    "file": "pdfs/Clinical Guideline For The Use ofRectus Sheath Catheters For The Management of Pain Following AbdominalSurgery.pdf"
+    "file": "pdfs/Clinical Guideline For The Use ofRectus Sheath Catheters For The Management of Pain Following AbdominalSurgery.pdf",
+    "reviewDate": "2016-10-20"
   },
   {
     "id": "covid-19-admission-criteria-to-critical-care-0",
@@ -1299,8 +1315,11 @@
       "surgery"
     ],
     "file": "pdfs/BCUHB Entonox protocol.pdf",
-    "reviewDate": null,
-    "approvalDate": "2023-05"
+    "reviewDate": "2026-05",
+    "approvalDate": "2023-05",
+    "dates": {
+      "activationDate": "2023-06"
+    }
   },
   {
     "id": "epidural-blood-patching-2024",
@@ -1333,7 +1352,10 @@
       "PPE"
     ],
     "file": "pdfs/OA WCD for Epidural Blood Patching (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "eras-anaesthesia-for-colorectal-surgery",
@@ -1497,7 +1519,10 @@
       "obstetrics"
     ],
     "file": "pdfs/OA WCD for Establishing Epidural Anaesthesia for Labour Analagesia (2026).pdf",
-    "reviewDate": null
+    "reviewDate": "2029-04-01",
+    "dates": {
+      "activationDate": "2026-04-01"
+    }
   },
   {
     "id": "general-anaesthesia-for-caesarean-section-2024",
@@ -1532,7 +1557,10 @@
       "RSI"
     ],
     "file": "pdfs/OA WCD for General Anaesthesia for Caesarean Section (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "how-to-use-theatre-drager-ventilator-for-icu-patients-v4",
@@ -1703,7 +1731,10 @@
       "ITU"
     ],
     "file": "pdfs/OA WCD for Intraoperative Administration of Obstetric Drugs (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "itu-standard-drug-infusions",
@@ -1934,7 +1965,10 @@
       "ITU"
     ],
     "file": "pdfs/OA WCD for Management of Accidental Dural Puncture (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "management-of-alcohol-withdrawal",
@@ -2041,7 +2075,10 @@
       "RSI"
     ],
     "file": "pdfs/OA WCD for Management of Eclampsia (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "management-of-pain-agitation-delirium-in-icu",
@@ -2113,8 +2150,11 @@
       "YG CG 1103"
     ],
     "file": "pdfs/YG CG 1103 Management of patients with Chest Wall Trauma.pdf",
-    "reviewDate": null,
-    "approvalDate": "2020-01-01"
+    "reviewDate": "2026-08-01",
+    "approvalDate": "2020-01-01",
+    "dates": {
+      "activationDate": "2020-08-01"
+    }
   },
   {
     "id": "management-of-patients-with-rib-fractures",
@@ -2151,8 +2191,11 @@
       "YG CG 1103"
     ],
     "file": "pdfs/YG CG 1103 Management of patients with Rib Fractures.pdf",
-    "reviewDate": null,
-    "approvalDate": "2020-01-01"
+    "reviewDate": "2025-08-01",
+    "approvalDate": "2020-01-01",
+    "dates": {
+      "activationDate": "2020-08-01"
+    }
   },
   {
     "id": "management-of-patients-with-suspected-or-confirmed-clostridium-difficile-infection",
@@ -2258,7 +2301,10 @@
       "evidence"
     ],
     "file": "pdfs/OA WCD for Management of Pre-eclampsia (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "management-of-preoperative-anaemia",
@@ -2386,7 +2432,10 @@
       "ITU"
     ],
     "file": "pdfs/OA WCD for Management of the Diabetic Parturient for Elective Caesarean Section (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "management-of-total-spinal-anaesthesia-2024",
@@ -2418,7 +2467,10 @@
       "obstetrics"
     ],
     "file": "pdfs/OA WCD for Management of Total Spinal Anaesthesia (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "morbid-obesity",
@@ -2497,7 +2549,11 @@
       "pre-eclampsia",
       "PDF"
     ],
-    "file": "pdfs/OA WCD for Anaesthesia in Pre-eclampsia (2018).pdf"
+    "file": "pdfs/OA WCD for Anaesthesia in Pre-eclampsia (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-wcd-for-anaesthetic-referral-and-assessment-of-the-morbidly-obese-parturient-2018",
@@ -2517,7 +2573,11 @@
       "morbid obesity",
       "pdf"
     ],
-    "file": "pdfs/OA WCD for Anaesthetic Referral and Assessment of the Morbidly Obese Parturient (2018).pdf"
+    "file": "pdfs/OA WCD for Anaesthetic Referral and Assessment of the Morbidly Obese Parturient (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-wcd-for-antacid-prophylaxis-for-labour-and-delivery-2018",
@@ -2537,7 +2597,11 @@
       "labour",
       "pdf"
     ],
-    "file": "pdfs/OA WCD for Antacid Prophylaxis for Labour and Delivery (2018).pdf"
+    "file": "pdfs/OA WCD for Antacid Prophylaxis for Labour and Delivery (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-wcd-for-antenatal-referral-to-the-anaesthetist-2018",
@@ -2557,7 +2621,11 @@
       "anaesthesia",
       "pdf"
     ],
-    "file": "pdfs/OA WCD for Antenatal Referral to the Anaesthetist (2018).pdf"
+    "file": "pdfs/OA WCD for Antenatal Referral to the Anaesthetist (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-wcd-for-establishing-epidural-anaesthesia-for-labour-analgesia-2018",
@@ -2577,7 +2645,11 @@
       "labour analgesia",
       "pdf"
     ],
-    "file": "pdfs/OA WCD for Establishing Epidural Anaesthesia for Labour Analgesia (2018).pdf"
+    "file": "pdfs/OA WCD for Establishing Epidural Anaesthesia for Labour Analgesia (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-wcd-for-general-anaesthesia-for-caesarean-section-2020",
@@ -2597,7 +2669,11 @@
       "anaesthesia",
       "pdf"
     ],
-    "file": "pdfs/OA WCD for General Anaesthesia for Caesarean Section (2020).pdf"
+    "file": "pdfs/OA WCD for General Anaesthesia for Caesarean Section (2020).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2020-07-11"
+    }
   },
   {
     "id": "oa-wcd-for-intraoperative-administration-of-obstetric-drugs-2018",
@@ -2617,7 +2693,11 @@
       "medication",
       "pdf"
     ],
-    "file": "pdfs/OA WCD for Intraoperative Administration of Obstetric Drugs (2018).pdf"
+    "file": "pdfs/OA WCD for Intraoperative Administration of Obstetric Drugs (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-wcd-for-management-of-eclampsia-2018",
@@ -2637,7 +2717,11 @@
       "anaesthesia",
       "pdf"
     ],
-    "file": "pdfs/OA WCD for Management of Eclampsia (2018).pdf"
+    "file": "pdfs/OA WCD for Management of Eclampsia (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-wcd-for-management-of-pre-eclampsia-2018",
@@ -2657,7 +2741,11 @@
       "anaesthesia",
       "pdf"
     ],
-    "file": "pdfs/OA WCD for Management of Pre-eclampsia (2018).pdf"
+    "file": "pdfs/OA WCD for Management of Pre-eclampsia (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-wcd-for-management-of-the-diabetic-parturient-for-elective-caesarean-section-2018",
@@ -2677,7 +2765,11 @@
       "anaesthesia",
       "pdf"
     ],
-    "file": "pdfs/OA WCD for Management of the Diabetic Parturient for Elective Caesarean Section (2018).pdf"
+    "file": "pdfs/OA WCD for Management of the Diabetic Parturient for Elective Caesarean Section (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-wcd-for-management-of-total-spinal-anaesthesia-2020",
@@ -2697,7 +2789,11 @@
       "clinical guidance",
       "PDF"
     ],
-    "file": "pdfs/OA WCD for Management of Total Spinal Anaesthesia (2020).pdf"
+    "file": "pdfs/OA WCD for Management of Total Spinal Anaesthesia (2020).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2020-07-12"
+    }
   },
   {
     "id": "oa-wcd-for-spinal-anaesthesia-for-caesarean-section-2018",
@@ -2717,7 +2813,11 @@
       "caesarean section",
       "pdf"
     ],
-    "file": "pdfs/OA WCD for Spinal Anaesthesia for Caesarean Section (2018).pdf"
+    "file": "pdfs/OA WCD for Spinal Anaesthesia for Caesarean Section (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-wcd-for-spinal-and-epidural-anaesthesia-in-parturients-on-anticoagulants-2018",
@@ -2737,7 +2837,11 @@
       "spinal epidural",
       "pdf"
     ],
-    "file": "pdfs/OA WCD for Spinal and Epidural Anaesthesia in Parturients on Anticoagulants (2018).pdf"
+    "file": "pdfs/OA WCD for Spinal and Epidural Anaesthesia in Parturients on Anticoagulants (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-wcd-for-use-of-fentanyl-pca-for-labour-analgesia-2018-0",
@@ -2757,7 +2861,11 @@
       "analgesia",
       "PDF"
     ],
-    "file": "pdfs/OA WCD for use of Fentanyl PCA for Labour Analgesia (2018)_0.pdf"
+    "file": "pdfs/OA WCD for use of Fentanyl PCA for Labour Analgesia (2018)_0.pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-wcd-for-use-of-the-obstetric-hou-and-referral-of-obstetric-patients-for-intensive-care-2018",
@@ -2777,7 +2885,11 @@
       "clinical guidance",
       "pdf"
     ],
-    "file": "pdfs/OA WCD for Use of the Obstetric HOU and referral of Obstetric Patients for Intensive Care (2018).pdf"
+    "file": "pdfs/OA WCD for Use of the Obstetric HOU and referral of Obstetric Patients for Intensive Care (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-wcd-management-of-anaesthesia-labour-analgesia-in-parturients-with-covid-19",
@@ -2855,7 +2967,11 @@
       "resuscitation",
       "pdf"
     ],
-    "file": "pdfs/OA Written Control Document for CPR in Pregnancy (2018).pdf"
+    "file": "pdfs/OA Written Control Document for CPR in Pregnancy (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-written-control-document-for-cpr-in-pregnancy-2024",
@@ -2887,7 +3003,10 @@
       "RSI"
     ],
     "file": "pdfs/OA Written Control Document for CPR in Pregnancy (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "oa-written-control-document-for-epidural-blood-patching-2018",
@@ -2907,7 +3026,11 @@
       "blood patching",
       "pdf"
     ],
-    "file": "pdfs/OA Written Control Document for Epidural Blood Patching (2018).pdf"
+    "file": "pdfs/OA Written Control Document for Epidural Blood Patching (2018).pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "oa-written-control-document-for-management-of-accidental-dural-puncture-2018-0",
@@ -2927,7 +3050,11 @@
       "anaesthesia",
       "PDF"
     ],
-    "file": "pdfs/OA Written Control Document for Management of Accidental Dural Puncture (2018)_0.pdf"
+    "file": "pdfs/OA Written Control Document for Management of Accidental Dural Puncture (2018)_0.pdf",
+    "reviewDate": "2021-10-01",
+    "dates": {
+      "activationDate": "2018-10-02"
+    }
   },
   {
     "id": "obstructive-sleep-apnoea",
@@ -3257,7 +3384,10 @@
     ],
     "file": "pdfs/YGAD CG1107 Paediatric Patient Controlled Analgesia (PCA) and Nurse Controlled Analgesia (NCA).pdf",
     "reviewDate": "2027-09",
-    "approvalDate": "2024-09"
+    "approvalDate": "2024-09",
+    "dates": {
+      "activationDate": "2024-09"
+    }
   },
   {
     "id": "pca-quick-refence-guide-maternity",
@@ -4537,7 +4667,7 @@
       "YG CG 501"
     ],
     "file": "pdfs/YG CG 501 Rectus Sheath Catheters For The Management of Pain Following Abdominal Surgery.pdf",
-    "reviewDate": null
+    "reviewDate": "2016-10-20"
   },
   {
     "id": "regional-transport-guideline-update-2018-final-cdeg",
@@ -4591,7 +4721,10 @@
       "obstetrics"
     ],
     "file": "pdfs/OA WCD for Remifentanil PCA for Labour Analgesia (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "remifentanil-pca-for-labour-analgesia-2026",
@@ -4624,7 +4757,10 @@
       "obstetrics"
     ],
     "file": "pdfs/OA WCD for Remifentanil PCA for Labour Analgesia (2026).pdf",
-    "reviewDate": null
+    "reviewDate": "2029-03-12",
+    "dates": {
+      "activationDate": "2026-03-12"
+    }
   },
   {
     "id": "rotem-familiarisation-for-new-starters",
@@ -4759,7 +4895,10 @@
       "intubation"
     ],
     "file": "pdfs/OA WCD for Spinal Anaesthesia for Caesarean Section (2026).pdf",
-    "reviewDate": null
+    "reviewDate": "2029-04-01",
+    "dates": {
+      "activationDate": "2026-04-01"
+    }
   },
   {
     "id": "spinal-and-epidural-anaesthesia-in-parturients-on-anticoagulants-2024",
@@ -4790,7 +4929,10 @@
       "obstetrics"
     ],
     "file": "pdfs/OA WCD for Spinal and Epidural Anaesthesia in Parturients on Anticoagulants (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "stress-ulcer-prophylaxis-in-icu",
@@ -5200,7 +5342,10 @@
       "ITU"
     ],
     "file": "pdfs/OA WCD for use of Fentanyl PCA for Labour Analgesia (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "use-of-the-obstetric-hou-and-referral-of-obstetric-patients-for-intensive-care-2024",
@@ -5237,7 +5382,10 @@
       "anaesthesia"
     ],
     "file": "pdfs/OA WCD for Use of the Obstetric HOU and referral of Obstetric Patients for Intensive Care (2024).pdf",
-    "reviewDate": null
+    "reviewDate": "2027-05-01",
+    "dates": {
+      "activationDate": "2024-05-01"
+    }
   },
   {
     "id": "vasopressin",
@@ -5467,7 +5615,10 @@
       "pdf"
     ],
     "file": "pdfs/YG CG 1104 Epidural Analgesia in Adult Acute Pain Management.pdf",
-    "approvalDate": "2019-05"
+    "approvalDate": "2019-05",
+    "dates": {
+      "activationDate": "2019-05"
+    }
   },
   {
     "id": "yg-cg-401-quick-reference-doac-guide",
@@ -5509,7 +5660,10 @@
     ],
     "file": "pdfs/YG CG 408 Ysbyty Gwynedd Optimisation of Anaemia Following Major Bowel Surgery.pdf",
     "reviewDate": "2021-10-01",
-    "approvalDate": "2019-10-17"
+    "approvalDate": "2019-10-17",
+    "dates": {
+      "activationDate": "2019-12-01"
+    }
   },
   {
     "id": "yg-cg-413-eras-anaesthesia-for-major-gynae-surgery",
@@ -5618,7 +5772,7 @@
       "incident response"
     ],
     "file": "pdfs/YG Major Incident Plan - November 2024 V0.9.pdf",
-    "reviewDate": null,
+    "reviewDate": "2024-10",
     "approvalDate": "2021-01-12"
   },
   {

@@ -16,5 +16,9 @@
     "clinical guidance",
     "PDF"
   ],
-  "file": "pdfs/OA WCD for Management of Total Spinal Anaesthesia (2020).pdf"
+  "file": "pdfs/OA WCD for Management of Total Spinal Anaesthesia (2020).pdf",
+  "reviewDate": "2021-10-01",
+  "dates": {
+    "activationDate": "2020-07-12"
+  }
 }

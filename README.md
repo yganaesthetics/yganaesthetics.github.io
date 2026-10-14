@@ -28,7 +28,7 @@ A GitHub Pages site for organizing and searching PDF documents with category fil
 1. Put the PDF inside `pdfs/`.
 2. Commit the file to the repository. The workflow automatically creates a metadata JSON file in `documents/` when one does not already exist. PDF and JPG files are supported.
 3. Metadata generation extracts text from the first five PDF pages and uses OCR for scanned PDFs and JPGs. Extracted content is matched against the existing catalog taxonomy to improve categories, tags, and keywords.
-4. Metadata generation extracts labeled review, approval, issue, effective, expiry, version, update, ratification, and publication dates when present.
+4. Metadata generation extracts labeled review, approval, issue, effective, activation, expiry, version, update, ratification, and publication dates when present.
 5. The validation workflow checks for valid metadata and confirms the referenced file exists.
 6. Once merged, the site loads the updated `pdfs.json` and reflects the new document.
 

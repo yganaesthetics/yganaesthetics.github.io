@@ -71,11 +71,11 @@ const termMatches = (text, term) => {
 
 const uniqueValues = (items) => [...new Set(items.filter(Boolean))];
 
-const dateValuePattern = '(?:\\d{1,2}[./-]\\d{1,2}(?:[./-]\\d{2,4})?|\\d{4}[./-]\\d{1,2}(?:[./-]\\d{1,2})?|(?:\\d{1,2}\\s+)?(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\\s+\\d{4})';
+const dateValuePattern = '(?:\\d{1,2}[./-]\\d{1,2}(?:[./-]\\d{2,4})?|\\d{4}[./-]\\d{1,2}(?:[./-]\\d{1,2})?|(?:\\d{1,2}(?:st|nd|rd|th)?\\s+)?(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\\s+\\d{4})';
 
 const parseDateValue = (value) => {
   const monthNames = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
-  const namedMonth = value.match(/^(?:(\d{1,2})\s+)?([A-Za-z]+)\s+(\d{4})$/);
+  const namedMonth = value.match(/^(?:(\d{1,2})(?:st|nd|rd|th)?\s+)?([A-Za-z]+)\s+(\d{4})$/);
   if (namedMonth) {
     const month = monthNames.indexOf(namedMonth[2].slice(0, 3).toLowerCase()) + 1;
     return month ? `${namedMonth[3]}-${String(month).padStart(2, '0')}${namedMonth[1] ? `-${String(namedMonth[1]).padStart(2, '0')}` : ''}` : null;
@@ -95,10 +95,11 @@ const parseDateValue = (value) => {
 
 const extractedDatesFromText = (text) => {
   const labels = [
-    ['reviewDate', 'review\\s+date|date\\s+for\\s+review|date\\s+of\\s+next\\s+review|next\\s+review(?:\\s+date)?'],
+    ['reviewDate', 'review\\s+date|date\\s+to\\s+be\\s+reviewed|date\\s+for\\s+review|date\\s+of\\s+next\\s+review|next\\s+review(?:\\s+date)?'],
     ['approvalDate', 'approval\\s+date|date\\s+of\\s+approval|approved(?:\\s+on)?'],
     ['issueDate', 'issue\\s+date|date\\s+of\\s+issue'],
     ['effectiveDate', 'effective\\s+date|date\\s+effective'],
+    ['activationDate', 'date\\s+activated(?:\\s*\\([^)]*\\))?'],
     ['expiryDate', 'expiry\\s+date|expiration\\s+date|date\\s+of\\s+expiry'],
     ['versionDate', 'version\\s+date|date\\s+of\\s+version'],
     ['updatedDate', 'last\\s+updated|updated\\s+date|date\\s+updated'],

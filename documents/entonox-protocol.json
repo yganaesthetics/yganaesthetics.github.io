@@ -31,6 +31,9 @@
     "surgery"
   ],
   "file": "pdfs/BCUHB Entonox protocol.pdf",
-  "reviewDate": null,
-  "approvalDate": "2023-05"
+  "reviewDate": "2026-05",
+  "approvalDate": "2023-05",
+  "dates": {
+    "activationDate": "2023-06"
+  }
 }

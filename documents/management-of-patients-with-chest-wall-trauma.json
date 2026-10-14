@@ -29,6 +29,9 @@
     "YG CG 1103"
   ],
   "file": "pdfs/YG CG 1103 Management of patients with Chest Wall Trauma.pdf",
-  "reviewDate": null,
-  "approvalDate": "2020-01-01"
+  "reviewDate": "2026-08-01",
+  "approvalDate": "2020-01-01",
+  "dates": {
+    "activationDate": "2020-08-01"
+  }
 }

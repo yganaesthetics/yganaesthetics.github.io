@@ -29,5 +29,8 @@
   ],
   "file": "pdfs/YGAD CG1106 Acute pain management in opioid tolerant patients.pdf",
   "reviewDate": "2027-11",
-  "approvalDate": "2019-05"
+  "approvalDate": "2019-05",
+  "dates": {
+    "activationDate": "2019-05"
+  }
 }
