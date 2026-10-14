@@ -18,7 +18,7 @@
     "haemorrhage",
     "physiotherapy",
     "anaesthesia",
-    "YG CG 1018"
+    "YG CG"
   ],
   "keywords": [
     "management of pain, agitation, delirium in icu",
@@ -30,7 +30,8 @@
     "medication",
     "pain management",
     "evidence",
-    "RSI"
+    "RSI",
+    "YG CG 1018"
   ],
   "file": "pdfs/YG CG 1018 Management of Pain, Agitation, Delirium in ICU.pdf",
   "reviewDate": null

@@ -15,7 +15,7 @@
     "patient safety",
     "medication",
     "theatre",
-    "YG CG 442",
+    "YG CG",
     "anaesthesia",
     "general"
   ],
@@ -29,7 +29,8 @@
     "resuscitation",
     "discharge",
     "NLS",
-    "surgery"
+    "surgery",
+    "YG CG 442"
   ],
   "file": "pdfs/YG OPG 014  Admission of LLGH Day Case Patients.pdf",
   "reviewDate": null

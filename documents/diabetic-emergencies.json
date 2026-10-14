@@ -12,7 +12,7 @@
     "ventilation",
     "patient safety",
     "QRH",
-    "YG CG 1012"
+    "YG CG"
   ],
   "keywords": [
     "diabetic emergencies",
@@ -24,7 +24,8 @@
     "RSI",
     "ITU",
     "PPE",
-    "discharge"
+    "discharge",
+    "YG CG 1012"
   ],
   "file": "pdfs/YG CG 1012 Diabetic Emergencies.pdf",
   "reviewDate": null

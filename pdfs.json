@@ -32,7 +32,7 @@
       "general",
       "training",
       "anaesthesia",
-      "YGAD CG1106"
+      "YGAD CG"
     ],
     "keywords": [
       "acute pain management in opioid tolerant patients",
@@ -44,7 +44,8 @@
       "pain management",
       "RSI",
       "ITU",
-      "PPE"
+      "PPE",
+      "YGAD CG1106"
     ],
     "file": "pdfs/YGAD CG1106 Acute pain management in opioid tolerant patients.pdf",
     "reviewDate": "2027-11"
@@ -60,7 +61,7 @@
       "clinical guidance",
       "anaesthesia",
       "pain management",
-      "YG CG 415"
+      "YG CG"
     ],
     "keywords": [
       "adult emergency laparotomy analgesia guideline",
@@ -72,7 +73,8 @@
       "HDU",
       "ITU",
       "ICU",
-      "epidural"
+      "epidural",
+      "YG CG 415"
     ],
     "file": "pdfs/YG CG 415 Adult Emergency Laparotomy Analgesia Guideline.pdf",
     "reviewDate": null
@@ -119,7 +121,7 @@
       "covid",
       "patient safety",
       "QRH",
-      "YG CG 901"
+      "YG CG"
     ],
     "keywords": [
       "airway management in remote sites",
@@ -131,7 +133,8 @@
       "resuscitation",
       "ventilator",
       "anaesthesia",
-      "evidence"
+      "evidence",
+      "YG CG 901"
     ],
     "file": "pdfs/YG CG 901 Airway Management in remote sites.pdf",
     "reviewDate": null
@@ -243,7 +246,7 @@
       "allergy",
       "covid",
       "QRH",
-      "YG CG 410"
+      "YG CG"
     ],
     "keywords": [
       "anaesthesia for robotic surgery",
@@ -255,7 +258,8 @@
       "ventilation",
       "anaesthesia",
       "evidence",
-      "RSI"
+      "RSI",
+      "YG CG 410"
     ],
     "file": "pdfs/YG CG 410 Anaesthesia For Robotic Surgery.pdf",
     "reviewDate": null
@@ -274,7 +278,7 @@
       "resuscitation",
       "patient safety",
       "QRH",
-      "YG CG 419"
+      "YG CG"
     ],
     "keywords": [
       "anaesthesia guideline porphyria",
@@ -286,7 +290,8 @@
       "NLS",
       "analgesia",
       "hypertension",
-      "flu"
+      "flu",
+      "YG CG 419"
     ],
     "file": "pdfs/YG CG 419 Anaesthesia Guideline Porphyria.pdf",
     "reviewDate": null
@@ -343,7 +348,7 @@
       "cardiology",
       "critical care",
       "airway management",
-      "YG CG 406"
+      "YG CG"
     ],
     "keywords": [
       "anaesthesia sedation guideline",
@@ -355,7 +360,8 @@
       "AAGBI",
       "anaesthesia",
       "analgesia",
-      "flu"
+      "flu",
+      "YG CG 406"
     ],
     "file": "pdfs/YG CG 406 Anaesthesia Sedation Guideline.pdf",
     "reviewDate": null
@@ -406,7 +412,7 @@
       "general",
       "theatre",
       "obstetrics",
-      "YG CG 421"
+      "YG CG"
     ],
     "keywords": [
       "analgesia recipe for day case arthroplasties",
@@ -418,7 +424,8 @@
       "ICU",
       "NLS",
       "spinal anaesthesia",
-      "analgesia"
+      "analgesia",
+      "YG CG 421"
     ],
     "file": "pdfs/YG CG 421 Analgesia recipe for Day Case Arthroplasties.pdf",
     "reviewDate": null
@@ -443,7 +450,7 @@
       "cardiology",
       "critical care",
       "airway management",
-      "YG CG 202"
+      "YG CG"
     ],
     "keywords": [
       "anaphylaxis follow up and referral",
@@ -454,7 +461,8 @@
       "referral",
       "anaesthesia",
       "RSI",
-      "PPE"
+      "PPE",
+      "YG CG 202"
     ],
     "file": "pdfs/YG CG 202  Anaphylaxis Follow-up and Referral.pdf",
     "reviewDate": null
@@ -719,7 +727,7 @@
       "general",
       "critical care",
       "vascular access",
-      "YG CG 503"
+      "YG CG"
     ],
     "keywords": [
       "central venous catheter insertion",
@@ -731,7 +739,8 @@
       "ITU",
       "PPE",
       "ICU",
-      "NLS"
+      "NLS",
+      "YG CG 503"
     ],
     "file": "pdfs/YG CG 503 Central Venous Catheter Insertion.pdf",
     "reviewDate": null
@@ -772,7 +781,7 @@
       "ventilation",
       "patient safety",
       "QRH",
-      "YG CG 1011"
+      "YG CG"
     ],
     "keywords": [
       "chest drain chart v1.2",
@@ -784,7 +793,8 @@
       "medication",
       "RSI",
       "ICU",
-      "NLS"
+      "NLS",
+      "YG CG 1011"
     ],
     "file": "pdfs/YG CG 1011 Chest Drain Chart v1.2.pdf",
     "reviewDate": null
@@ -1056,7 +1066,7 @@
       "resuscitation",
       "quality improvement",
       "surgery",
-      "YG CG 206"
+      "YG CG"
     ],
     "keywords": [
       "dental damage",
@@ -1068,7 +1078,8 @@
       "PPE",
       "NLS",
       "analgesia",
-      "ERAS"
+      "ERAS",
+      "YG CG 206"
     ],
     "file": "pdfs/YG CG 206 Dental Damage.pdf",
     "reviewDate": null
@@ -1087,7 +1098,7 @@
       "ventilation",
       "patient safety",
       "QRH",
-      "YG CG 1012"
+      "YG CG"
     ],
     "keywords": [
       "diabetic emergencies",
@@ -1099,7 +1110,8 @@
       "RSI",
       "ITU",
       "PPE",
-      "discharge"
+      "discharge",
+      "YG CG 1012"
     ],
     "file": "pdfs/YG CG 1012 Diabetic Emergencies.pdf",
     "reviewDate": null
@@ -1120,7 +1132,7 @@
       "referral",
       "transfer",
       "training",
-      "YG CG 204"
+      "YG CG"
     ],
     "keywords": [
       "diagnosis & management of epidural haematoma following neuraxial anaesthesia",
@@ -1132,7 +1144,8 @@
       "anaesthesia",
       "RSI",
       "obstetrics",
-      "ICU"
+      "ICU",
+      "YG CG 204"
     ],
     "file": "pdfs/YG CG 204 Diagnosis & Management of Epidural Haematoma Following Neuraxial Anaesthesia.pdf",
     "reviewDate": null
@@ -1152,7 +1165,7 @@
       "ventilation",
       "patient safety",
       "QRH",
-      "YG CG 1007"
+      "YG CG"
     ],
     "keywords": [
       "dka",
@@ -1164,7 +1177,8 @@
       "BCUHB",
       "RSI",
       "ITU",
-      "discharge"
+      "discharge",
+      "YG CG 1007"
     ],
     "file": "pdfs/YG CG 1007 DKA.pdf",
     "reviewDate": null
@@ -1190,7 +1204,7 @@
       "obstetrics",
       "QRH",
       "quality improvement",
-      "YG CG 330"
+      "YG CG"
     ],
     "keywords": [
       "eating & drinking before surgery 2024",
@@ -1202,7 +1216,8 @@
       "anaesthesia",
       "theatre",
       "surgery",
-      "NLS"
+      "NLS",
+      "YG CG 330"
     ],
     "file": "pdfs/YG CG 330 Eating & Drinking Before Surgery 2024.pdf",
     "reviewDate": null
@@ -1227,7 +1242,7 @@
       "allergy",
       "cardiology",
       "airway management",
-      "YG CG 415"
+      "YG CG"
     ],
     "keywords": [
       "emergency laparotomy pathway",
@@ -1239,7 +1254,8 @@
       "RSI",
       "discharge",
       "physiotherapy",
-      "sepsis"
+      "sepsis",
+      "YG CG 415"
     ],
     "file": "pdfs/YG CG 415 Emergency Laparotomy Pathway.pdf",
     "reviewDate": null
@@ -1295,7 +1311,7 @@
       "surgery",
       "training",
       "anaesthesia",
-      "YG CG 1104"
+      "YG CG"
     ],
     "keywords": [
       "epidural analgesia in adult acute pain management",
@@ -1307,7 +1323,8 @@
       "pain management",
       "evidence",
       "RSI",
-      "PPE"
+      "PPE",
+      "YG CG 1104"
     ],
     "file": "pdfs/YG CG 1104 Epidural Analgesia in Adult Acute Pain Management (Stephan).pdf",
     "reviewDate": null
@@ -1359,7 +1376,7 @@
       "surgery",
       "theatre",
       "obstetrics",
-      "YG CG 414"
+      "YG CG"
     ],
     "keywords": [
       "eras anaesthesia for colorectal surgery",
@@ -1371,7 +1388,8 @@
       "RSI",
       "ITU",
       "theatre",
-      "surgery"
+      "surgery",
+      "YG CG 414"
     ],
     "file": "pdfs/YG CG 414 ERAS Anaesthesia For Colorectal Surgery.pdf",
     "reviewDate": null
@@ -1391,7 +1409,7 @@
       "general",
       "theatre",
       "obstetrics",
-      "YG CG 412"
+      "YG CG"
     ],
     "keywords": [
       "eras anaesthesia for in patient hip knee arthroplasties",
@@ -1403,7 +1421,8 @@
       "ICU",
       "NLS",
       "spinal anaesthesia",
-      "catheter"
+      "catheter",
+      "YG CG 412"
     ],
     "file": "pdfs/YG CG 412  ERAS Anaesthesia For In-Patient Hip  Knee Arthroplasties.pdf",
     "reviewDate": null
@@ -1420,7 +1439,7 @@
       "anaesthesia",
       "surgery",
       "pain management",
-      "YG CG 413"
+      "YG CG"
     ],
     "keywords": [
       "eras anaesthesia for major gynae surgery",
@@ -1432,7 +1451,8 @@
       "surgery",
       "NLS",
       "hypotension",
-      "bradycardia"
+      "bradycardia",
+      "YG CG 413"
     ],
     "file": "pdfs/YG CG 413 ERAS Anaesthesia For Major Gynae Surgery (Stephan).pdf",
     "reviewDate": null
@@ -1452,7 +1472,7 @@
       "general",
       "haemorrhage",
       "theatre",
-      "YG CG 719"
+      "YG CG"
     ],
     "keywords": [
       "eras anaesthesia for obstetric surgery",
@@ -1464,7 +1484,8 @@
       "obstetrics",
       "theatre",
       "discharge",
-      "surgery"
+      "surgery",
+      "YG CG 719"
     ],
     "file": "pdfs/YG CG 719 ERAS Anaesthesia For Obstetric Surgery.pdf",
     "reviewDate": null
@@ -1484,7 +1505,7 @@
       "haemorrhage",
       "theatre",
       "obstetrics",
-      "YG CG 1105"
+      "YG CG"
     ],
     "keywords": [
       "erector spinae plane block recipe",
@@ -1496,7 +1517,8 @@
       "RSI",
       "ITU",
       "theatre",
-      "discharge"
+      "discharge",
+      "YG CG 1105"
     ],
     "file": "pdfs/YG CG 1105  Erector Spinae Plane Block Recipe.pdf",
     "reviewDate": null
@@ -1603,7 +1625,7 @@
       "resuscitation",
       "patient safety",
       "QRH",
-      "YG CG 311"
+      "YG CG"
     ],
     "keywords": [
       "hypertension before elective surgery",
@@ -1615,7 +1637,8 @@
       "surgery",
       "NLS",
       "hypertension",
-      "ERAS"
+      "ERAS",
+      "YG CG 311"
     ],
     "file": "pdfs/YG CG 311 Hypertension Before Elective Surgery.pdf",
     "reviewDate": null
@@ -1688,7 +1711,7 @@
       "resuscitation",
       "patient safety",
       "QRH",
-      "YG CG 1102"
+      "YG CG"
     ],
     "keywords": [
       "intermittent opioid administration in adults",
@@ -1700,7 +1723,8 @@
       "medication",
       "RSI",
       "ITU",
-      "theatre"
+      "theatre",
+      "YG CG 1102"
     ],
     "file": "pdfs/YG CG 1102 Intermittent Opioid Administration in Adults.pdf",
     "reviewDate": null
@@ -1778,7 +1802,7 @@
       "ventilation",
       "patient safety",
       "QRH",
-      "YG ICU LocSSIP"
+      "LocSSIP"
     ],
     "keywords": [
       "lumbar puncture v1.0",
@@ -1790,7 +1814,8 @@
       "evidence",
       "RSI",
       "PPE",
-      "ICU"
+      "ICU",
+      "YG ICU LocSSIP"
     ],
     "file": "pdfs/YG ICU LocSSIP Lumbar Puncture  V1.0.pdf",
     "reviewDate": null
@@ -1981,7 +2006,7 @@
       "ventilation",
       "patient safety",
       "QRH",
-      "YG CG 1006"
+      "YG CG"
     ],
     "keywords": [
       "management of alcohol withdrawal",
@@ -1993,7 +2018,8 @@
       "ITU",
       "NLS",
       "audit",
-      "flu"
+      "flu",
+      "YG CG 1006"
     ],
     "file": "pdfs/YG CG 1006 Management of alcohol withdrawal.pdf",
     "reviewDate": null
@@ -2018,7 +2044,7 @@
       "allergy",
       "cardiology",
       "airway management",
-      "YG CG 1017"
+      "YG CG"
     ],
     "keywords": [
       "management of ards",
@@ -2030,7 +2056,8 @@
       "ventilator",
       "physiotherapy",
       "eclampsia",
-      "proning"
+      "proning",
+      "YG CG 1017"
     ],
     "file": "pdfs/YG CG 1017 Management of ARDS.pdf",
     "reviewDate": null
@@ -2090,7 +2117,7 @@
       "haemorrhage",
       "physiotherapy",
       "anaesthesia",
-      "YG CG 1018"
+      "YG CG"
     ],
     "keywords": [
       "management of pain, agitation, delirium in icu",
@@ -2102,7 +2129,8 @@
       "medication",
       "pain management",
       "evidence",
-      "RSI"
+      "RSI",
+      "YG CG 1018"
     ],
     "file": "pdfs/YG CG 1018 Management of Pain, Agitation, Delirium in ICU.pdf",
     "reviewDate": null
@@ -2122,7 +2150,7 @@
       "physiotherapy",
       "referral",
       "patient safety",
-      "YG CG 1103"
+      "YG CG"
     ],
     "keywords": [
       "management of patients with chest wall trauma",
@@ -2134,7 +2162,8 @@
       "anaesthesia",
       "pain management",
       "RSI",
-      "ITU"
+      "ITU",
+      "YG CG 1103"
     ],
     "file": "pdfs/YG CG 1103 Management of patients with Chest Wall Trauma.pdf",
     "reviewDate": null
@@ -2158,7 +2187,7 @@
       "referral",
       "transfer",
       "patient safety",
-      "YG CG 1103"
+      "YG CG"
     ],
     "keywords": [
       "management of patients with rib fractures",
@@ -2170,7 +2199,8 @@
       "BCUHB",
       "anaesthesia",
       "pain management",
-      "RSI"
+      "RSI",
+      "YG CG 1103"
     ],
     "file": "pdfs/YG CG 1103 Management of patients with Rib Fractures.pdf",
     "reviewDate": null
@@ -2191,7 +2221,7 @@
       "ventilation",
       "patient safety",
       "QRH",
-      "YG CG 1009"
+      "YG CG"
     ],
     "keywords": [
       "management of patients with suspected or confirmed clostridium difficile infection",
@@ -2203,7 +2233,8 @@
       "evidence",
       "ICU",
       "NLS",
-      "hypotension"
+      "hypotension",
+      "YG CG 1009"
     ],
     "file": "pdfs/YG CG 1009  Management of patients with suspected or confirmed Clostridium Difficile infection.pdf",
     "reviewDate": null
@@ -2226,7 +2257,7 @@
       "referral",
       "cardiology",
       "QRH",
-      "YG CG CC 1016"
+      "YG CG"
     ],
     "keywords": [
       "management of pe",
@@ -2238,7 +2269,8 @@
       "referral",
       "anaesthesia",
       "evidence",
-      "RSI"
+      "RSI",
+      "YG CG CC 1016"
     ],
     "file": "pdfs/YG CG CC 1016  Management of PE.pdf",
     "reviewDate": null
@@ -2294,7 +2326,7 @@
       "evidence",
       "surgery",
       "patient safety",
-      "YG CG 313"
+      "YG CG"
     ],
     "keywords": [
       "management of preoperative anaemia",
@@ -2306,7 +2338,8 @@
       "BCUHB",
       "medication",
       "anaesthesia",
-      "pain management"
+      "pain management",
+      "YG CG 313"
     ],
     "file": "pdfs/YG CG 313 Management of Preoperative Anaemia.pdf",
     "reviewDate": null
@@ -2352,7 +2385,7 @@
       "allergy",
       "cardiology",
       "airway management",
-      "YG CG 1019"
+      "YG CG"
     ],
     "keywords": [
       "management of rosc",
@@ -2364,7 +2397,8 @@
       "referral",
       "evidence",
       "RSI",
-      "intubation"
+      "intubation",
+      "YG CG 1019"
     ],
     "file": "pdfs/YG CG  1019 Management of ROSC.pdf",
     "reviewDate": null
@@ -2454,7 +2488,7 @@
       "paediatrics",
       "referral",
       "theatre",
-      "YG CG 603"
+      "YG CG"
     ],
     "keywords": [
       "morbid obesity",
@@ -2466,7 +2500,8 @@
       "vascular access",
       "AAGBI",
       "anaesthesia",
-      "pain management"
+      "pain management",
+      "YG CG 603"
     ],
     "file": "pdfs/YG CG 603 Morbid Obesity.pdf",
     "reviewDate": null
@@ -2959,7 +2994,7 @@
       "airway management",
       "patient safety",
       "QRH",
-      "YG CG 310"
+      "YG CG"
     ],
     "keywords": [
       "obstructive sleep apnoea",
@@ -2971,7 +3006,8 @@
       "anaesthesia",
       "intubation",
       "HDU",
-      "PPE"
+      "PPE",
+      "YG CG 310"
     ],
     "file": "pdfs/YG CG 310 Obstructive Sleep Apnoea.pdf",
     "reviewDate": null
@@ -3015,7 +3051,7 @@
       "theatre",
       "allergy",
       "covid",
-      "YG CG 402"
+      "YG CG"
     ],
     "keywords": [
       "odsop 53 avoidance of peri operative hypothermia",
@@ -3027,7 +3063,8 @@
       "evidence",
       "theatre",
       "discharge",
-      "surgery"
+      "surgery",
+      "YG CG 402"
     ],
     "file": "pdfs/YG CG 402 ODSOP 53 Avoidance of Peri-Operative Hypothermia.pdf",
     "reviewDate": "2018-11"
@@ -3048,7 +3085,7 @@
       "anaesthesia",
       "surgery",
       "BCUHB",
-      "YGAD CG1106",
+      "YGAD CG",
       "critical care",
       "obstetrics",
       "transfer",
@@ -3056,21 +3093,16 @@
       "referral",
       "theatre",
       "evidence",
-      "YG CG 1104",
+      "YG CG",
       "haemorrhage",
       "patient safety",
       "physiotherapy",
       "ventilation",
-      "YG CG 1018",
-      "YG CG 1103",
-      "YG CG 313",
       "vascular access",
       "paediatrics",
-      "YG CG 603",
       "resuscitation",
       "QRH",
-      "allergy",
-      "YGAD CG1107"
+      "allergy"
     ],
     "keywords": [
       "opioid stewardship best practice guidelines v1.0 july 2024",
@@ -3082,7 +3114,14 @@
       "pain management",
       "RSI",
       "PPE",
-      "ICU"
+      "ICU",
+      "YGAD CG1106",
+      "YG CG 1104",
+      "YG CG 1018",
+      "YG CG 1103",
+      "YG CG 313",
+      "YG CG 603",
+      "YGAD CG1107"
     ],
     "file": "pdfs/Opioid Stewardship Best Practice Guidelines V1.0 July 2024.pdf",
     "reviewDate": "2026-07"
@@ -3101,7 +3140,7 @@
       "obstetrics",
       "surgery",
       "haemorrhage",
-      "LocSSIP 79",
+      "LocSSIP",
       "resuscitation",
       "QRH"
     ],
@@ -3115,7 +3154,8 @@
       "PPE",
       "obstetrics",
       "theatre",
-      "NLS"
+      "NLS",
+      "LocSSIP 79"
     ],
     "file": "pdfs/LocSSIP 79 Ordering of Blood Products in Theatres (Stephan).pdf",
     "reviewDate": "2026-09"
@@ -3136,7 +3176,7 @@
       "theatre",
       "resuscitation",
       "QRH",
-      "LocSSIP 79"
+      "LocSSIP"
     ],
     "keywords": [
       "ordering of blood products in theatres",
@@ -3148,7 +3188,8 @@
       "PPE",
       "obstetrics",
       "theatre",
-      "surgery"
+      "surgery",
+      "LocSSIP 79"
     ],
     "file": "pdfs/LocSSIP 79 Ordering of Blood Products in Theatres.pdf",
     "reviewDate": "2024-09"
@@ -3172,7 +3213,7 @@
       "airway management",
       "patient safety",
       "QRH",
-      "YG CG 1015"
+      "YG CG"
     ],
     "keywords": [
       "organ donation after circulatory death dcd",
@@ -3184,7 +3225,8 @@
       "anaesthesia",
       "RSI",
       "ITU",
-      "PPE"
+      "PPE",
+      "YG CG 1015"
     ],
     "file": "pdfs/YG CG 1015 Organ Donation After Circulatory Death DCD.pdf",
     "reviewDate": null
@@ -3222,7 +3264,7 @@
       "resuscitation",
       "patient safety",
       "QRH",
-      "YG CG 601"
+      "YG CG"
     ],
     "keywords": [
       "pacemakers & icds",
@@ -3233,7 +3275,8 @@
       "ICU",
       "NLS",
       "tachycardia",
-      "ERAS"
+      "ERAS",
+      "YG CG 601"
     ],
     "file": "pdfs/YG CG 601  Pacemakers & ICDs.pdf",
     "reviewDate": null
@@ -3275,7 +3318,7 @@
       "paediatrics",
       "training",
       "anaesthesia",
-      "YGAD CG1107"
+      "YGAD CG"
     ],
     "keywords": [
       "paediatric patient controlled analgesia (pca) and nurse controlled analgesia (nca)",
@@ -3287,7 +3330,8 @@
       "RSI",
       "ITU",
       "PPE",
-      "physiotherapy"
+      "physiotherapy",
+      "YGAD CG1107"
     ],
     "file": "pdfs/YGAD CG1107 Paediatric Patient Controlled Analgesia (PCA) and Nurse Controlled Analgesia (NCA).pdf",
     "reviewDate": "2027-09"
@@ -3334,7 +3378,7 @@
       "theatre",
       "obstetrics",
       "anaesthesia",
-      "YG ICU LocSSIP"
+      "LocSSIP"
     ],
     "keywords": [
       "perc tracheostomy 2021 1.0",
@@ -3346,7 +3390,8 @@
       "medication",
       "RSI",
       "intubation",
-      "ITU"
+      "ITU",
+      "YG ICU LocSSIP"
     ],
     "file": "pdfs/YG ICU LocSSIP Perc Tracheostomy 2021 1.0.pdf",
     "reviewDate": null
@@ -3366,7 +3411,7 @@
       "cardiology",
       "haemostasis",
       "obstetrics",
-      "YG CG 401"
+      "YG CG"
     ],
     "keywords": [
       "peri operative management of patients on anticoagulants",
@@ -3378,7 +3423,8 @@
       "ITU",
       "PPE",
       "surgery",
-      "ICU"
+      "ICU",
+      "YG CG 401"
     ],
     "file": "pdfs/YG CG 401 Peri-operative management of patients on anticoagulants.pdf",
     "reviewDate": null
@@ -3397,7 +3443,7 @@
       "surgery",
       "general",
       "obstetrics",
-      "YG CG 423"
+      "YG CG"
     ],
     "keywords": [
       "perioperative analgesia management of patients at increased risk of compartment syndrome",
@@ -3409,7 +3455,8 @@
       "NLS",
       "epidural",
       "spinal anaesthesia",
-      "analgesia"
+      "analgesia",
+      "YG CG 423"
     ],
     "file": "pdfs/YG CG 423 Perioperative analgesia management of patients at increased risk of compartment syndrome.pdf",
     "reviewDate": null
@@ -3437,7 +3484,7 @@
       "allergy",
       "cardiology",
       "airway management",
-      "YG CG 415"
+      "YG CG"
     ],
     "keywords": [
       "perioperative management of emergency laparotomies",
@@ -3449,7 +3496,8 @@
       "referral",
       "ventilation",
       "ventilator",
-      "anaesthesia"
+      "anaesthesia",
+      "YG CG 415"
     ],
     "file": "pdfs/YG CG 415 Perioperative Management of Emergency Laparotomies.pdf",
     "reviewDate": null
@@ -3469,7 +3517,7 @@
       "general",
       "theatre",
       "patient safety",
-      "YGAD CG 425"
+      "YGAD CG"
     ],
     "keywords": [
       "perioperative management of patients with a vagal nerve stimulator",
@@ -3481,7 +3529,8 @@
       "anaesthesia",
       "intubation",
       "theatre",
-      "discharge"
+      "discharge",
+      "YGAD CG 425"
     ],
     "file": "pdfs/YGAD CG 425 Perioperative Management of Patients with a Vagal Nerve Stimulator.pdf",
     "reviewDate": null
@@ -3503,7 +3552,7 @@
       "patient safety",
       "obstetrics",
       "anaesthesia",
-      "YG CG 312"
+      "YG CG"
     ],
     "keywords": [
       "perioperative management of patients with diabetes",
@@ -3515,7 +3564,8 @@
       "PPE",
       "theatre",
       "surgery",
-      "NLS"
+      "NLS",
+      "YG CG 312"
     ],
     "file": "pdfs/YG CG 312 Perioperative Management of patients with Diabetes.pdf",
     "reviewDate": null
@@ -3537,7 +3587,7 @@
       "QRH",
       "resuscitation",
       "quality improvement",
-      "YG CG 417"
+      "YG CG"
     ],
     "keywords": [
       "perioperative management of steroids",
@@ -3547,7 +3597,8 @@
       "RSI",
       "surgery",
       "NLS",
-      "ERAS"
+      "ERAS",
+      "YG CG 417"
     ],
     "file": "pdfs/YG CG 417 Perioperative Management of Steroids.pdf",
     "reviewDate": "2022-11-30"
@@ -3565,7 +3616,7 @@
       "surgery",
       "general",
       "obstetrics",
-      "YG CG 417"
+      "YG CG"
     ],
     "keywords": [
       "perioperative steroids",
@@ -3577,7 +3628,8 @@
       "surgery",
       "NLS",
       "labour",
-      "caesarean section"
+      "caesarean section",
+      "YG CG 417"
     ],
     "file": "pdfs/YG CG 417 Perioperative Steroids.pdf",
     "reviewDate": null
@@ -3621,7 +3673,7 @@
       "resuscitation",
       "QRH",
       "quality improvement",
-      "YG CG 403"
+      "YG CG"
     ],
     "keywords": [
       "ponv",
@@ -3633,7 +3685,8 @@
       "RSI",
       "ITU",
       "surgery",
-      "ICU"
+      "ICU",
+      "YG CG 403"
     ],
     "file": "pdfs/YG CG 403 PONV.pdf",
     "reviewDate": null
@@ -3724,7 +3777,7 @@
       "surgery",
       "obstetrics",
       "anaesthesia",
-      "YG CG 302"
+      "YG CG"
     ],
     "keywords": [
       "pre operative investigations",
@@ -3736,7 +3789,8 @@
       "ITU",
       "PPE",
       "surgery",
-      "NLS"
+      "NLS",
+      "YG CG 302"
     ],
     "file": "pdfs/YG CG 302 Pre-Operative Investigations.pdf",
     "reviewDate": null
@@ -3766,7 +3820,7 @@
       "cardiology",
       "critical care",
       "airway management",
-      "YG CG 801"
+      "YG CG"
     ],
     "keywords": [
       "pre operative sedation for children",
@@ -3778,7 +3832,8 @@
       "AAGBI",
       "anaesthesia",
       "evidence",
-      "RSI"
+      "RSI",
+      "YG CG 801"
     ],
     "file": "pdfs/YG CG 801 Pre-Operative Sedation for Children.pdf",
     "reviewDate": null
@@ -3798,7 +3853,7 @@
       "ventilation",
       "patient safety",
       "QRH",
-      "YG CG 1005"
+      "YG CG"
     ],
     "keywords": [
       "prevention and treatment of constipation in critical care",
@@ -3810,7 +3865,8 @@
       "ITU",
       "surgery",
       "ICU",
-      "NLS"
+      "NLS",
+      "YG CG 1005"
     ],
     "file": "pdfs/YG CG 1005 Prevention and treatment of constipation in Critical Care.pdf",
     "reviewDate": null
@@ -3902,7 +3958,6 @@
       "transfer",
       "theatre",
       "YG CG",
-      "YG CG 904",
       "training",
       "patient safety"
     ],
@@ -3916,7 +3971,8 @@
       "ITU",
       "cardiac arrest",
       "anaesthesia",
-      "intubation"
+      "intubation",
+      "YG CG 904"
     ],
     "file": "pdfs/YG CG 904 Provision of Anaesthesia in Radiology and MRI.pdf",
     "reviewDate": null
@@ -3935,7 +3991,7 @@
       "transfer",
       "training",
       "patient safety",
-      "YG CG 904"
+      "YG CG"
     ],
     "keywords": [
       "provision of anaesthesia in radiology",
@@ -3947,7 +4003,8 @@
       "anaesthesia",
       "intubation",
       "ITU",
-      "ICU"
+      "ICU",
+      "YG CG 904"
     ],
     "file": "pdfs/YG CG 904 Provision of Anaesthesia in Radiology.pdf",
     "reviewDate": null
@@ -4535,7 +4592,7 @@
       "training",
       "resuscitation",
       "QRH",
-      "YG CG 501"
+      "YG CG"
     ],
     "keywords": [
       "rectus sheath catheters for the management of pain following abdominal surgery",
@@ -4547,7 +4604,8 @@
       "AAGBI",
       "anaesthesia",
       "rectus sheath",
-      "RSI"
+      "RSI",
+      "YG CG 501"
     ],
     "file": "pdfs/YG CG 501 Rectus Sheath Catheters For The Management of Pain Following Abdominal Surgery.pdf",
     "reviewDate": null
@@ -4672,7 +4730,7 @@
       "haemorrhage",
       "theatre",
       "patient safety",
-      "YG CG 502"
+      "YG CG"
     ],
     "keywords": [
       "rotem familiarisation guide",
@@ -4684,7 +4742,8 @@
       "obstetrics",
       "theatre",
       "NLS",
-      "ROTEM"
+      "ROTEM",
+      "YG CG 502"
     ],
     "file": "pdfs/YG CG 502  ROTEM Familiarisation Guide.pdf",
     "reviewDate": "2024-09-01"
@@ -4817,7 +4876,7 @@
       "covid",
       "patient safety",
       "QRH",
-      "YG CG 1008"
+      "YG CG"
     ],
     "keywords": [
       "stress ulcer prophylaxis in icu",
@@ -4827,7 +4886,8 @@
       "ventilation",
       "ICU",
       "sepsis",
-      "ERAS"
+      "ERAS",
+      "YG CG 1008"
     ],
     "file": "pdfs/YG CG 1008 Stress Ulcer Prophylaxis in ICU.pdf",
     "reviewDate": null
@@ -4845,7 +4905,7 @@
       "theatre",
       "physiotherapy",
       "patient safety",
-      "YG CG 442"
+      "YG CG"
     ],
     "keywords": [
       "sugammadex & contraception",
@@ -4857,7 +4917,8 @@
       "theatre",
       "patient information",
       "NLS",
-      "pregnancy"
+      "pregnancy",
+      "YG CG 442"
     ],
     "file": "pdfs/YG CG 442 Sugammadex & Contraception.pdf",
     "reviewDate": null
@@ -4875,7 +4936,7 @@
       "patient safety",
       "obstetrics",
       "anaesthesia",
-      "YG CG 442"
+      "YG CG"
     ],
     "keywords": [
       "suggamadex patient leaflet",
@@ -4883,7 +4944,8 @@
       "ALS",
       "medication",
       "PPE",
-      "pregnancy"
+      "pregnancy",
+      "YG CG 442"
     ],
     "file": "pdfs/YG CG 442 Suggamadex Patient Leaflet.pdf",
     "reviewDate": null
@@ -4944,7 +5006,7 @@
       "ventilation",
       "patient safety",
       "QRH",
-      "YG ICU LocSSIP"
+      "LocSSIP"
     ],
     "keywords": [
       "surgical tracheostomy 2021 1.0",
@@ -4956,7 +5018,8 @@
       "ventilator",
       "RSI",
       "ITU",
-      "PPE"
+      "PPE",
+      "YG ICU LocSSIP"
     ],
     "file": "pdfs/YG ICU LocSSIP Surgical Tracheostomy 2021 1.0.pdf",
     "reviewDate": null
@@ -4994,7 +5057,7 @@
       "paediatrics",
       "critical care",
       "resuscitation",
-      "YG CG 807"
+      "YG CG"
     ],
     "keywords": [
       "t1 hamilton set up for less than 20kg",
@@ -5006,7 +5069,8 @@
       "NLS",
       "paediatrics",
       "paediatric",
-      "manual"
+      "manual",
+      "YG CG 807"
     ],
     "file": "pdfs/YG CG 807 T1 Hamilton Set Up for less than 20kg.pdf",
     "reviewDate": null
@@ -5132,7 +5196,7 @@
       "resuscitation",
       "patient safety",
       "QRH",
-      "YG CG 424"
+      "YG CG"
     ],
     "keywords": [
       "tiva",
@@ -5144,7 +5208,8 @@
       "ITU",
       "theatre",
       "surgery",
-      "ICU"
+      "ICU",
+      "YG CG 424"
     ],
     "file": "pdfs/YG CG 424 TIVA.pdf",
     "reviewDate": null
@@ -5167,7 +5232,7 @@
       "ventilation",
       "patient safety",
       "QRH",
-      "YG CG 1013"
+      "YG CG"
     ],
     "keywords": [
       "tracheostomy care",
@@ -5179,7 +5244,8 @@
       "anaesthesia",
       "theatre",
       "discharge",
-      "ICU"
+      "ICU",
+      "YG CG 1013"
     ],
     "file": "pdfs/YG CG 1013 Tracheostomy Care.pdf",
     "reviewDate": null
@@ -5285,7 +5351,7 @@
       "critical care",
       "vascular access",
       "general",
-      "YG CG 1010"
+      "YG CG"
     ],
     "keywords": [
       "vasopressin",
@@ -5297,7 +5363,8 @@
       "vascular access",
       "RSI",
       "ITU",
-      "NLS"
+      "NLS",
+      "YG CG 1010"
     ],
     "file": "pdfs/YG CG 1010 Vasopressin.pdf",
     "reviewDate": null
@@ -5317,7 +5384,7 @@
       "transfer",
       "theatre",
       "obstetrics",
-      "YG CG 1101"
+      "YG CG"
     ],
     "keywords": [
       "ward management of patients recieving intrathecal opioids",
@@ -5329,7 +5396,8 @@
       "surgery",
       "NLS",
       "epidural",
-      "spinal anaesthesia"
+      "spinal anaesthesia",
+      "YG CG 1101"
     ],
     "file": "pdfs/YG CG 1101 Ward Management of Patients recieving Intrathecal Opioids.pdf",
     "reviewDate": null
@@ -5435,31 +5503,20 @@
       "covid",
       "patient safety",
       "QRH",
-      "YG CG 901",
+      "YG CG",
       "ventilation",
       "surgery",
       "allergy",
-      "YG CG 410",
       "general",
       "obstetrics",
       "cardiology",
-      "YG CG 406",
       "referral",
-      "YG CG 202",
       "physiotherapy",
-      "YG CG 415",
       "medication",
-      "YG CG 1102",
       "haemorrhage",
-      "YG CG 1017",
-      "YG CG CC 1016",
-      "YG CG 1019",
       "pain management",
-      "YG CG 801",
-      "YG CG 904",
       "OA WCD",
       "vascular access",
-      "YG CG 1010",
       "incident response"
     ],
     "keywords": [
@@ -5472,7 +5529,19 @@
       "ICU",
       "cardiac arrest",
       "resuscitation",
-      "theatre"
+      "theatre",
+      "YG CG 901",
+      "YG CG 410",
+      "YG CG 406",
+      "YG CG 202",
+      "YG CG 415",
+      "YG CG 1102",
+      "YG CG 1017",
+      "YG CG CC 1016",
+      "YG CG 1019",
+      "YG CG 801",
+      "YG CG 904",
+      "YG CG 1010"
     ],
     "file": "pdfs/YG Anaesthetics Major Incident Action Cards.pdf",
     "reviewDate": null
@@ -5768,22 +5837,16 @@
       "covid",
       "patient safety",
       "QRH",
-      "YG CG 901",
+      "YG CG",
       "ventilation",
       "surgery",
       "allergy",
-      "YG CG 410",
       "medication",
-      "YG CG 1102",
       "cardiology",
-      "YG CG CC 1016",
-      "YG CG 1019",
       "pain management",
       "general",
-      "YG CG 904",
       "OA WCD",
-      "vascular access",
-      "YG CG 1010"
+      "vascular access"
     ],
     "keywords": [
       "yg opg 010 on call duties & arrangements",
@@ -5795,7 +5858,14 @@
       "ICU",
       "epidural",
       "critical care",
-      "cardiac arrest"
+      "cardiac arrest",
+      "YG CG 901",
+      "YG CG 410",
+      "YG CG 1102",
+      "YG CG CC 1016",
+      "YG CG 1019",
+      "YG CG 904",
+      "YG CG 1010"
     ],
     "file": "pdfs/YG OPG 010 On Call Duties & Arrangements.pdf",
     "reviewDate": null
@@ -5815,7 +5885,7 @@
       "patient safety",
       "medication",
       "theatre",
-      "YG CG 442",
+      "YG CG",
       "anaesthesia",
       "surgery",
       "general"
@@ -5830,7 +5900,8 @@
       "ERAS",
       "patient information",
       "paediatrics",
-      "paediatric"
+      "paediatric",
+      "YG CG 442"
     ],
     "file": "pdfs/YG OPG 013 Admission of Day Case Patients.pdf",
     "reviewDate": null
@@ -5852,7 +5923,7 @@
       "patient safety",
       "medication",
       "theatre",
-      "YG CG 442",
+      "YG CG",
       "anaesthesia",
       "general"
     ],
@@ -5866,7 +5937,8 @@
       "resuscitation",
       "discharge",
       "NLS",
-      "surgery"
+      "surgery",
+      "YG CG 442"
     ],
     "file": "pdfs/YG OPG 014  Admission of LLGH Day Case Patients.pdf",
     "reviewDate": null
@@ -5948,30 +6020,19 @@
       "airway management",
       "covid",
       "QRH",
-      "YG CG 901",
+      "YG CG",
       "ventilation",
       "surgery",
       "allergy",
-      "YG CG 410",
       "general",
       "obstetrics",
       "cardiology",
-      "YG CG 406",
       "referral",
-      "YG CG 202",
       "physiotherapy",
-      "YG CG 415",
       "haemorrhage",
-      "YG CG 1017",
       "medication",
       "pain management",
-      "YG CG 1018",
-      "YG CG CC 1016",
-      "YG CG 1019",
-      "YG CG 402",
-      "LocSSIP 79",
-      "YG CG 801",
-      "YG CG 501"
+      "LocSSIP"
     ],
     "keywords": [
       "yg opg 017 inter hospital transfers by yg teams",
@@ -5983,7 +6044,20 @@
       "ITU",
       "PPE",
       "HDU",
-      "ICU"
+      "ICU",
+      "YG CG 901",
+      "YG CG 410",
+      "YG CG 406",
+      "YG CG 202",
+      "YG CG 415",
+      "YG CG 1017",
+      "YG CG 1018",
+      "YG CG CC 1016",
+      "YG CG 1019",
+      "YG CG 402",
+      "LocSSIP 79",
+      "YG CG 801",
+      "YG CG 501"
     ],
     "file": "pdfs/YG OPG 017 Inter-Hospital Transfers by YG Teams.pdf",
     "reviewDate": null
@@ -6006,11 +6080,8 @@
       "surgery",
       "allergy",
       "obstetrics",
-      "YG CG 421",
-      "YG CG 412",
-      "evidence",
-      "YG CG 423",
-      "YG CG 1101"
+      "YG CG",
+      "evidence"
     ],
     "keywords": [
       "yg opg 1101 ward management of patients receiving intrathecal opioids",
@@ -6022,7 +6093,11 @@
       "ICU",
       "epidural",
       "ventilator",
-      "anaesthesia"
+      "anaesthesia",
+      "YG CG 421",
+      "YG CG 412",
+      "YG CG 423",
+      "YG CG 1101"
     ],
     "file": "pdfs/YG OPG 1101 Ward Management of Patients Receiving Intrathecal Opioids.pdf",
     "reviewDate": null
@@ -6075,9 +6150,9 @@
       "physiotherapy",
       "patient safety",
       "medication",
-      "YG CG 442",
+      "YG CG",
       "general",
-      "YGAD OPG 006"
+      "YGAD OPG"
     ],
     "keywords": [
       "ygad opg 006 hand over of patient care",
@@ -6089,7 +6164,9 @@
       "anaesthesia",
       "obstetrics",
       "theatre",
-      "NLS"
+      "NLS",
+      "YG CG 442",
+      "YGAD OPG 006"
     ],
     "file": "pdfs/YGAD OPG 006 Hand Over of Patient Care.pdf",
     "reviewDate": null
@@ -6116,19 +6193,16 @@
       "allergy",
       "covid",
       "QRH",
-      "YG CG 410",
+      "YG CG",
       "referral",
       "medication",
       "pain management",
       "general",
       "haemorrhage",
       "physiotherapy",
-      "YG CG 1018",
       "training",
-      "YG CG 402",
-      "LocSSIP 79",
-      "YG CG 501",
-      "YGAD OPG 008"
+      "LocSSIP",
+      "YGAD OPG"
     ],
     "keywords": [
       "ygad opg 008 post operative anaesthetic review of patients",
@@ -6140,7 +6214,13 @@
       "ITU",
       "HDU",
       "epidural",
-      "critical care"
+      "critical care",
+      "YG CG 410",
+      "YG CG 1018",
+      "YG CG 402",
+      "LocSSIP 79",
+      "YG CG 501",
+      "YGAD OPG 008"
     ],
     "file": "pdfs/YGAD OPG 008 Post-Operative Anaesthetic Review of Patients.pdf",
     "reviewDate": null
@@ -6160,7 +6240,7 @@
       "surgery",
       "training",
       "anaesthesia",
-      "YGAD CG1106",
+      "YGAD CG",
       "critical care",
       "obstetrics",
       "transfer",
@@ -6168,22 +6248,17 @@
       "referral",
       "theatre",
       "evidence",
-      "YG CG 1104",
+      "YG CG",
       "haemorrhage",
       "patient safety",
       "physiotherapy",
       "ventilation",
-      "YG CG 1018",
-      "YG CG 1103",
-      "YG CG 313",
       "vascular access",
       "paediatrics",
-      "YG CG 603",
       "resuscitation",
       "QRH",
       "allergy",
-      "YGAD CG1107",
-      "YGAD OPG 018"
+      "YGAD OPG"
     ],
     "keywords": [
       "ygad opg 018 guideline of pain assessment tools (version 1.1)",
@@ -6195,7 +6270,15 @@
       "RSI",
       "PPE",
       "ICU",
-      "NLS"
+      "NLS",
+      "YGAD CG1106",
+      "YG CG 1104",
+      "YG CG 1018",
+      "YG CG 1103",
+      "YG CG 313",
+      "YG CG 603",
+      "YGAD CG1107",
+      "YGAD OPG 018"
     ],
     "file": "pdfs/YGAD OPG 018 Guideline of Pain Assessment Tools (Version 1.1).pdf",
     "reviewDate": null
@@ -6236,7 +6319,7 @@
       "transfer",
       "physiotherapy",
       "patient safety",
-      "YG CG 408"
+      "YG CG"
     ],
     "keywords": [
       "ysbyty gwynedd optimisation of anaemia following major bowel surgery",
@@ -6248,7 +6331,8 @@
       "medication",
       "anaesthesia",
       "evidence",
-      "RSI"
+      "RSI",
+      "YG CG 408"
     ],
     "file": "pdfs/YG CG 408 Ysbyty Gwynedd Optimisation of Anaemia Following Major Bowel Surgery (Stephan).pdf",
     "reviewDate": "2025-10-01"

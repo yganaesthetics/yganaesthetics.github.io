@@ -13,7 +13,7 @@
     "ventilation",
     "patient safety",
     "QRH",
-    "YG CG 1011"
+    "YG CG"
   ],
   "keywords": [
     "chest drain chart v1.2",
@@ -25,7 +25,8 @@
     "medication",
     "RSI",
     "ICU",
-    "NLS"
+    "NLS",
+    "YG CG 1011"
   ],
   "file": "pdfs/YG CG 1011 Chest Drain Chart v1.2.pdf",
   "reviewDate": null

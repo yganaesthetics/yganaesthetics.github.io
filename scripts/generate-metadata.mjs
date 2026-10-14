@@ -27,17 +27,31 @@ const titleFromFilename = (filename) => {
   return withoutPrefix.replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim() || basename;
 };
 
-const prefixTagsFromFilename = (filename) => {
+const prefixMetadataFromFilename = (filename) => {
   const basename = path.basename(filename, path.extname(filename));
   const prefixes = [
-    /^(YG\s+CG(?:\s+CC)?\s+\d+)/i,
-    /^(YGAD\s+CG\s*\d+)/i,
-    /^(YG\s+ICU\s+LocSSIP(?:\s+\d+)?|LocSSIP(?:\s+\d+)?|YGAD\s+OPG\s*\d+)/i,
-    /^(OA\s+WCD)/i,
-    /^(YG\s+CG|BCUHB|YGELP)/i
+    { pattern: /^(YG\s+CG(?:\s+CC)?\s+\d+)/i, family: 'YG CG' },
+    { pattern: /^(YGAD\s+CG\s*\d+)/i, family: 'YGAD CG' },
+    { pattern: /^(YGAD\s+OPG\s*\d+)/i, family: 'YGAD OPG' },
+    { pattern: /^(YG\s+ICU\s+LocSSIP(?:\s+\d+)?|LocSSIP(?:\s+\d+)?)/i, family: 'LocSSIP' },
+    { pattern: /^(OA\s+WCD)/i, family: 'OA WCD' },
+    { pattern: /^(YG\s+CG|BCUHB|YGELP)/i, family: null }
   ];
-  const match = prefixes.map((prefix) => basename.match(prefix)).find(Boolean);
-  return match ? [match[1].replace(/\s+/g, ' ').trim()] : [];
+  const match = prefixes
+    .map(({ pattern, family }) => ({ match: basename.match(pattern), family }))
+    .find(({ match }) => match);
+  if (!match) return { tags: [], code: null };
+  const code = match.match[1].replace(/\s+/g, ' ').trim();
+  return { tags: [match.family || code], code };
+};
+
+const normalizeTag = (tag) => {
+  const value = String(tag).replace(/\s+/g, ' ').trim();
+  if (/^YG\s+CG(?:\s+CC)?\s+\d+$/i.test(value)) return 'YG CG';
+  if (/^YGAD\s+CG\s*\d+$/i.test(value)) return 'YGAD CG';
+  if (/^YGAD\s+OPG\s*\d+$/i.test(value)) return 'YGAD OPG';
+  if (/^(?:YG\s+ICU\s+)?LocSSIP(?:\s+\d+)?$/i.test(value)) return 'LocSSIP';
+  return value;
 };
 
 const compact = (value) => String(value).toLowerCase().replace(/[^a-z0-9]+/g, '');
@@ -226,10 +240,10 @@ for (const filename of files) {
 
   const extension = path.extname(destinationName).slice(1).toLowerCase();
   const title = titleFromFilename(sourceFilename);
-  const prefixTags = prefixTagsFromFilename(sourceFilename);
+  const prefixMetadata = prefixMetadataFromFilename(sourceFilename);
   const content = extractAssetText(sourcePath, extension);
   const sourceText = `${sourceFilename}\n${title}\n${content}`;
-  const keywords = uniqueValues([title.toLowerCase(), extension, ...matchingKeywords(sourceText)]);
+  const keywords = uniqueValues([title.toLowerCase(), extension, prefixMetadata.code, ...matchingKeywords(sourceText)]);
   const classification = inferClassification(sourceText);
   const reviewDate = reviewDateFromText(content);
   const category = categoryFromSourcePath(filename) || classification.category;
@@ -244,7 +258,7 @@ for (const filename of files) {
     category,
     date: metadataDate,
     author: 'YG Anaesthetics',
-    tags: uniqueValues([...classification.tags, ...prefixTags]),
+    tags: uniqueValues([...classification.tags.map(normalizeTag), ...prefixMetadata.tags]),
     keywords,
     file,
     reviewDate

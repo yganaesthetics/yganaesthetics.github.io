@@ -11,7 +11,7 @@
     "paediatrics",
     "critical care",
     "resuscitation",
-    "YG CG 807"
+    "YG CG"
   ],
   "keywords": [
     "t1 hamilton set up for less than 20kg",
@@ -23,7 +23,8 @@
     "NLS",
     "paediatrics",
     "paediatric",
-    "manual"
+    "manual",
+    "YG CG 807"
   ],
   "file": "pdfs/YG CG 807 T1 Hamilton Set Up for less than 20kg.pdf",
   "reviewDate": null

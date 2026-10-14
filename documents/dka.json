@@ -13,7 +13,7 @@
     "ventilation",
     "patient safety",
     "QRH",
-    "YG CG 1007"
+    "YG CG"
   ],
   "keywords": [
     "dka",
@@ -25,7 +25,8 @@
     "BCUHB",
     "RSI",
     "ITU",
-    "discharge"
+    "discharge",
+    "YG CG 1007"
   ],
   "file": "pdfs/YG CG 1007 DKA.pdf",
   "reviewDate": null

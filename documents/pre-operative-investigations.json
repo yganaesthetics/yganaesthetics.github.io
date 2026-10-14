@@ -12,7 +12,7 @@
     "surgery",
     "obstetrics",
     "anaesthesia",
-    "YG CG 302"
+    "YG CG"
   ],
   "keywords": [
     "pre operative investigations",
@@ -24,7 +24,8 @@
     "ITU",
     "PPE",
     "surgery",
-    "NLS"
+    "NLS",
+    "YG CG 302"
   ],
   "file": "pdfs/YG CG 302 Pre-Operative Investigations.pdf",
   "reviewDate": null

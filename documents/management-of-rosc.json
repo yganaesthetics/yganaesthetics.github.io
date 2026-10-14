@@ -19,7 +19,7 @@
     "allergy",
     "cardiology",
     "airway management",
-    "YG CG 1019"
+    "YG CG"
   ],
   "keywords": [
     "management of rosc",
@@ -31,7 +31,8 @@
     "referral",
     "evidence",
     "RSI",
-    "intubation"
+    "intubation",
+    "YG CG 1019"
   ],
   "file": "pdfs/YG CG  1019 Management of ROSC.pdf",
   "reviewDate": null

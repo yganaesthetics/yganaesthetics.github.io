@@ -12,7 +12,7 @@
     "obstetrics",
     "surgery",
     "haemorrhage",
-    "LocSSIP 79",
+    "LocSSIP",
     "resuscitation",
     "QRH"
   ],
@@ -26,7 +26,8 @@
     "PPE",
     "obstetrics",
     "theatre",
-    "NLS"
+    "NLS",
+    "LocSSIP 79"
   ],
   "file": "pdfs/LocSSIP 79 Ordering of Blood Products in Theatres (Stephan).pdf",
   "reviewDate": "2026-09"

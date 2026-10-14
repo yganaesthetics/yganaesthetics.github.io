@@ -14,7 +14,7 @@
     "ventilation",
     "patient safety",
     "QRH",
-    "YG ICU LocSSIP"
+    "LocSSIP"
   ],
   "keywords": [
     "surgical tracheostomy 2021 1.0",
@@ -26,7 +26,8 @@
     "ventilator",
     "RSI",
     "ITU",
-    "PPE"
+    "PPE",
+    "YG ICU LocSSIP"
   ],
   "file": "pdfs/YG ICU LocSSIP Surgical Tracheostomy 2021 1.0.pdf",
   "reviewDate": null

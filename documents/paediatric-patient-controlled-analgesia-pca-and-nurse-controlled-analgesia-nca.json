@@ -15,7 +15,7 @@
     "paediatrics",
     "training",
     "anaesthesia",
-    "YGAD CG1107"
+    "YGAD CG"
   ],
   "keywords": [
     "paediatric patient controlled analgesia (pca) and nurse controlled analgesia (nca)",
@@ -27,7 +27,8 @@
     "RSI",
     "ITU",
     "PPE",
-    "physiotherapy"
+    "physiotherapy",
+    "YGAD CG1107"
   ],
   "file": "pdfs/YGAD CG1107 Paediatric Patient Controlled Analgesia (PCA) and Nurse Controlled Analgesia (NCA).pdf",
   "reviewDate": "2027-09"

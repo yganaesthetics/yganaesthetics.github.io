@@ -12,7 +12,7 @@
     "general",
     "training",
     "anaesthesia",
-    "YGAD CG1106"
+    "YGAD CG"
   ],
   "keywords": [
     "acute pain management in opioid tolerant patients",
@@ -24,7 +24,8 @@
     "pain management",
     "RSI",
     "ITU",
-    "PPE"
+    "PPE",
+    "YGAD CG1106"
   ],
   "file": "pdfs/YGAD CG1106 Acute pain management in opioid tolerant patients.pdf",
   "reviewDate": "2027-11"

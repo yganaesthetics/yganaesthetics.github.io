@@ -10,7 +10,7 @@
     "critical care",
     "vascular access",
     "general",
-    "YG CG 1010"
+    "YG CG"
   ],
   "keywords": [
     "vasopressin",
@@ -22,7 +22,8 @@
     "vascular access",
     "RSI",
     "ITU",
-    "NLS"
+    "NLS",
+    "YG CG 1010"
   ],
   "file": "pdfs/YG CG 1010 Vasopressin.pdf",
   "reviewDate": null

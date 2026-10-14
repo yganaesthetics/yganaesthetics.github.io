@@ -16,11 +16,8 @@
     "surgery",
     "allergy",
     "obstetrics",
-    "YG CG 421",
-    "YG CG 412",
-    "evidence",
-    "YG CG 423",
-    "YG CG 1101"
+    "YG CG",
+    "evidence"
   ],
   "keywords": [
     "yg opg 1101 ward management of patients receiving intrathecal opioids",
@@ -32,7 +29,11 @@
     "ICU",
     "epidural",
     "ventilator",
-    "anaesthesia"
+    "anaesthesia",
+    "YG CG 421",
+    "YG CG 412",
+    "YG CG 423",
+    "YG CG 1101"
   ],
   "file": "pdfs/YG OPG 1101 Ward Management of Patients Receiving Intrathecal Opioids.pdf",
   "reviewDate": null

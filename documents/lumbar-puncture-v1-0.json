@@ -14,7 +14,7 @@
     "ventilation",
     "patient safety",
     "QRH",
-    "YG ICU LocSSIP"
+    "LocSSIP"
   ],
   "keywords": [
     "lumbar puncture v1.0",
@@ -26,7 +26,8 @@
     "evidence",
     "RSI",
     "PPE",
-    "ICU"
+    "ICU",
+    "YG ICU LocSSIP"
   ],
   "file": "pdfs/YG ICU LocSSIP Lumbar Puncture  V1.0.pdf",
   "reviewDate": null

@@ -9,7 +9,7 @@
     "clinical guidance",
     "anaesthesia",
     "pain management",
-    "YG CG 415"
+    "YG CG"
   ],
   "keywords": [
     "adult emergency laparotomy analgesia guideline",
@@ -21,7 +21,8 @@
     "HDU",
     "ITU",
     "ICU",
-    "epidural"
+    "epidural",
+    "YG CG 415"
   ],
   "file": "pdfs/YG CG 415 Adult Emergency Laparotomy Analgesia Guideline.pdf",
   "reviewDate": null

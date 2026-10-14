@@ -14,7 +14,7 @@
     "theatre",
     "resuscitation",
     "QRH",
-    "LocSSIP 79"
+    "LocSSIP"
   ],
   "keywords": [
     "ordering of blood products in theatres",
@@ -26,7 +26,8 @@
     "PPE",
     "obstetrics",
     "theatre",
-    "surgery"
+    "surgery",
+    "LocSSIP 79"
   ],
   "file": "pdfs/LocSSIP 79 Ordering of Blood Products in Theatres.pdf",
   "reviewDate": "2024-09"

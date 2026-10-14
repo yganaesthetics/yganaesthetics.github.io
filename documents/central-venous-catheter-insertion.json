@@ -10,7 +10,7 @@
     "general",
     "critical care",
     "vascular access",
-    "YG CG 503"
+    "YG CG"
   ],
   "keywords": [
     "central venous catheter insertion",
@@ -22,7 +22,8 @@
     "ITU",
     "PPE",
     "ICU",
-    "NLS"
+    "NLS",
+    "YG CG 503"
   ],
   "file": "pdfs/YG CG 503 Central Venous Catheter Insertion.pdf",
   "reviewDate": null

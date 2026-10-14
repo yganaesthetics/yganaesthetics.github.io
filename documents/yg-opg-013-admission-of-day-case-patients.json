@@ -13,7 +13,7 @@
     "patient safety",
     "medication",
     "theatre",
-    "YG CG 442",
+    "YG CG",
     "anaesthesia",
     "surgery",
     "general"
@@ -28,7 +28,8 @@
     "ERAS",
     "patient information",
     "paediatrics",
-    "paediatric"
+    "paediatric",
+    "YG CG 442"
   ],
   "file": "pdfs/YG OPG 013 Admission of Day Case Patients.pdf",
   "reviewDate": null

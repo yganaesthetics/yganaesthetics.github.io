@@ -13,7 +13,7 @@
     "theatre",
     "obstetrics",
     "anaesthesia",
-    "YG ICU LocSSIP"
+    "LocSSIP"
   ],
   "keywords": [
     "perc tracheostomy 2021 1.0",
@@ -25,7 +25,8 @@
     "medication",
     "RSI",
     "intubation",
-    "ITU"
+    "ITU",
+    "YG ICU LocSSIP"
   ],
   "file": "pdfs/YG ICU LocSSIP Perc Tracheostomy 2021 1.0.pdf",
   "reviewDate": null

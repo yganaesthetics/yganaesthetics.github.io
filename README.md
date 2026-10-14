@@ -21,6 +21,7 @@ A GitHub Pages site for organizing and searching PDF documents with category fil
 - `.github/workflows/validate-pdfs.yml` – validation workflow for PDF and metadata integrity
 - `scripts/build-library.mjs` – optional metadata build script (helpful if you want to generate the catalog from per-document files)
 - `scripts/generate-metadata.mjs` – creates metadata from filenames, PDF text, and JPG/PDF OCR
+- Document-code prefixes are normalized to family tags such as `YG CG` and `LocSSIP`; exact codes remain searchable in `keywords`.
 
 ## Upload workflow
 

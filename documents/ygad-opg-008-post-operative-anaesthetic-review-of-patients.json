@@ -20,19 +20,16 @@
     "allergy",
     "covid",
     "QRH",
-    "YG CG 410",
+    "YG CG",
     "referral",
     "medication",
     "pain management",
     "general",
     "haemorrhage",
     "physiotherapy",
-    "YG CG 1018",
     "training",
-    "YG CG 402",
-    "LocSSIP 79",
-    "YG CG 501",
-    "YGAD OPG 008"
+    "LocSSIP",
+    "YGAD OPG"
   ],
   "keywords": [
     "ygad opg 008 post operative anaesthetic review of patients",
@@ -44,7 +41,13 @@
     "ITU",
     "HDU",
     "epidural",
-    "critical care"
+    "critical care",
+    "YG CG 410",
+    "YG CG 1018",
+    "YG CG 402",
+    "LocSSIP 79",
+    "YG CG 501",
+    "YGAD OPG 008"
   ],
   "file": "pdfs/YGAD OPG 008 Post-Operative Anaesthetic Review of Patients.pdf",
   "reviewDate": null

@@ -22,22 +22,16 @@
     "covid",
     "patient safety",
     "QRH",
-    "YG CG 901",
+    "YG CG",
     "ventilation",
     "surgery",
     "allergy",
-    "YG CG 410",
     "medication",
-    "YG CG 1102",
     "cardiology",
-    "YG CG CC 1016",
-    "YG CG 1019",
     "pain management",
     "general",
-    "YG CG 904",
     "OA WCD",
-    "vascular access",
-    "YG CG 1010"
+    "vascular access"
   ],
   "keywords": [
     "yg opg 010 on call duties & arrangements",
@@ -49,7 +43,14 @@
     "ICU",
     "epidural",
     "critical care",
-    "cardiac arrest"
+    "cardiac arrest",
+    "YG CG 901",
+    "YG CG 410",
+    "YG CG 1102",
+    "YG CG CC 1016",
+    "YG CG 1019",
+    "YG CG 904",
+    "YG CG 1010"
   ],
   "file": "pdfs/YG OPG 010 On Call Duties & Arrangements.pdf",
   "reviewDate": null

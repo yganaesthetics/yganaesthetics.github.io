@@ -18,7 +18,7 @@
     "allergy",
     "cardiology",
     "airway management",
-    "YG CG 415"
+    "YG CG"
   ],
   "keywords": [
     "emergency laparotomy pathway",
@@ -30,7 +30,8 @@
     "RSI",
     "discharge",
     "physiotherapy",
-    "sepsis"
+    "sepsis",
+    "YG CG 415"
   ],
   "file": "pdfs/YG CG 415 Emergency Laparotomy Pathway.pdf",
   "reviewDate": null
