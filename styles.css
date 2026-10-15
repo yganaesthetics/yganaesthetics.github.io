@@ -20,6 +20,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 93.75%;
 }
 
 body {
@@ -73,18 +74,16 @@ input {
 .brand-wrap {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 42px;
-  height: 42px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  color: #071421;
-  font-weight: 800;
+.brand-logo {
+  flex: 0 0 120px;
+  width: 120px;
+  height: 120px;
+  margin: -32px 0 -24px -14px;
+  object-fit: contain;
+  background: transparent;
 }
 
 .eyebrow {
@@ -131,21 +130,21 @@ h1 {
   grid-template-columns: 1.2fr 0.8fr;
   gap: 26px;
   align-items: center;
-  padding: 48px 0 28px;
+  padding: 20px 0 28px;
 }
 
 .hero-copy h2 {
-  margin-bottom: 16px;
-  font-size: clamp(2.6rem, 5vw, 4.2rem);
+  margin-bottom: 12px;
+  font-size: clamp(1.4rem, 3vw, 2.4rem);
   line-height: 1.1;
   letter-spacing: -0.06em;
 }
 
 .hero-copy p {
-  max-width: 640px;
+  max-width: 560px;
   color: var(--muted);
-  line-height: 1.7;
-  font-size: 1.06rem;
+  line-height: 1.6;
+  font-size: 0.90rem;
 }
 
 .hero-actions,
@@ -216,11 +215,11 @@ h1 {
 }
 
 .hero-panel {
-  padding: 22px;
+  padding: 16px;
 }
 
 .panel-header {
-  margin-bottom: 18px;
+  margin-bottom: 12px;
   color: var(--muted);
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -230,11 +229,11 @@ h1 {
 .stats {
   display: grid;
   grid-template-columns: repeat(2, minmax(110px, 1fr));
-  gap: 16px;
+  gap: 10px;
 }
 
 .stats div {
-  padding: 16px 14px;
+  padding: 12px 10px;
   background: var(--surface);
   border: 1px solid var(--surface-border);
   border-radius: 18px;
@@ -242,8 +241,8 @@ h1 {
 
 .stats strong {
   display: block;
-  font-size: 1.7rem;
-  margin-bottom: 5px;
+  font-size: 1.45rem;
+  margin-bottom: 3px;
 }
 
 .stats span {
