@@ -6,32 +6,19 @@ import { spawnSync } from 'child_process';
 
 const root = process.cwd();
 const documentsDir = path.join(root, 'documents');
-const base = process.env.PDF_DELETION_BASE;
-let revisions = base ? [base, 'HEAD'] : ['HEAD'];
-if (base && /^0+$/.test(base)) {
-  const defaultBranch = process.env.PDF_DELETION_DEFAULT_BRANCH;
-  if (!defaultBranch) throw new Error('Default branch is required to identify deletions on a new branch');
-  const mergeBase = spawnSync(
-    'git', ['merge-base', 'HEAD', `refs/remotes/origin/${defaultBranch}`],
-    { cwd: root, encoding: 'utf8' }
-  );
-  if (mergeBase.error || mergeBase.status !== 0) {
-    throw new Error(`Could not find the default branch merge base: ${mergeBase.error?.message || mergeBase.stderr.trim()}`);
+const deletedPaths = (args) => {
+  const result = spawnSync('git', args, { cwd: root, encoding: 'utf8' });
+  if (result.error || result.status !== 0) {
+    throw new Error(`Could not identify deleted PDFs: ${result.error?.message || result.stderr.trim()}`);
   }
-  revisions = [mergeBase.stdout.trim(), 'HEAD'];
-}
-const result = spawnSync(
-  'git',
-  ['diff', '--no-renames', '--name-only', '--diff-filter=D', '-z', ...revisions, '--', 'pdfs/'],
-  { cwd: root, encoding: 'utf8' }
-);
-
-if (result.error || result.status !== 0) {
-  throw new Error(`Could not identify deleted PDFs: ${result.error?.message || result.stderr.trim()}`);
-}
+  return result.stdout.split('\0');
+};
 
 const deletedPdfs = new Set(
-  result.stdout.split('\0').filter((file) => /\.pdf$/i.test(file) && !fs.existsSync(path.join(root, file)))
+  [
+    ...deletedPaths(['diff', '--no-renames', '--name-only', '--diff-filter=D', '-z', 'HEAD', '--', 'pdfs/']),
+    ...deletedPaths(['log', '--full-history', '-m', '--no-renames', '--name-only', '--diff-filter=D', '--format=', '-z', 'HEAD', '--', 'pdfs/'])
+  ].filter((file) => /\.pdf$/i.test(file) && !fs.existsSync(path.join(root, file)))
 );
 
 if (deletedPdfs.size && fs.existsSync(documentsDir)) {

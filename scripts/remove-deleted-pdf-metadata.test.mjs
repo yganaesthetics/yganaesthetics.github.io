@@ -9,8 +9,8 @@ import test from 'node:test';
 const script = fileURLToPath(new URL('./remove-deleted-pdf-metadata.mjs', import.meta.url));
 const builder = fileURLToPath(new URL('./build-library.mjs', import.meta.url));
 
-const run = (cwd, command, args, env = {}) => {
-  const result = spawnSync(command, args, { cwd, encoding: 'utf8', env: { ...process.env, ...env } });
+const run = (cwd, command, args) => {
+  const result = spawnSync(command, args, { cwd, encoding: 'utf8' });
   assert.equal(result.status, 0, result.stderr);
   return result.stdout.trim();
 };
@@ -44,12 +44,13 @@ test('removes metadata for committed PDF deletions and rebuilds the catalog', (t
   metadata(root, 'image', 'pdfs/image.jpg');
   metadata(root, 'pending', '');
   commit(root);
-  const base = run(root, 'git', ['rev-parse', 'HEAD']);
   fs.unlinkSync(path.join(root, 'pdfs/deleted file.PDF'));
   fs.unlinkSync(path.join(root, 'pdfs/image.jpg'));
   commit(root);
+  write(root, 'later.txt', 'later change');
+  commit(root);
 
-  run(root, 'node', [script], { PDF_DELETION_BASE: base });
+  run(root, 'node', [script]);
   run(root, 'node', [builder]);
 
   assert.deepEqual(fs.readdirSync(path.join(root, 'documents')).sort(),
@@ -69,24 +70,21 @@ test('detects local staged and unstaged deletions without removing restored PDFs
   fs.unlinkSync(path.join(root, 'pdfs/unstaged.pdf'));
   write(root, 'pdfs/restored.pdf', 'pdf');
 
-  run(root, 'node', [script], { PDF_DELETION_BASE: '' });
+  run(root, 'node', [script]);
 
   assert.deepEqual(fs.readdirSync(path.join(root, 'documents')), ['restored.json']);
 });
 
-test('detects deletions when a new branch is pushed', (t) => {
+test('detects deletions committed on a branch', (t) => {
   const root = setup(t);
   write(root, 'pdfs/deleted.pdf', 'pdf');
   metadata(root, 'deleted', 'pdfs/deleted.pdf');
   commit(root);
-  run(root, 'git', ['update-ref', 'refs/remotes/origin/default', 'HEAD']);
+  run(root, 'git', ['checkout', '-qb', 'new-branch']);
   fs.unlinkSync(path.join(root, 'pdfs/deleted.pdf'));
   commit(root);
 
-  run(root, 'node', [script], {
-    PDF_DELETION_BASE: '0000000000000000000000000000000000000000',
-    PDF_DELETION_DEFAULT_BRANCH: 'default'
-  });
+  run(root, 'node', [script]);
 
   assert.deepEqual(fs.readdirSync(path.join(root, 'documents')), []);
 });
@@ -101,8 +99,7 @@ test('leaves all metadata untouched if a metadata file is invalid', (t) => {
 
   const result = spawnSync('node', [script], {
     cwd: root,
-    encoding: 'utf8',
-    env: { ...process.env, PDF_DELETION_BASE: '' }
+    encoding: 'utf8'
   });
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, /Invalid JSON in invalid\.json/);

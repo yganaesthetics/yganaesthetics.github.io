@@ -22,13 +22,13 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           persist-credentials: true
           fetch-depth: 0
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '24'
 
@@ -36,9 +36,6 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr
 
       - name: Run build script
-        env:
-          PDF_DELETION_BASE: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
-          PDF_DELETION_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           node scripts/remove-deleted-pdf-metadata.mjs
           node scripts/generate-metadata.mjs

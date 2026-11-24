@@ -37,7 +37,7 @@ The `pdfs/` and `documents/` directories are ignored for new files; files alread
 
 ## Deleting a PDF
 
-Delete the PDF from `pdfs/` and commit the deletion. The build workflow removes its metadata from `documents/` and rebuilds `pdfs.json`. Other missing asset references still fail validation.
+Delete the PDF from `pdfs/` and commit the deletion. The build workflow removes its metadata from `documents/` and rebuilds `pdfs.json`. It also cleans up metadata for PDFs deleted in earlier commits; other missing asset references still fail validation.
 
 To update the JSON locally before committing, run `node scripts/remove-deleted-pdf-metadata.mjs` followed by `node scripts/build-library.mjs`. The cleanup command detects staged and unstaged PDF deletions relative to `HEAD`.
 
