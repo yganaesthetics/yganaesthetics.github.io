@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -25,8 +27,15 @@ jobs:
       - name: Install PDF and OCR tools
         run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr
 
+      - name: Test PDF deletion cleanup
+        run: node --test scripts/remove-deleted-pdf-metadata.test.mjs
+
       - name: Validate metadata files and assets
+        env:
+          PDF_DELETION_BASE: ${{ github.event.before }}
+          PDF_DELETION_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
+          node scripts/remove-deleted-pdf-metadata.mjs
           node scripts/generate-metadata.mjs
           node scripts/build-library.mjs
 
