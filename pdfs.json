@@ -2534,54 +2534,6 @@
     "approvalDate": "2019-05"
   },
   {
-    "id": "oa-wcd-for-spinal-and-epidural-anaesthesia-in-parturients-on-anticoagulants-2018",
-    "title": "Spinal and Epidural Anaesthesia in Parturients on Anticoagulants (2018)",
-    "description": "This document provides guidance on Spinal and Epidural Anaesthesia in Parturients on Anticoagulants (2018).",
-    "category": "Obstetrics",
-    "date": "2026-10-12",
-    "author": "YG Anaesthetics",
-    "tags": [
-      "clinical guidance",
-      "obstetrics",
-      "anaesthesia"
-    ],
-    "keywords": [
-      "obstetrics",
-      "anticoagulants",
-      "spinal epidural",
-      "pdf"
-    ],
-    "file": "pdfs/OA WCD for Spinal and Epidural Anaesthesia in Parturients on Anticoagulants (2018).pdf",
-    "reviewDate": "2021-10-01",
-    "dates": {
-      "activationDate": "2018-10-02"
-    }
-  },
-  {
-    "id": "oa-wcd-for-use-of-the-obstetric-hou-and-referral-of-obstetric-patients-for-intensive-care-2018",
-    "title": "Use of the Obstetric HOU and referral of Obstetric Patients for Intensive Care (2018)",
-    "description": "This document provides guidance on Use of the Obstetric HOU and referral of Obstetric Patients for Intensive Care (2018).",
-    "category": "Critical Care",
-    "date": "2026-10-12",
-    "author": "YG Anaesthetics",
-    "tags": [
-      "clinical guidance",
-      "obstetrics",
-      "critical care"
-    ],
-    "keywords": [
-      "obstetrics",
-      "intensive care",
-      "clinical guidance",
-      "pdf"
-    ],
-    "file": "pdfs/OA WCD for Use of the Obstetric HOU and referral of Obstetric Patients for Intensive Care (2018).pdf",
-    "reviewDate": "2021-10-01",
-    "dates": {
-      "activationDate": "2018-10-02"
-    }
-  },
-  {
     "id": "oa-wcd-management-of-anaesthesia-labour-analgesia-in-parturients-with-covid-19",
     "title": "Management of Anaesthesia and Labour Analgesia in Parturients with Covid-19",
     "description": "This document provides guidance on Management of Anaesthesia and Labour Analgesia in Parturients with Covid-19.",
@@ -4306,42 +4258,6 @@
     ],
     "file": "pdfs/Regional Transport Guideline - update 2018 FINAL CDEG.pdf",
     "reviewDate": "2018-08"
-  },
-  {
-    "id": "remifentanil-pca-for-labour-analgesia-2024",
-    "title": "Remifentanil PCA for Labour Analgesia (2024)",
-    "description": "This document provides guidance on Remifentanil PCA for Labour Analgesia (2024).",
-    "category": "Obstetrics",
-    "date": "2026-10-14",
-    "author": "YG Anaesthetics",
-    "tags": [
-      "clinical guidance",
-      "critical care",
-      "anaesthesia",
-      "pain management",
-      "obstetrics",
-      "theatre",
-      "physiotherapy",
-      "patient safety",
-      "OA WCD"
-    ],
-    "keywords": [
-      "remifentanil pca for labour analgesia (2024)",
-      "pdf",
-      "critical care",
-      "ALS",
-      "BCUHB",
-      "anaesthesia",
-      "pain management",
-      "RSI",
-      "PPE",
-      "obstetrics"
-    ],
-    "file": "pdfs/OA WCD for Remifentanil PCA for Labour Analgesia (2024).pdf",
-    "reviewDate": "2027-05-01",
-    "dates": {
-      "activationDate": "2024-05-01"
-    }
   },
   {
     "id": "remifentanil-pca-for-labour-analgesia-2026",
